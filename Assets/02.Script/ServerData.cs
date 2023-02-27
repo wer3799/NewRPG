@@ -4,5 +4,8 @@ using UnityEngine;
 
 public static class ServerData 
 {
-
+    public static void LoadTables()
+    {
+      
+    }
 }
