@@ -1,0 +1,62 @@
+
+monster-0001.png
+size: 113,113
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: true
+  xy: 38, 55
+  size: 28, 32
+  orig: 28, 32
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: true
+  xy: 2, 57
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+clothes
+  rotate: true
+  xy: 43, 2
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+face1
+  rotate: true
+  xy: 41, 85
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+face2
+  rotate: true
+  xy: 70, 85
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 19
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 2, 86
+  size: 25, 37
+  orig: 25, 37
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 72, 52
+  size: 31, 39
+  orig: 31, 39
+  offset: 0, 0
+  index: -1
