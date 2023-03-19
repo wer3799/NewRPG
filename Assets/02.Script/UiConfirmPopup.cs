@@ -41,7 +41,7 @@ public class UiConfirmPopup : MonoBehaviour
 
     public void OnClickBackStageButton()
     {
-        SceneManager.Instance.LoadBackScene();
+      //  GameManager.Instance.LoadBackScene();
         GameObject.Destroy(this.gameObject);
     }
 }

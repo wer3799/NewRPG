@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cbd28ba31c8d4b2b80cdb29efd60c4a, type: 3}
+  m_Name: StageMap
+  m_EditorClassIdentifier: 
+  SheetName: Assets/04.Table/StageMap.xls
+  WorksheetName: StageMap
+  dataArray:
+  - id: 0
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 1
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 2
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 3
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 4
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 5
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 6
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 7
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 8
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 9
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 10
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 
+  - id: 11
+    mappreset: 1
+    spawndelay: 12
+    spawnnum: 10
+    monsterid1: 0,1,2
+    monsterid2: 

@@ -11,15 +11,8 @@ public class PlayerBalance
 
 public class GameBalance 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public readonly static int sleepRewardMinValue = 600;
+    //10시간
+    public readonly static int sleepRewardMaxValue = 86400;
+    public readonly static float sleepRewardRatio = 1f;
 }

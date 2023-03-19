@@ -3,9 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/SceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/SceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/SceneManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/SceneManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/SceneManager.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/SceneManager.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/UiConfirmPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/UiConfirmPopup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/ExcelExampleImporter.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/ExcelExampleImporter.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -15,6 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3669225c28594c1787535139f029956abbe00/c0/bfb2391b/BGameData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3669225c28594c1787535139f029956abbe00/c1/4ddca6dd/Backend.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/MessageBoardParent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/PacketProxy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,8 +32,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/SettingData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UiIosLoginBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UiNickNameInputBoard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CoroutineExecuter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PopupManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TableManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "XThreadsFramesViewSplitterKey": "0.40237692",
-    "settings.editor.selected.configurable": "configurable.group.language",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -100,7 +113,8 @@
       <workItem from="1677511067015" duration="143000" />
       <workItem from="1677511222938" duration="953000" />
       <workItem from="1677512191067" duration="2951000" />
-      <workItem from="1677526890271" duration="2761000" />
+      <workItem from="1677526890271" duration="4245000" />
+      <workItem from="1679247149432" duration="5601000" />
     </task>
     <servers />
   </component>

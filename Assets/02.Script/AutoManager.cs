@@ -5,4 +5,9 @@ using UnityEngine;
 public class AutoManager : SingletonMono<AutoManager>
 {
     public bool IsAutoMode = false;
+
+    public void Subscribe()
+    {
+        throw new System.NotImplementedException();
+    }
 }
