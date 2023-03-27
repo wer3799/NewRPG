@@ -19,9 +19,12 @@ public class PacketProxy : SingletonMono<PacketProxy>
 
     private void Update()
     {
-        SendQueue.Poll();
-
-        Backend.AsyncPoll();
+        if (Backend.IsInitialized)
+        {
+            SendQueue.Poll();
+        
+            Backend.AsyncPoll();
+        }
     }
 
     private void OnApplicationPause(bool pause)
