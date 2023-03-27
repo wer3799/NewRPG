@@ -8,6 +8,6 @@ public class AutoManager : SingletonMono<AutoManager>
 
     public void Subscribe()
     {
-        throw new System.NotImplementedException();
+       
     }
 }

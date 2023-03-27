@@ -71,6 +71,7 @@ public class GameManager : SingletonMono<GameManager>
 
     private void Subscribe()
     {
+        
         AutoManager.Instance.Subscribe();
 
         currentMapIdx.AsObservable().Subscribe(e =>

@@ -29,7 +29,7 @@ public class PlayerData : SingletonMono<PlayerData>
 
     public void LoadUserNickName()
     {
-        Debug.Log("IOS_5");
+        Debug.LogError("IOS_5");
         Backend.BMember.GetUserInfo(WhenUserInfoLoadComplete);
     }
 
@@ -81,7 +81,7 @@ public class PlayerData : SingletonMono<PlayerData>
 
         SaveManager.Instance.StartAutoSave();
         GameManager.Instance.Initialize();
-        PushManager.Instance.Initialize();
+        //PushManager.Instance.Initialize();
 #if UNITY_IOS
         Backend.Chart.GetChartList((callback) =>
         {

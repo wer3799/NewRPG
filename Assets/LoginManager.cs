@@ -246,6 +246,7 @@ public class LoginManager : SingletonMono<LoginManager>
 
     private IEnumerator SceneChangeRoutine()
     {
+        
         ServerData.LoadTables();
 
 #if UNITY_IOS
@@ -293,7 +294,7 @@ public class LoginManager : SingletonMono<LoginManager>
         //회원가입 안됨
         if (bro.IsSuccess())
         {
-            Debug.Log("Login success");
+            Debug.LogError("Login success");
 
             //UiIosLoginBoard.Instance.CloseCustomGuestCreateBoard();
             StartCoroutine(SceneChangeRoutine());
