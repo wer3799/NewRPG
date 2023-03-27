@@ -15,4 +15,5 @@ public class GameBalance
     //10시간
     public readonly static int sleepRewardMaxValue = 86400;
     public readonly static float sleepRewardRatio = 1f;
+    public readonly static float StartingMoney = 0f;
 }

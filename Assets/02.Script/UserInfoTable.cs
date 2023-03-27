@@ -10,7 +10,7 @@ using CodeStage.AntiCheat.ObscuredTypes;
 public class UserInfoTable
 {
     public static string Indate;
-    public const string tableName = "UserInfo";
+    public const string tableName = "UserInfoTable";
 
     public const string LastMap = "LastMap";
     public const string LastLogin = "LastLogin";
@@ -25,6 +25,7 @@ public class UserInfoTable
     public DateTime currentServerTime { get; private set; }
     public ReactiveCommand whenServerTimeUpdated = new ReactiveCommand();
     public const string sleepRewardSavedTime = "sleepRewardSavedTime";
+    public const string chatBan = "chatBan";
 
     private Dictionary<string, double> tableSchema = new Dictionary<string, double>()
     {
@@ -36,6 +37,7 @@ public class UserInfoTable
         { attendanceCount, 0f },
         { topClearStageId, -1f },
         { sleepRewardSavedTime, 0f },
+        { chatBan, 0f },
     };
 
     private Dictionary<string, ReactiveProperty<double>>
@@ -59,7 +61,6 @@ public class UserInfoTable
             // 이후 처리
             if (callback.IsSuccess() == false)
             {
-                Debug.LogError("LoadStatusFailed");
                 PopupManager.Instance.ShowConfirmPopup(CommonString.Notice, CommonString.DataLoadFailedRetry,
                     Initialize);
                 return;

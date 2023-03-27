@@ -18,6 +18,11 @@ public class Utils
         TimeSpan diff = date.ToUniversalTime() - origin;
         return diff.TotalSeconds - 1620000000f;
     }
+
+    public static bool HasBadWord(string word)
+    {
+        return false;
+    }
     
     public static int GetWeekNumber(DateTime currentDate)
     {

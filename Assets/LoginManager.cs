@@ -21,7 +21,7 @@ public class LoginManager : SingletonMono<LoginManager>
     [SerializeField]
     private string testId = "a_8846847867697156085";
 
-    // [SerializeField]
+     [SerializeField]
      private UiNickNameInputBoard nickNameInputBoard;
 
     private bool isSignIn = false;
@@ -295,7 +295,7 @@ public class LoginManager : SingletonMono<LoginManager>
         {
             Debug.Log("Login success");
 
-            UiIosLoginBoard.Instance.CloseCustomGuestCreateBoard();
+            //UiIosLoginBoard.Instance.CloseCustomGuestCreateBoard();
             StartCoroutine(SceneChangeRoutine());
         }
         else

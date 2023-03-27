@@ -212,7 +212,7 @@ public class GameManager : SingletonMono<GameManager>
     
     private void ChangeScene()
     {
-        PopupManager.Instance.SetChatBoardPopupManager();
+        //PopupManager.Instance.SetChatBoardPopupManager();
 
         if (firstLoad)
         {
