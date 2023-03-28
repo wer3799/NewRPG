@@ -6,7 +6,7 @@ using UnityEngine;
 public class SaveManager : SingletonMono<SaveManager>
 {
 
-    private WaitForSeconds updateDelay = new WaitForSeconds(1000.0f);
+    private WaitForSeconds updateDelay = new WaitForSeconds(60.0f);
 
     private WaitForSeconds updateDelay_DailyMission = new WaitForSeconds(7000.0f);
 
@@ -18,7 +18,6 @@ public class SaveManager : SingletonMono<SaveManager>
     public void StartAutoSave()
     {
         StartCoroutine(AutoSaveRoutine());
-        StartCoroutine(AutoSaveRoutine_Mission());
         StartCoroutine(TockenRefreshRoutine());
         StartCoroutine(VersionCheckRoutine());
     }
@@ -91,23 +90,11 @@ public class SaveManager : SingletonMono<SaveManager>
         while (true)
         {
             SyncDatasInQueue();
-            yield return updateDelay; ;
+            yield return updateDelay;
         }
     }
 
-    private IEnumerator AutoSaveRoutine_Mission()
-    {
-        while (true)
-        {
-            yield return updateDelay_DailyMission;
-            SyncDailyMissions();
-        }
-    }
-
-    private List<string> ignoreSyncGoodsList = new List<string>()
-    {
-      
-    };
+ 
 
     //SendQueue에서 저장
     public void SyncDatasInQueue()
@@ -117,7 +104,7 @@ public class SaveManager : SingletonMono<SaveManager>
         //     GrowthManager.Instance.SyncLevelUpDatas();
         // }
 
-        ServerData.goodsTable.SyncAllData(ignoreSyncGoodsList);
+        ServerData.goodsTable.SyncAllData(ServerData.goodsTable.ignoreSyncGoodsList);
 
         ServerData.userInfoTable.AutoUpdateRoutine();
 
@@ -131,18 +118,11 @@ public class SaveManager : SingletonMono<SaveManager>
     }
     private void OnApplicationQuit()
     {
-
-        SetNotification();
+        SetOfflineRewardAlarm();
         SyncDatasForce();
-        SyncDailyMissions();
     }
 
-    public void SyncDailyMissions()
-    {
-    //    DailyMissionManager.SyncAllMissions();
-    }
-
-    public void SetNotification()
+    public void SetOfflineRewardAlarm()
     {
         if (SettingData.ShowSleepPush.Value == 1)
         {

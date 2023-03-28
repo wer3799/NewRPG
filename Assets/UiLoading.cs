@@ -14,7 +14,6 @@ public class UiLoading : MonoBehaviour
 
     private IEnumerator Start()
     {
-
         AsyncOperation asyncOper = SceneManager.LoadSceneAsync(2);
         asyncOper.allowSceneActivation = false;
 
@@ -24,12 +23,10 @@ public class UiLoading : MonoBehaviour
 
             if (asyncOper.progress >= 0.9f)
             {
-                yield return new WaitForSeconds(2.0f);
                 asyncOper.allowSceneActivation = true;
                 break;
             }
         }
-
     }
 
 }

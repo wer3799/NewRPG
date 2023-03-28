@@ -402,11 +402,11 @@ public class ChatManager : SingletonMono<ChatManager>
             return;
         }
 
-        if (ServerData.userInfoTable.GetTableData(UserInfoTable.chatBan).Value == 1f)
-        {
-            PopupManager.Instance.ShowAlarmMessage("채팅이 차단된 상태입니다.");
-            return;
-        }
+        // if (ServerData.userInfoTable.GetTableData(UserInfoTable.chatBan).Value == 1f)
+        // {
+        //     PopupManager.Instance.ShowAlarmMessage("채팅이 차단된 상태입니다.");
+        //     return;
+        // }
 
         if (string.IsNullOrEmpty(message))
         {
@@ -435,11 +435,11 @@ public class ChatManager : SingletonMono<ChatManager>
             return;
         }
 
-        if (ServerData.userInfoTable.GetTableData(UserInfoTable.chatBan).Value == 1f)
-        {
-            PopupManager.Instance.ShowAlarmMessage("채팅이 차단된 상태입니다.");
-            return;
-        }
+        // if (ServerData.userInfoTable.GetTableData(UserInfoTable.chatBan).Value == 1f)
+        // {
+        //     PopupManager.Instance.ShowAlarmMessage("채팅이 차단된 상태입니다.");
+        //     return;
+        // }
 
         if (string.IsNullOrEmpty(message))
         {

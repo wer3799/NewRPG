@@ -12,32 +12,19 @@ public class UserInfoTable
     public static string Indate;
     public const string tableName = "UserInfoTable";
 
-    public const string LastMap = "LastMap";
     public const string LastLogin = "LastLogin";
-    public const string dailyEnemyKillCount = "dailyEnemyKillCount";
-    public const string tutorialCurrentStep = "tutorialCurrentStep";
-    public const string tutorialClearFlags = "tutorialClearFlags";
-    public const string attendanceCount = "attendanceCount";
-    public const string topClearStageId = "topClearStageId";
+    public const string CurrentStage = "CurrentStage";
 
     public double currentServerDate;
-    public double attendanceUpdatedTime;
     public DateTime currentServerTime { get; private set; }
     public ReactiveCommand whenServerTimeUpdated = new ReactiveCommand();
     public const string sleepRewardSavedTime = "sleepRewardSavedTime";
-    public const string chatBan = "chatBan";
 
     private Dictionary<string, double> tableSchema = new Dictionary<string, double>()
     {
-        { LastMap, 0f },
         { LastLogin, 0f },
-        { dailyEnemyKillCount, 0f },
-        { tutorialCurrentStep, 2f },
-        { tutorialClearFlags, 0f },
-        { attendanceCount, 0f },
-        { topClearStageId, -1f },
+        { CurrentStage, 0f },
         { sleepRewardSavedTime, 0f },
-        { chatBan, 0f },
     };
 
     private Dictionary<string, ReactiveProperty<double>>
@@ -155,7 +142,7 @@ public class UserInfoTable
 
                 if (paramCount != 0)
                 {
-                    var bro = Backend.GameData.UpdateV2(tableName, Indate,Backend.UserInDate, defultValues);
+                    var bro = Backend.GameData.UpdateV2(tableName, Indate, Backend.UserInDate, defultValues);
 
                     if (bro.IsSuccess() == false)
                     {
@@ -193,7 +180,7 @@ public class UserInfoTable
             Param param = new Param();
             param.Add(key, tableDatas[key].Value);
 
-            SendQueue.Enqueue(Backend.GameData.UpdateV2, tableName, Indate,Backend.UserInDate, param, e =>
+            SendQueue.Enqueue(Backend.GameData.UpdateV2, tableName, Indate, Backend.UserInDate, param, e =>
             {
                 if (e.IsSuccess() == false)
                 {
@@ -226,10 +213,6 @@ public class UserInfoTable
 
                 currentServerTime = DateTime.Parse(time).ToUniversalTime().AddHours(9);
 
-#if UNITY_EDITOR
-                //currentServerTime = currentServerTime.AddDays(15);
-#endif
-
                 whenServerTimeUpdated.Execute();
 
                 currentServerDate = (double)Utils.ConvertToUnixTimestamp(currentServerTime);
@@ -244,7 +227,7 @@ public class UserInfoTable
 
                     //최소조건 안됨 (시간,첫 접속)
                     if (elapsedTime < GameBalance.sleepRewardMinValue ||
-                        ServerData.userInfoTable.GetTableData(UserInfoTable.topClearStageId).Value == -1)
+                        ServerData.userInfoTable.GetTableData(UserInfoTable.CurrentStage).Value == -1)
                     {
                         return;
                     }
@@ -258,7 +241,7 @@ public class UserInfoTable
                         userInfoParam.Add(sleepRewardSavedTime,
                             ServerData.userInfoTable.tableDatas[UserInfoTable.sleepRewardSavedTime].Value);
 
-                        var returnBro = Backend.GameData.UpdateV2(tableName, Indate, Backend.UserInDate,userInfoParam);
+                        var returnBro = Backend.GameData.UpdateV2(tableName, Indate, Backend.UserInDate, userInfoParam);
 
                         if (returnBro.IsSuccess() == false)
                         {
@@ -286,16 +269,11 @@ public class UserInfoTable
                     //날짜 바뀜
                     DateChanged(currentServerTime.Day, savedWeek != currentWeek,
                         savedDate.Month != currentServerTime.Month);
-                    attendanceUpdatedTime = currentServerTime.Day;
                 }
                 else
                 {
                     UpdateLastLoginOnly();
                 }
-            }
-            else
-            {
-                // LogManager.Instance.SendLog("출석", $"{isSuccess}/{statusCode}/{returnValue}");
             }
         });
     }
@@ -323,49 +301,30 @@ public class UserInfoTable
 
         //일일초기화
         Param userInfoParam = new Param();
-        ServerData.userInfoTable.GetTableData(UserInfoTable.dailyEnemyKillCount).Value = 0;
+        
         ServerData.userInfoTable.GetTableData(UserInfoTable.LastLogin).Value = (double)currentServerDate;
-
-        //두번타는거 방지
-        if (attendanceUpdatedTime != day)
-        {
-            if (ServerData.userInfoTable.GetTableData(UserInfoTable.attendanceCount).Value != 0)
-            {
-                ServerData.userInfoTable.GetTableData(UserInfoTable.attendanceCount).Value++;
-            }
-        }
-
-        attendanceUpdatedTime = ServerData.userInfoTable.GetTableData(UserInfoTable.LastLogin).Value;
-
-        userInfoParam.Add(UserInfoTable.dailyEnemyKillCount,
-            ServerData.userInfoTable.GetTableData(UserInfoTable.dailyEnemyKillCount).Value);
-        userInfoParam.Add(UserInfoTable.LastLogin,
-            Math.Truncate(ServerData.userInfoTable.GetTableData(UserInfoTable.LastLogin).Value));
-        userInfoParam.Add(UserInfoTable.attendanceCount,
-            ServerData.userInfoTable.GetTableData(UserInfoTable.attendanceCount).Value);
-
+        
+        userInfoParam.Add(UserInfoTable.LastLogin, Math.Truncate(ServerData.userInfoTable.GetTableData(UserInfoTable.LastLogin).Value));
 
         if (weekChanged)
         {
-           
-        }
-        
-        if (monthChanged)
-        {
-            
         }
 
+        if (monthChanged)
+        {
+        }
+
+        transactionList.Add(TransactionValue.SetUpdateV2(UserInfoTable.tableName,UserInfoTable.Indate,Backend.UserInDate,userInfoParam));
+        
         ServerData.SendTransaction(transactionList, false);
     }
 
     private void WeekChanged()
     {
-        
     }
 
     private void MonthChanged()
     {
-        
     }
 
     public bool IsHotTime()
@@ -387,6 +346,5 @@ public class UserInfoTable
     {
         return currentServerTime.DayOfWeek == DayOfWeek.Sunday || currentServerTime.DayOfWeek == DayOfWeek.Saturday;
     }
-   
 }
 //

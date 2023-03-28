@@ -80,7 +80,6 @@ public class PlayerData : SingletonMono<PlayerData>
         Subscribe();
 
         SaveManager.Instance.StartAutoSave();
-        GameManager.Instance.Initialize();
         //PushManager.Instance.Initialize();
 #if UNITY_IOS
         Backend.Chart.GetChartList((callback) =>

@@ -54,7 +54,7 @@ public class PlayerMoveController : SingletonMono<PlayerMoveController>
 
         rb.velocity = moveDirection * moveSpeed;
 
-        Debug.Log($"{"GetHorizontalAxis()"} {"GetVerticalAxis()"} {rb.velocity}");
+        //Debug.Log($"{"GetHorizontalAxis()"} {"GetVerticalAxis()"} {rb.velocity}");
 
         if (rb.velocity.magnitude != 0)
         {

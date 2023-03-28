@@ -16,7 +16,10 @@ public class GoodsTable
     public static string Gold = "Gold";
     public static string Diamond = "Diamond"; //옥
    
-
+    public List<string> ignoreSyncGoodsList = new List<string>()
+    {
+      
+    };
 
 
     private Dictionary<string, float> tableSchema = new Dictionary<string, float>()

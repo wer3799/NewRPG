@@ -16,74 +16,62 @@ MonoBehaviour:
   WorksheetName: StageMap
   dataArray:
   - id: 0
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 1
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 2
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 3
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 4
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 5
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 6
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 7
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 8
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 9
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 10
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
   - id: 11
-    mappreset: 1
+    mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    monsterid1: 0,1,2
-    monsterid2: 
+    spawnenemies: 000000000100000002000000
