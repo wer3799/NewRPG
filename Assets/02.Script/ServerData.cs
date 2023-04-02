@@ -8,6 +8,7 @@ public static class ServerData
 {
     public static UserInfoTable userInfoTable { get; private set; } = new UserInfoTable();
     public static GoodsTable goodsTable { get; private set; } = new GoodsTable();
+    public static SkillServerTable skillServerTable { get; private set; } = new SkillServerTable();
     
     #region string
     public static string inDate_str = "inDate";
@@ -28,6 +29,7 @@ public static class ServerData
     {
         userInfoTable.Initialize();
         goodsTable.Initialize();
+        skillServerTable.Initialize();
     }
     
     public static void ShowCommonErrorPopup(BackendReturnObject bro, Action retryCallBack)

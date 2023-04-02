@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 3550710527568721608}
   - component: {fileID: 475311709211890561}
   - component: {fileID: 226937131002880489}
+  - component: {fileID: 5705692562853652851}
+  - component: {fileID: 9063679220330766850}
+  - component: {fileID: 711241928047110329}
   m_Layer: 9
   m_Name: 0
   m_TagString: Untagged
@@ -71,6 +74,44 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.54}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
+--- !u!114 &5705692562853652851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550710527568721609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a8cb391b971e4541a758f4157afae28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9063679220330766850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550710527568721609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ccd93269e394a3a909dfd0fa09aafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHpBar: {fileID: 0}
+  damTextSpawnPos: {fileID: 0}
+--- !u!114 &711241928047110329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550710527568721609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88553fc6aee184c72b2637995d851e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3550710528549122180
 GameObject:
   m_ObjectHideFlags: 0

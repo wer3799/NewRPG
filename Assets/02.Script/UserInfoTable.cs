@@ -19,12 +19,14 @@ public class UserInfoTable
     public DateTime currentServerTime { get; private set; }
     public ReactiveCommand whenServerTimeUpdated = new ReactiveCommand();
     public const string sleepRewardSavedTime = "sleepRewardSavedTime";
+    public const string selectedSkillGroupId  = "selectedSkillGroupId";
 
     private Dictionary<string, double> tableSchema = new Dictionary<string, double>()
     {
         { LastLogin, 0f },
         { CurrentStage, 0f },
         { sleepRewardSavedTime, 0f },
+        { selectedSkillGroupId, 0f },
     };
 
     private Dictionary<string, ReactiveProperty<double>>

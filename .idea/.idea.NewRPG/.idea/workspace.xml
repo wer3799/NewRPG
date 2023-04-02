@@ -3,21 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Resources/Map.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Resources/Map/0.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Resources/Map/0.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkillBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3669225c28594c1787535139f029956abbe00/c1/4ddca6dd/Backend.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b15294f286684bc99ec197157507c917159a00/07/d40b7bcb/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/EnumCodeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/GrowthManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/MessageBoardParent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,11 +36,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UiNickNameInputBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CoroutineExecuter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyMoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NormalStageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerStatusController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PopupManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PreSceneStartButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkillBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkillServerTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TableManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UiLoading.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -131,6 +135,7 @@
       <workItem from="1679929071864" duration="3842000" />
       <workItem from="1680027209904" duration="10359000" />
       <workItem from="1680449411588" duration="7000" />
+      <workItem from="1680449430662" duration="6469000" />
     </task>
     <servers />
   </component>

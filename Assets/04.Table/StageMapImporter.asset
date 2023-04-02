@@ -38,7 +38,7 @@ MonoBehaviour:
     name: SpawnEnemies
     isEnable: 0
     isArray: 1
-  - type: 0
+  - type: 5
     name: NextSpawnDelay
     isEnable: 0
     isArray: 0

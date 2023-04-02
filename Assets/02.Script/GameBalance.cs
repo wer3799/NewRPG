@@ -16,4 +16,8 @@ public class GameBalance
     public readonly static int sleepRewardMaxValue = 86400;
     public readonly static float sleepRewardRatio = 1f;
     public readonly static float StartingMoney = 0f;
+    public readonly static int skillSlotGroupNum = 3;
+    public readonly static int SkillAwakePlusNum = 10;
+    
+    public readonly static float initHp = 10;
 }
