@@ -28,4 +28,8 @@ public class StageMapData
   int[] spawnenemies = new int[0];
   public int[] Spawnenemies { get {return spawnenemies; } set { this.spawnenemies = value;} }
   
+  [SerializeField]
+  float nextspawndelay;
+  public float Nextspawndelay { get {return nextspawndelay; } set { this.nextspawndelay = value;} }
+  
 }

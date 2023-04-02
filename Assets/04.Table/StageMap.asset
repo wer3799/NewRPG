@@ -19,59 +19,59 @@ MonoBehaviour:
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 1
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 2
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 3
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 4
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 5
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 6
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 7
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 8
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 9
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 10
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000
   - id: 11
     mappreset: 0
     spawndelay: 12
     spawnnum: 10
-    spawnenemies: 000000000100000002000000
+    spawnenemies: 00000000

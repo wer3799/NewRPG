@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoolItem : MonoBehaviour
+public abstract class PoolItem : MonoBehaviour
 {
     private Action<PoolItem> returnFunc;
 
@@ -16,4 +16,6 @@ public class PoolItem : MonoBehaviour
     {
         returnFunc?.Invoke(this);
     }
+
+    public abstract void ResetState();
 }

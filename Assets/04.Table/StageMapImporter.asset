@@ -38,6 +38,10 @@ MonoBehaviour:
     name: SpawnEnemies
     isEnable: 0
     isArray: 1
+  - type: 0
+    name: NextSpawnDelay
+    isEnable: 0
+    isArray: 0
   excelFilePath: Assets/04.Table/StageMap.xls
   SheetNames:
   - StageMap
