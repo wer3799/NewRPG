@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkillBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +127,8 @@
       <workItem from="1679929071864" duration="3842000" />
       <workItem from="1680027209904" duration="10359000" />
       <workItem from="1680449411588" duration="7000" />
-      <workItem from="1680449430662" duration="6469000" />
+      <workItem from="1680449430662" duration="7078000" />
+      <workItem from="1680539562563" duration="54000" />
     </task>
     <servers />
   </component>
