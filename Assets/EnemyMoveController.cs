@@ -29,7 +29,7 @@ public class EnemyMoveController : MonoBehaviour
     }
 #endif
 
-    void Start()
+    void Awake()
     {
         SetPlayerTr();
     }

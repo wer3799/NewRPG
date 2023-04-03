@@ -28,17 +28,16 @@ public class EnemyHpController : MonoBehaviour
 
     private bool initialized = false;
 
-    private void Start()
-    {
-        Subscribe();
-        SetPlayerTr();
-    }
+ 
 
-    private void SetPlayerTr()
+    private void BaseInit()
     {
         if (initialized == false)
         {
             playerPos = PlayerMoveController.Instance.transform;
+            
+            Subscribe();
+            
             initialized = true;
         }
     }
@@ -65,10 +64,13 @@ public class EnemyHpController : MonoBehaviour
     public void Initialize(EnemyTableData enemyTableData)
     {
         this.enemyTableData = enemyTableData;
+        
+        BaseInit();
 
         SetDefense(enemyTableData.Defense);
         
         SetHp(enemyTableData.Hp);
+
     }
 
     public void SetHp(double hp)
@@ -125,11 +127,21 @@ public class EnemyHpController : MonoBehaviour
 
         isEnemyDead = true;
 
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
     }
 
     private void OnEnable()
     {
         ResetEnemy();
+    }
+    
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            UpdateHp(-30f);
+
+        }
+        
     }
 }

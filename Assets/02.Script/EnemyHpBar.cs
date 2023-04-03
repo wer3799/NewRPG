@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UniRx;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class EnemyHpBar : MonoBehaviour
 {
@@ -118,4 +120,6 @@ public class EnemyHpBar : MonoBehaviour
             }
         }
     }
+
+ 
 }

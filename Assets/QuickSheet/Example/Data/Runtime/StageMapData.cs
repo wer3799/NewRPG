@@ -25,8 +25,8 @@ public class StageMapData
   public int Spawnnum { get {return spawnnum; } set { this.spawnnum = value;} }
   
   [SerializeField]
-  int[] spawnenemies = new int[0];
-  public int[] Spawnenemies { get {return spawnenemies; } set { this.spawnenemies = value;} }
+  string[] spawnenemies = new string[0];
+  public string[] Spawnenemies { get {return spawnenemies; } set { this.spawnenemies = value;} }
   
   [SerializeField]
   float nextspawndelay;

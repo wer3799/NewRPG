@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/MiddleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/MiddleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpBar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_GameScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_GameScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_MiddleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_MiddleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_PreScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_PreScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/EnemyHpBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/EnemyHpBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/EnemyHpBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/EnemyHpBar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyHpController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/FadeOutNearbyObjects/FadeOut.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/FadeOutNearbyObjects/FadeOut.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NormalStageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +115,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="54204">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="54204" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -134,7 +147,7 @@
       <workItem from="1680027209904" duration="10359000" />
       <workItem from="1680449411588" duration="7000" />
       <workItem from="1680449430662" duration="7078000" />
-      <workItem from="1680539562563" duration="1490000" />
+      <workItem from="1680539562563" duration="6239000" />
     </task>
     <servers />
   </component>
@@ -161,30 +174,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/02.Script/GoodsTable.cs</url>
-          <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/02.Script/GoodsTable.cs" initialLine="55" containingFunctionPresentation="lambda expression inside method 'Initialize'">
+          <url>file://$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs</url>
+          <line>49</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" initialLine="49" containingFunctionPresentation="method 'GetItem'">
             <startOffsets>
-              <option value="1419" />
+              <option value="1017" />
             </startOffsets>
             <endOffsets>
-              <option value="1454" />
+              <option value="1018" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/02.Script/UiConfirmPopup.cs</url>
-          <line>20</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/02.Script/UiConfirmPopup.cs" initialLine="20" containingFunctionPresentation="method 'Initialize'">
-            <startOffsets>
-              <option value="475" />
-            </startOffsets>
-            <endOffsets>
-              <option value="516" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

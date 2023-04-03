@@ -12,7 +12,7 @@ public class PoolItem : MonoBehaviour
         this.returnFunc = returnFunc;
     }
 
-    private void ReturnToPool()
+    public void ReturnToPool()
     {
         returnFunc?.Invoke(this);
     }

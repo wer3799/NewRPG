@@ -34,7 +34,7 @@ MonoBehaviour:
     name: SpawnNum
     isEnable: 0
     isArray: 0
-  - type: 3
+  - type: 1
     name: SpawnEnemies
     isEnable: 0
     isArray: 1

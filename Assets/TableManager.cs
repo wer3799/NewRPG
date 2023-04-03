@@ -10,6 +10,30 @@ public class TableManager : SingletonMono<TableManager>
 {
     public StageMap stageMap;
     public EnemyTable enemyTable;
+    private Dictionary<string, EnemyTableData> enemyData = null;
+
+    public Dictionary<string, EnemyTableData> EnemyData
+    {
+        get
+        {
+            LoadEnemyData();
+            return enemyData;
+        }
+    }
+
+    private void LoadEnemyData()
+    {
+        if (enemyData != null) return;
+
+        enemyData = new Dictionary<string, EnemyTableData>();
+
+        for (int i = 0; i < enemyTable.dataArray.Length; i++)
+        {
+            enemyData.Add(enemyTable.dataArray[i].Name, enemyTable.dataArray[i]);
+        }
+    }
+    
+    
     public SkillTable skillTable;
     
     private Dictionary<int, SkillTableData> skillData = null;
