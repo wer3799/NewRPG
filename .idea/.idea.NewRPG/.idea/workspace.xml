@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/GameScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/MiddleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/MiddleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/PreScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/FadeOutNearbyObjects/FadeOut.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Cinemachine/2.8.9/Cinemachine Example Scenes/Scenes/FadeOutNearbyObjects/FadeOut.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +134,7 @@
       <workItem from="1680027209904" duration="10359000" />
       <workItem from="1680449411588" duration="7000" />
       <workItem from="1680449430662" duration="7078000" />
-      <workItem from="1680539562563" duration="54000" />
+      <workItem from="1680539562563" duration="1490000" />
     </task>
     <servers />
   </component>
