@@ -32,4 +32,8 @@ public class StageMapData
   float nextspawndelay;
   public float Nextspawndelay { get {return nextspawndelay; } set { this.nextspawndelay = value;} }
   
+  [SerializeField]
+  int maxspawnenemynum;
+  public int Maxspawnenemynum { get {return maxspawnenemynum; } set { this.maxspawnenemynum = value;} }
+  
 }

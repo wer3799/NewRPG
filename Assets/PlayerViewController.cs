@@ -37,6 +37,8 @@ public class PlayerViewController : SingletonMono<PlayerViewController>
 
     private void SetAnimation(string animName)
     {
+        return;
+        
         if (attackAnimEndRoutine != null || (CurrentAnimation == animName && animName.Contains(Attack) == false)) return;
 
         bool isAttackAnim = animName.Contains(Attack);

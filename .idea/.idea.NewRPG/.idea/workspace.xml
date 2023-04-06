@@ -3,29 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_GameScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_GameScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_MiddleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_MiddleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_PreScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/YO_PreScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/EnemyHpBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/EnemyHpBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/EnemyHpBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/EnemyHpBar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Map/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Map/0.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyHpController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/NormalStageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NormalStageMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerMoveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerViewController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SkillServerTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillServerTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiMoveStick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiMoveStick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +41,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3669225c28594c1787535139f029956abbe00/c1/4ddca6dd/Backend.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6b3cb03e36d4395ab4db7daad66fb8b81d200/ba/9a5a2d4b/PlayModeView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b15294f286684bc99ec197157507c917159a00/07/d40b7bcb/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b15294f286684bc99ec197157507c917159a00/2a/137e545a/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/EnumCodeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/GrowthManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/MessageBoardParent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/PoolItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/SettingData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/02.Script/Slash0.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UiIosLoginBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UiNickNameInputBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -115,10 +126,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="54204">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="77467">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="54204" />
+      <option name="pid" value="77467" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -147,7 +158,11 @@
       <workItem from="1680027209904" duration="10359000" />
       <workItem from="1680449411588" duration="7000" />
       <workItem from="1680449430662" duration="7078000" />
-      <workItem from="1680539562563" duration="6239000" />
+      <workItem from="1680539562563" duration="7690000" />
+      <workItem from="1680801890680" duration="3000" />
+      <workItem from="1680801900332" duration="26000" />
+      <workItem from="1680801938580" duration="21000" />
+      <workItem from="1680801968768" duration="4884000" />
     </task>
     <servers />
   </component>
@@ -174,17 +189,30 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs</url>
-          <line>49</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" initialLine="49" containingFunctionPresentation="method 'GetItem'">
+          <url>file://$PROJECT_DIR$/Assets/PlayerSkillCaster.cs</url>
+          <line>144</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" initialLine="144" containingFunctionPresentation="method 'ApplyDamage'">
             <startOffsets>
-              <option value="1017" />
+              <option value="4788" />
             </startOffsets>
             <endOffsets>
-              <option value="1018" />
+              <option value="4824" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/PlayerSkillCaster.cs</url>
+          <line>164</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" initialLine="164" containingFunctionPresentation="method 'ApplyDamage'">
+            <startOffsets>
+              <option value="5363" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5393" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

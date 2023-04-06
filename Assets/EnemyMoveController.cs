@@ -43,8 +43,21 @@ public class EnemyMoveController : MonoBehaviour
     {
         while (true)
         {
-            Vector2 direction = playerTr.transform.position - this.transform.position;
-            this.rb.velocity = direction.normalized * enemyTableData.Movespeed;
+            float distance = Vector2.Distance(this.transform.position, playerTr.transform.position);
+
+            if (distance < enemyTableData.Neardistance)
+            {
+                this.rb.velocity = Vector2.zero;
+            }
+            else
+            {
+                Vector2 direction = playerTr.transform.position - this.transform.position;
+            
+                this.rb.velocity = direction.normalized * enemyTableData.Movespeed;
+            }
+                            
+
+            
             yield return setDirectionDelay;
         }
         

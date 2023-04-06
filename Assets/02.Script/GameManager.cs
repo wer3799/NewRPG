@@ -7,6 +7,11 @@ using System;
 //
 public class GameManager : SingletonMono<GameManager>
 {
- 
+    public enum ContentsType
+    {
+        NormalField
+    }
+
+    public static ContentsType contentsType = ContentsType.NormalField;
 
 }

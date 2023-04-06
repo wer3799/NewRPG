@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class NormalStageMap : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class NormalStageMap : MonoBehaviour
     private Transform spawnedPointRoot;
 
     [SerializeField]
-    private List<Transform> spawnedList;
+    public List<Transform> spawnedList;
 
     #if UNITY_EDITOR
     private void OnValidate()
@@ -24,15 +25,8 @@ public class NormalStageMap : MonoBehaviour
     }
     #endif
 
-    // Start is called before the first frame update
-    void Start()
+    public Vector3 GetRandomSpawnPos()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return spawnedList[Random.Range(0, spawnedList.Count)].transform.position;
     }
 }

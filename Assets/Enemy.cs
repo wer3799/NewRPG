@@ -12,6 +12,15 @@ public class Enemy : PoolItem
     [SerializeField]
     private EnemyHpController enemyHpController;
 
+    public bool isFieldBossEnemy { get; private set; } = false;
+    
+    private Action<Enemy> returnCallBack;
+    
+    public void SetReturnCallBack(Action<Enemy> returnCallBack)
+    {
+        this.returnCallBack = returnCallBack;
+    }
+    
 #if UNITY_EDITOR
     private void OnValidate()
     {
@@ -37,5 +46,15 @@ public class Enemy : PoolItem
         enemyMoveController.Initialize(enemyTableData);
 
         enemyHpController.Initialize(enemyTableData);
+    }
+
+    private void OnDisable()
+    {
+        this.returnCallBack?.Invoke(this);
+
+        // if (isFieldBossEnemy && MapInfo.Instance != null)
+        // {
+        //     MapInfo.Instance.SetCanSpawnEnemy(true);
+        // }
     }
 }

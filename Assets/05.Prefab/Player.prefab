@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DontDestroy: 0
-  playerMoveController: {fileID: 0}
+  playerMoveController: {fileID: 4573856767458584696}
   isSkillMoveRestriction: 0
 --- !u!50 &4573856767458584702
 Rigidbody2D:

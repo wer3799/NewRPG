@@ -16,8 +16,7 @@ public static class SkillCoolTimeManager
     private static WaitForSeconds delay = new WaitForSeconds(updateTick);
 
     public static List<ReactiveProperty<int>> registeredSkillIdx = new List<ReactiveProperty<int>>() { new ReactiveProperty<int>(1), new ReactiveProperty<int>(1), new ReactiveProperty<int>(1), new ReactiveProperty<int>(1), new ReactiveProperty<int>(1) };
-    public static ReactiveProperty<int> jumpAutoValue = new ReactiveProperty<int>();
-    public static ReactiveProperty<int> moveAutoValue = new ReactiveProperty<int>();
+
 
     private static string registerSkillNameKey = "AutoSkill";
     private static string jumpAutoNameKey = "AutoJump";
@@ -37,8 +36,7 @@ public static class SkillCoolTimeManager
             }
         }
 
-        jumpAutoValue.Value = PlayerPrefs.GetInt(jumpAutoNameKey, 1);
-        moveAutoValue.Value = PlayerPrefs.GetInt(moveAutoNameKey, 1);
+
     }
 
     public static void SetUseSkill(int idx)
@@ -51,19 +49,6 @@ public static class SkillCoolTimeManager
     {
         registeredSkillIdx[idx].Value = 0;
         PlayerPrefs.SetInt(registerSkillNameKey + idx.ToString(), 0);
-    }
-
-    public static void SetJumpAuto(bool on)
-    {
-        return;
-        jumpAutoValue.Value = on ? 1 : 0;
-        PlayerPrefs.SetInt(jumpAutoNameKey, on ? 1 : 0);
-    }
-
-    public static void SetMoveAuto(bool on)
-    {
-        moveAutoValue.Value = on ? 1 : 0;
-        PlayerPrefs.SetInt(moveAutoNameKey, on ? 1 : 0);
     }
 
     public static bool HasSkillCooltime(int idx)

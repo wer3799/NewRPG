@@ -346,9 +346,21 @@ public class SkillServerTable
     }
 
     //UI팝업에서도 쓰는부분이라 함부로 건들면 안됨
-    public float GetSkillDamagePer(int idx, int addLevel = 0, bool applySkillDamAbility = true)
+    public float GetSkillDamagePer(int idx, int addLevel = 0)
     {
-        return 0f;
+        int currentLevel = GetSkillCurrentLevel(idx);
+        
+        var tableData = TableManager.Instance.SkillData[idx];
+
+        currentLevel += addLevel;
+
+        float originDamage = (TableManager.Instance.SkillData[idx].Damageper + TableManager.Instance.SkillData[idx].Damageaddvalue * (currentLevel));
+
+        float addDamageValue = 0f;
+
+        float ret = originDamage + originDamage * addDamageValue;
+      
+        return ret;
     }
 
     public void UpdateSkillAmountLocal(SkillTableData skillData, int addAmount)

@@ -170,7 +170,6 @@ public class UiMoveStick : SingletonMono<UiMoveStick>
     {
         nowTouching = true;
         Vertical = 1;
-        Horizontal = 0;
 
         SetArrowSprites(0);
     }
@@ -178,7 +177,6 @@ public class UiMoveStick : SingletonMono<UiMoveStick>
     {
         nowTouching = true;
         Vertical = -1;
-        Horizontal = 0;
 
         SetArrowSprites(1);
     }
@@ -186,7 +184,6 @@ public class UiMoveStick : SingletonMono<UiMoveStick>
     {
         nowTouching = true;
         Horizontal = -1;
-        Vertical = 0;
 
         SetArrowSprites(2);
     }
@@ -194,7 +191,6 @@ public class UiMoveStick : SingletonMono<UiMoveStick>
     {
         nowTouching = true;
         Horizontal = 1;
-        Vertical = 0;
 
         SetArrowSprites(3);
     }
@@ -234,22 +230,7 @@ public class UiMoveStick : SingletonMono<UiMoveStick>
 #if UNITY_EDITOR
     private void Update()
     {
-        // if (Input.GetKeyDown(KeyCode.UpArrow))
-        // {
-        //     Top_downEvent();
-        // }
-        // if (Input.GetKeyDown(KeyCode.DownArrow))
-        // {
-        //     Down_downEvent();
-        // }
-        // if (Input.GetKeyDown(KeyCode.LeftArrow))
-        // {
-        //     Left_downEvent();
-        // }
-        // if (Input.GetKeyDown(KeyCode.RightArrow))
-        // {
-        //     Right_downEvent();
-        // }
+     
 
         if (Input.GetKey(KeyCode.UpArrow))
         {

@@ -62,6 +62,10 @@ MonoBehaviour:
     name: bossAttackRatio
     isEnable: 0
     isArray: 0
+  - type: 5
+    name: NearDistance
+    isEnable: 0
+    isArray: 0
   excelFilePath: Assets/04.Table/EnemyTable.xls
   SheetNames:
   - EnemyTable

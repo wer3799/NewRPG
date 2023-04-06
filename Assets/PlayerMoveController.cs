@@ -30,6 +30,8 @@ public class PlayerMoveController : SingletonMono<PlayerMoveController>
     private void Start()
     {
         Initialize();
+        
+        AutoManager.Instance.SetPlayerTr();
     }
 
 
@@ -52,7 +54,14 @@ public class PlayerMoveController : SingletonMono<PlayerMoveController>
         moveDirection = new Vector3(GetHorizontalAxis(), GetVerticalAxis());
 
 
-        rb.velocity = moveDirection * moveSpeed;
+        if (PlayerSkillCaster.Instance.isSkillMoveRestriction == false)
+        {
+            rb.velocity = moveDirection * moveSpeed;
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
 
         //Debug.Log($"{"GetHorizontalAxis()"} {"GetVerticalAxis()"} {rb.velocity}");
 
@@ -72,8 +81,9 @@ public class PlayerMoveController : SingletonMono<PlayerMoveController>
         
 #if UNITY_EDITOR
         value = (int)Input.GetAxisRaw(vertical);
-#else
         value = uiMoveStick.Vertical;
+#else
+     
 #endif
         
         return value;
@@ -86,8 +96,9 @@ public class PlayerMoveController : SingletonMono<PlayerMoveController>
 
 #if UNITY_EDITOR
         value = (int)Input.GetAxisRaw(horizontal);
-#else
         value = uiMoveStick.Horizontal;
+#else
+       
 #endif
 
 

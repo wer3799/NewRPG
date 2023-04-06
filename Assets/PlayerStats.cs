@@ -10,7 +10,7 @@ public static class PlayerStats
     }
     public static float GetMaxHp()
     {
-        return 0f;
+        return 100000f;
     }
     public static float GetHpRecover()
     {
@@ -24,6 +24,6 @@ public static class PlayerStats
 
     public static double GetCalculatedAttackPower()
     {
-        throw new System.NotImplementedException();
+        return 10;
     }
 }

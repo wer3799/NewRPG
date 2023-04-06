@@ -52,4 +52,8 @@ public class EnemyTableData
   float bossattackratio;
   public float Bossattackratio { get {return bossattackratio; } set { this.bossattackratio = value;} }
   
+  [SerializeField]
+  float neardistance;
+  public float Neardistance { get {return neardistance; } set { this.neardistance = value;} }
+  
 }

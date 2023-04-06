@@ -35,19 +35,19 @@ public class PlayerSkillCaster : SingletonMono<PlayerSkillCaster>
     {
         InitSkill();
     }
-    public void SetMoveRestriction(float time)
-    {
-        if (time == 0f) return;
+    // public void SetMoveRestriction(float time)
+    // {
+    //     if (time == 0f) return;
+    //
+    //     StartCoroutine(MoveRestrictionRoutine(time));
+    // }
 
-        StartCoroutine(MoveRestrictionRoutine(time));
-    }
-
-    private IEnumerator MoveRestrictionRoutine(float time)
-    {
-        isSkillMoveRestriction = true;
-        yield return new WaitForSeconds(time);
-        isSkillMoveRestriction = false;
-    }
+    // private IEnumerator MoveRestrictionRoutine(float time)
+    // {
+    //     isSkillMoveRestriction = true;
+    //     yield return new WaitForSeconds(time);
+    //     isSkillMoveRestriction = false;
+    // }
 
     private void InitSkill()
     {
@@ -142,109 +142,44 @@ public class PlayerSkillCaster : SingletonMono<PlayerSkillCaster>
 
     public IEnumerator ApplyDamage(Collider2D hitEnemie, SkillTableData skillInfo, double damage, bool playSound)
     {
-        yield break;
+         EnemyHpController EnemyHpController;
         
-        // EnemyHpController EnemyHpController;
-        //
-        // int instanceId = hitEnemie.GetInstanceID();
-        //
-        // if (EnemyHpControllers.ContainsKey(instanceId) == false)
-        // {
-        //     EnemyHpControllers.Add(instanceId, hitEnemie.gameObject.GetComponent<EnemyHpController>());
-        //
-        //     EnemyHpController = EnemyHpControllers[instanceId];
-        //
-        // }
-        // else
-        // {
-        //     EnemyHpController = EnemyHpControllers[instanceId];
-        // }
-        //
-        // int hitCount = 0;
-        //
-        //
-        // if (skillInfo.Id != 18)
-        // {
-        //     hitCount = skillInfo.Hitcount + PlayerStats.GetSkillHitAddValue();
-        // }
-        // //인드라는 추가타X
-        // else
-        // {
-        //     hitCount = skillInfo.Hitcount;
-        //
-        // }
-        //
-        // double defense = EnemyHpController.Defense + 1;
-        //
-        // bool isCritical = PlayerStats.ActiveCritical();
-        // bool isSuperCritical = PlayerStats.ActiveSuperCritical();
-        //
-        // double key = damage * defense;
-        //
-        // double calculatedDam = 0;
-        //
-        // if (isCritical)
-        // {
-        //     //슈퍼크리
-        //     if (isSuperCritical)
-        //     {
-        //         if (calculatedDamage_superCritical.ContainsKey(key) == false)
-        //         {
-        //             EnemyHpController.ApplyDefense(ref damage);
-        //
-        //             EnemyHpController.ApplyPlusDamage(ref damage, isCritical, isSuperCritical);
-        //
-        //             calculatedDamage_superCritical.Add(key, damage);
-        //         }
-        //
-        //         calculatedDam = calculatedDamage_superCritical[key];
-        //     }
-        //     //그냥크리
-        //     else
-        //     {
-        //         if (calculatedDamage_critical.ContainsKey(key) == false)
-        //         {
-        //             EnemyHpController.ApplyDefense(ref damage);
-        //
-        //             EnemyHpController.ApplyPlusDamage(ref damage, isCritical,
-        //                 isSuperCritical);
-        //
-        //             calculatedDamage_critical.Add(key, damage);
-        //         }
-        //
-        //         calculatedDam = calculatedDamage_critical[key];
-        //     }
-        // }
-        // //노크리
-        // else
-        // {
-        //     if (calculatedDamage.ContainsKey(key) == false)
-        //     {
-        //         EnemyHpController.ApplyDefense(ref damage);
-        //
-        //         EnemyHpController.ApplyPlusDamage(ref damage, isCritical, isSuperCritical);
-        //
-        //         calculatedDamage.Add(key, damage);
-        //     }
-        //
-        //     calculatedDam = calculatedDamage[key];
-        // }
-        //
-        // bool spawnDamText = SettingData.ShowDamageFont.Value == 1;
-        //
-        // double totalDamage = calculatedDam * hitCount;
-        //
-        // //데미지는 한프레임에 적용
-        // if (EnemyHpController.gameObject == null || EnemyHpController.gameObject.activeInHierarchy == false)
-        // {
-        //     yield break;
-        // }
-        // else
-        // {
-        //     EnemyHpController.UpdateHp(-totalDamage);
-        // }
-        //
-        //
+        int instanceId = hitEnemie.GetInstanceID();
+        
+        if (EnemyHpControllers.ContainsKey(instanceId) == false)
+        {
+            EnemyHpControllers.Add(instanceId, hitEnemie.gameObject.GetComponent<EnemyHpController>());
+        
+            EnemyHpController = EnemyHpControllers[instanceId];
+        
+        }
+        else
+        {
+            EnemyHpController = EnemyHpControllers[instanceId];
+        }
+        
+        double defense = EnemyHpController.Defense + 1;
+        
+        
+        
+        double key = damage * defense;
+        
+        double calculatedDam = damage;
+        
+        
+        double totalDamage = calculatedDam ;
+        
+        //데미지는 한프레임에 적용
+        if (EnemyHpController.gameObject == null || EnemyHpController.gameObject.activeInHierarchy == false)
+        {
+            yield break;
+        }
+        else
+        {
+            EnemyHpController.UpdateHp(-totalDamage);
+        }
+        
+        
         // //이펙트는 최대 10개까지만 출력
         // for (int hit = 0; hit < hitCount && hit < 10; hit++)
         // {
@@ -278,19 +213,19 @@ public class PlayerSkillCaster : SingletonMono<PlayerSkillCaster>
         //         yield return null;
         //     }
         // }
-        //
-        // if (calculatedDamage.Count > 1000)
-        // {
-        //     calculatedDamage.Clear();
-        // }
-        // if (calculatedDamage_critical.Count > 1000)
-        // {
-        //     calculatedDamage_critical.Clear();
-        // }
-        // if (calculatedDamage_superCritical.Count > 1000)
-        // {
-        //     calculatedDamage_superCritical.Clear();
-        // }
+        
+        if (calculatedDamage.Count > 1000)
+        {
+            calculatedDamage.Clear();
+        }
+        if (calculatedDamage_critical.Count > 1000)
+        {
+            calculatedDamage_critical.Clear();
+        }
+        if (calculatedDamage_superCritical.Count > 1000)
+        {
+            calculatedDamage_superCritical.Clear();
+        }
     }
 
     private new void OnDestroy()
