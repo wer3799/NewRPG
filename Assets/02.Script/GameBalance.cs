@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerBalance
 {
-    public readonly static float moveSpeed = 3f;
+    public readonly static float moveSpeed = 10f;
     public readonly static float jumpPower = 17f;
     public readonly static float doubleJumpPower = 25f;
 }
