@@ -12,6 +12,7 @@ public class AutoManager : Singleton<AutoManager>
     private float jumpWidth = 0.1f;
     private float newFindDistance = 3f;
     private float horizontalJumpDistance = 5f;
+    private float minMoveValue = 0.2f;
     public ReactiveProperty<bool> AutoMode { get; private set; } = new ReactiveProperty<bool>();
 
     private List<int> skillQueue = new List<int>();
@@ -156,9 +157,22 @@ public class AutoManager : Singleton<AutoManager>
                     canAttack = false;
 
                     //예전모드
+                    float xDIstance = Mathf.Abs(currentTarget.transform.position.x - playerTr.transform.position.x);
+                    float yDIstance = Mathf.Abs(currentTarget.transform.position.y - playerTr.transform.position.y);
 
-                    int Horizontal = currentTarget.transform.position.x > playerTr.transform.position.x ? 1 : -1;
-                    int Vertical = currentTarget.transform.position.y > playerTr.transform.position.y ? 1 : -1;
+                    int Horizontal = 0;
+
+                    if (xDIstance >= minMoveValue)
+                    {
+                        Horizontal = currentTarget.transform.position.x > playerTr.transform.position.x ? 1 : -1;
+                    }
+
+                    int Vertical = 0;
+
+                    if (yDIstance >= minMoveValue)
+                    {
+                        Vertical = currentTarget.transform.position.y > playerTr.transform.position.y ? 1 : -1;
+                    }
 
                     UiMoveStick.Instance.SetHorizontalAxsis(Horizontal);
                     UiMoveStick.Instance.SetVerticalAxsis(Vertical);
@@ -228,10 +242,10 @@ public class AutoManager : Singleton<AutoManager>
                 {
                     canAttack = true;
 
-                    
+
                     UiMoveStick.Instance.SetHorizontalAxsis(0);
                     UiMoveStick.Instance.SetVerticalAxsis(0);
-                    
+
                     //스킬 발동 방향 
                     bool isEnemyOnRight = currentTarget.transform.position.x > this.playerTr.position.x;
 

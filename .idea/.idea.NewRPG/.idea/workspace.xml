@@ -3,36 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Map/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Map/0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NormalStageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NormalStageMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerViewController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkillServerTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillServerTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UiMoveStick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiMoveStick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +135,7 @@
       <workItem from="1680801890680" duration="3000" />
       <workItem from="1680801900332" duration="26000" />
       <workItem from="1680801938580" duration="21000" />
-      <workItem from="1680801968768" duration="4884000" />
+      <workItem from="1680801968768" duration="5230000" />
     </task>
     <servers />
   </component>
