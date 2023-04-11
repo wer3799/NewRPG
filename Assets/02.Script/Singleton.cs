@@ -8,6 +8,7 @@ public abstract class Singleton<T> where T : new()
     {
         get
         {
+            //if (null == mInstance)
             if (object.ReferenceEquals(mInstance, null))
             {
                 mInstance = new T();

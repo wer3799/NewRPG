@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InGameCanvas : MonoBehaviour
+public class InGameCanvas : SingletonMono<InGameCanvas>
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   [SerializeField]
+   private GameObject rootObject;
+   public void ShowInGameCanvas(bool show)
+   {
+      rootObject.SetActive(show);
+   }
 }

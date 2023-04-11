@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/UiConfirmPopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/UiConfirmPopup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InGameCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InGameCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +38,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/02.Script/UserInfoTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CoroutineExecuter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnemyMoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnemyViewController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InGameScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainTabButtons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NormalStageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStatusController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -132,7 +144,7 @@
       <workItem from="1680801890680" duration="3000" />
       <workItem from="1680801900332" duration="26000" />
       <workItem from="1680801938580" duration="21000" />
-      <workItem from="1680801968768" duration="6227000" />
+      <workItem from="1680801968768" duration="8590000" />
     </task>
     <servers />
   </component>
@@ -159,30 +171,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/PlayerSkillCaster.cs</url>
-          <line>144</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" initialLine="144" containingFunctionPresentation="method 'ApplyDamage'">
+          <url>file://$PROJECT_DIR$/Assets/02.Script/Singleton.cs</url>
+          <line>62</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/02.Script/Singleton.cs" initialLine="61" containingFunctionPresentation="method 'Awake'">
             <startOffsets>
-              <option value="4788" />
+              <option value="1302" />
             </startOffsets>
             <endOffsets>
-              <option value="4824" />
+              <option value="1345" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/PlayerSkillCaster.cs</url>
-          <line>164</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" initialLine="164" containingFunctionPresentation="method 'ApplyDamage'">
-            <startOffsets>
-              <option value="5363" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5393" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="45" />
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
