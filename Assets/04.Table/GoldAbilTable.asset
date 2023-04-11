@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326e6ab753aab40dca3b6174aaf9fbc1, type: 3}
+  m_Name: GoldAbilTable
+  m_EditorClassIdentifier: 
+  SheetName: Assets/04.Table/GoldAbilTable.xls
+  WorksheetName: GoldAbilTable
+  dataArray:
+  - id: 0
+    stringid: G0
+    name: GoldStat0
+    maxlv: 50000
+    active: 1
+    basevalue: 10
+    addvalue: 1
+    statustype: 0
+    needstatuskey: 
+    unlocklevel: 0
+  - id: 1
+    stringid: G1
+    name: GoldStat1
+    maxlv: 50000
+    active: 1
+    basevalue: 10
+    addvalue: 1
+    statustype: 1
+    needstatuskey: GoldStat0
+    unlocklevel: 50000
+  - id: 2
+    stringid: G2
+    name: GoldStat2
+    maxlv: 50000
+    active: 1
+    basevalue: 10
+    addvalue: 1
+    statustype: 2
+    needstatuskey: GoldStat1
+    unlocklevel: 50000
+  - id: 3
+    stringid: G3
+    name: GoldStat3
+    maxlv: 50000
+    active: 1
+    basevalue: 10
+    addvalue: 1
+    statustype: 3
+    needstatuskey: GoldStat2
+    unlocklevel: 50000
+  - id: 4
+    stringid: G4
+    name: GoldStat4
+    maxlv: 50000
+    active: 1
+    basevalue: 10
+    addvalue: 1
+    statustype: 4
+    needstatuskey: GoldStat3
+    unlocklevel: 50000

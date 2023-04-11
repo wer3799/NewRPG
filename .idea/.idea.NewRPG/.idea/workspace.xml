@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/02.GameScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/Singleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Enemy/0.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/UiConfirmPopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefabs/UiConfirmPopup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InGameCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InGameCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/GoldAbil.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/GoldAbil.xls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +138,7 @@
       <workItem from="1680801890680" duration="3000" />
       <workItem from="1680801900332" duration="26000" />
       <workItem from="1680801938580" duration="21000" />
-      <workItem from="1680801968768" duration="8590000" />
+      <workItem from="1680801968768" duration="9876000" />
     </task>
     <servers />
   </component>
