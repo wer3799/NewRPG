@@ -69,4 +69,81 @@ public class Utils
             process.CallStatic("killProcess", pid);
         }
     }
+    
+    private static string[] goldUnitArr = new string[]
+    {
+        "", "만", "억", "조", "경", "해", "자", "양", "구", "간", "정", "재", "극", "항", "아", "나", "불", "무", "대", "겁", "업", "긍",
+        "갈", "라", "가", "언"
+    };
+
+    private static double p = (double)Mathf.Pow(10, 4);
+    private static List<double> numList = new List<double>();
+    private static List<string> numStringList = new List<string>();
+    private static string zeroString = "0";
+
+    public static string ConvertBigNum(double data)
+    {
+#if UNITY_EDITOR
+        bool isUnderZero = data < 0;
+        if (data < 0)
+        {
+            data *= -1f;
+        }
+#endif
+        //
+        if (data == 0f)
+        {
+            return zeroString;
+        }
+
+        double value = data;
+
+        numList.Clear();
+        numStringList.Clear();
+
+        do
+        {
+            numList.Add((value % p));
+            value /= p;
+        } while (value >= 1);
+
+        string retStr = "";
+
+        if (numList.Count >= 3)
+        {
+            for (int i = numList.Count - 1; i >= numList.Count - 2; i--)
+            {
+                if (numList[i] == 0) continue;
+
+                numStringList.Add(Math.Truncate(numList[i]) + goldUnitArr[i]);
+            }
+
+            for (int i = 0; i < numStringList.Count; i++)
+            {
+                retStr += numStringList[i];
+            }
+#if UNITY_EDITOR
+            if (isUnderZero)
+            {
+                return "-" + retStr;
+            }
+#endif
+            return retStr;
+        }
+        else
+        {
+            for (int i = 0; i < numList.Count; i++)
+            {
+                if (numList[i] == 0) continue;
+                retStr = Math.Truncate(numList[i]) + goldUnitArr[i] + retStr;
+            }
+#if UNITY_EDITOR
+            if (isUnderZero)
+            {
+                return "-" + retStr;
+            }
+#endif
+            return retStr;
+        }
+    }
 }

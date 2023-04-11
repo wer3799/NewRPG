@@ -135,39 +135,27 @@ public class PlayerSkillCaster : SingletonMono<PlayerSkillCaster>
     {
         return tableData.Activeoffset * Vector2.right * (playerMoveController.MoveDirection == MoveDirection.Right ? 1 : -1);
     }
-    private Dictionary<int, EnemyHpController> EnemyHpControllers = new Dictionary<int, EnemyHpController>();
-    private Dictionary<double, double> calculatedDamage = new Dictionary<double, double>();
-    private Dictionary<double, double> calculatedDamage_critical = new Dictionary<double, double>();
-    private Dictionary<double, double> calculatedDamage_superCritical = new Dictionary<double, double>();
-
+    
+    private Dictionary<int, EnemyHpController> agentHpControllers = new Dictionary<int, EnemyHpController>();
+    
     public IEnumerator ApplyDamage(Collider2D hitEnemie, SkillTableData skillInfo, double damage, bool playSound)
     {
-         EnemyHpController EnemyHpController;
+        EnemyHpController EnemyHpController;
         
         int instanceId = hitEnemie.GetInstanceID();
         
-        if (EnemyHpControllers.ContainsKey(instanceId) == false)
+        if (agentHpControllers.ContainsKey(instanceId) == false)
         {
-            EnemyHpControllers.Add(instanceId, hitEnemie.gameObject.GetComponent<EnemyHpController>());
-        
-            EnemyHpController = EnemyHpControllers[instanceId];
-        
+            agentHpControllers.Add(instanceId, hitEnemie.gameObject.GetComponent<EnemyHpController>());
+
+            EnemyHpController = agentHpControllers[instanceId];
         }
         else
         {
-            EnemyHpController = EnemyHpControllers[instanceId];
+            EnemyHpController = agentHpControllers[instanceId];
         }
         
-        double defense = EnemyHpController.Defense + 1;
-        
-        
-        
-        double key = damage * defense;
-        
-        double calculatedDam = damage;
-        
-        
-        double totalDamage = calculatedDam ;
+        double totalDamage = damage;
         
         //데미지는 한프레임에 적용
         if (EnemyHpController.gameObject == null || EnemyHpController.gameObject.activeInHierarchy == false)
@@ -179,6 +167,12 @@ public class PlayerSkillCaster : SingletonMono<PlayerSkillCaster>
             EnemyHpController.UpdateHp(-totalDamage);
         }
         
+        bool spawnDamText = SettingData.ShowDamageFont.Value == 1;
+        
+        // if (spawnDamText)
+        // {
+            EnemyHpController.SpawnDamText(false, false, totalDamage);
+        // }
         
         // //이펙트는 최대 10개까지만 출력
         // for (int hit = 0; hit < hitCount && hit < 10; hit++)
@@ -213,19 +207,6 @@ public class PlayerSkillCaster : SingletonMono<PlayerSkillCaster>
         //         yield return null;
         //     }
         // }
-        
-        if (calculatedDamage.Count > 1000)
-        {
-            calculatedDamage.Clear();
-        }
-        if (calculatedDamage_critical.Count > 1000)
-        {
-            calculatedDamage_critical.Clear();
-        }
-        if (calculatedDamage_superCritical.Count > 1000)
-        {
-            calculatedDamage_superCritical.Clear();
-        }
     }
 
     private new void OnDestroy()

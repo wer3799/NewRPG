@@ -24,12 +24,6 @@ public class Slash0 : SkillBase
 
         var hitEnemies = playerSkillCaster.GetEnemiesInBoxcast(skillCastPos, rayDirection, skillInfo.Targetrange, 4f).Select(e => e.collider).ToArray();
 
-        //발동 이펙트
-        //+이펙트
-
-        //이동제한있을경우
-        //playerSkillCaster.SetMoveRestriction(skillInfo.Movedelay);
-
         //데미지
         double damage = GetSkillDamage(skillInfo);
 

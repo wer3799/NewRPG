@@ -20,4 +20,16 @@ public class GameBalance
     public readonly static int SkillAwakePlusNum = 10;
     
     public readonly static float initHp = 10;
+    public readonly static float MaxDamTextNum = 100;
+    public readonly static int effectActiveDistance = 15;
+}
+
+public static class DamageBalance
+{
+    public readonly static float baseMinDamage = 1f;
+    public readonly static float baseMaxDamage = 1f;
+    public static float GetRandomDamageRange()
+    {
+        return Random.Range(baseMinDamage , baseMaxDamage);
+    }
 }

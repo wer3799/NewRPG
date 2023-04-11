@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using Spine;
 using UnityEngine;
+using System.Linq;
 
 public class ObjectPool<T> where T : PoolItem
 {
     private Stack<T> inPool;
     private Dictionary<int, T> outPool;
+    public Dictionary<int, T> OutPool=>outPool;
 
     private T prefab;
     private Transform parent;
@@ -82,5 +84,17 @@ public class ObjectPool<T> where T : PoolItem
 
         outPool.Clear();
         outPool = null;
+    }
+    
+    public void DisableAllObject()
+    {
+        var keys = outPool.Keys.ToList();
+
+        for (int i = 0; i < keys.Count; i++)
+        {
+            outPool[keys[i]].gameObject.SetActive(false);
+        }
+
+        outPool.Clear();
     }
 }

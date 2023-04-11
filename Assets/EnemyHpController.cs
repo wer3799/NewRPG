@@ -88,9 +88,81 @@ public class EnemyHpController : MonoBehaviour
     }
 
 
+    private Vector3 damTextspawnPos;
+    private Coroutine damTextRoutine;
+    private int attackCount = 0;
+    private int attackCountMax = 16;
+    private double attackResetCount = 0f;
+    private double damTextMergeTime = 0.5f;
+    private const float damTextCountAddValue = 0.1f;
+    private readonly WaitForSeconds DamTextDelay = new WaitForSeconds(damTextCountAddValue);
+    private float rightValue = 0f;
+    private float upValue = 2f;
+    
     public void SpawnDamText(bool isCritical, bool isSuperCritical, double value)
     {
-       
+        Vector3 spawnPos = Vector3.zero;
+
+        if (damTextSpawnPos != null)
+        {
+            spawnPos = damTextSpawnPos.position;
+        }
+        else
+        {
+            spawnPos = this.transform.position;
+        }
+
+        if (damTextRoutine == null && isEnemyDead == false)
+        {
+            damTextRoutine = StartCoroutine(DamTextRoutine());
+        }
+
+        damTextspawnPos = this.transform.position + Vector3.up * attackCount * 1f + Vector3.right * rightValue + Vector3.up * upValue;
+
+        attackCount++;
+
+        if (attackCount == attackCountMax)
+        {
+            attackCount = 0;
+            rightValue = UnityEngine.Random.Range(-3f, 3f);
+            upValue = UnityEngine.Random.Range(2f, 4.5f);
+        }
+
+        attackResetCount = 0f;
+
+        if (Vector3.Distance(playerPos.position, this.transform.position) < GameBalance.effectActiveDistance)
+        {
+            DamTextType damType = DamTextType.Normal;
+
+            if (isCritical)
+            {
+                damType = DamTextType.Critical;
+            }
+
+            if (isSuperCritical)
+            {
+                damType = DamTextType.SuperCritical;
+            }
+
+            BattleObjectManagerAllTime.Instance.SpawnDamageText(value, damTextspawnPos, damType);
+        }
+    }
+    
+    private IEnumerator DamTextRoutine()
+    {
+        while (attackResetCount < damTextMergeTime)
+        {
+            yield return DamTextDelay;
+            attackResetCount += 0.1f;
+        }
+
+        ResetDamTextValue();
+    }
+    private void ResetDamTextValue()
+    {
+        attackCount = 0;
+        attackResetCount = 0f;
+        damTextRoutine = null;
     }
 
     public void UpdateHp(double value)

@@ -81,16 +81,8 @@ public class PlayerData : SingletonMono<PlayerData>
 
         SaveManager.Instance.StartAutoSave();
         //PushManager.Instance.Initialize();
-#if UNITY_IOS
-        Backend.Chart.GetChartList((callback) =>
-        {
-            HasIOSFlag = callback.Rows().Count == 2;
-            if(HasIOSFlag)
-            {
-                 SRDebug.Init();
-            }
-        });
-#endif
+        
+        SRDebug.Init();
     }
 
     private void Subscribe()

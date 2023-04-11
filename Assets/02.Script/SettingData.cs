@@ -50,6 +50,7 @@ public static class SettingData
 
     public static ReactiveProperty<int> showFoxCup = new ReactiveProperty<int>(); //x이하일떄 (3개옵션)
     public static ReactiveProperty<int> showRingEffect = new ReactiveProperty<int>(); //x이하일떄 (3개옵션)
+    public static ReactiveProperty<int> showVisionSkill = new ReactiveProperty<int>(); //x이하일떄 (3개옵션)
 
     public static int screenWidth = Screen.width;
     public static int screenHeight = Screen.height;
