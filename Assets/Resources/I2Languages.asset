@@ -41,6 +41,38 @@ MonoBehaviour:
       - Test
       Flags: 0000
       Languages_Touch: []
+    - Term: GoldStat0
+      TermType: 0
+      Description: 
+      Languages:
+      - "\uD06C\uB9AC\uD2F0\uCEEC2\uBC30"
+      - CriticalX2
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GoldStat1
+      TermType: 0
+      Description: 
+      Languages:
+      - "\uD06C\uB9AC\uD2F0\uCEEC2\uBC30"
+      - X
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GoldStat2
+      TermType: 0
+      Description: 
+      Languages:
+      - "\uD06C\uB9AC\uD2F0\uCEEC 8\uBC30"
+      - x8
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GoldStat3
+      TermType: 0
+      Description: 
+      Languages:
+      - "\uD06C\uB9AC\uD2F0\uCEEC16\uBC30"
+      - x16
+      Flags: 0000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
