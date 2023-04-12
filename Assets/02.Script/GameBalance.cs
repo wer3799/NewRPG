@@ -22,6 +22,7 @@ public class GameBalance
     public readonly static float initHp = 10;
     public readonly static float MaxDamTextNum = 100;
     public readonly static int effectActiveDistance = 15;
+    public readonly static int stageBossClearTime = 10;
 }
 
 public static class DamageBalance

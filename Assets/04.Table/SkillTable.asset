@@ -23,9 +23,9 @@ MonoBehaviour:
     cooltime: 0.2
     damageper: 1
     damageaddvalue: 0.2
-    targetcount: 50
+    targetcount: 5
     hitcount: 1
-    targetrange: 5
+    targetrange: 1
     skillgrade: 0
     activeeffectname1: circle1
     hiteffectname: 1-1_hit

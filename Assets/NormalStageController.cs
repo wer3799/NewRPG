@@ -39,6 +39,21 @@ public class NormalStageController : SingletonMono<NormalStageController>
     private void Start()
     {
         MakeStage();
+
+        Subscribe();
+    }
+
+    private void Subscribe()
+    {
+        disposable.Clear();
+
+        stageState.AsObservable().Subscribe(e =>
+        {
+            if (e == NormalStageState.Normal)
+            {
+                disposable.Clear();
+            }
+        }).AddTo(this);
     }
 
 
@@ -138,11 +153,28 @@ public class NormalStageController : SingletonMono<NormalStageController>
         currentSpawnedEnemies.Remove(enemy);
     }
 
+    private CompositeDisposable disposable = new CompositeDisposable();
+    
     public void StartStageBoss()
     {
         stageState.Value = NormalStageState.Boss;
+        
         DisableAllEnemies();
+        
         SpawnBossEnemy();
+        
+        UiSubHpBar.Instance.ShowGauge(true);
+        
+        UiBossTimer.Instance.StartBossTimer(GameBalance.stageBossClearTime);
+        
+        disposable.Clear();
+
+        UiBossTimer.Instance.whenFieldBossTimerEnd.AsObservable().Subscribe(e =>
+        {
+            
+            StageBossTimeOut();
+
+        }).AddTo(disposable);
     }
 
     private void SpawnBossEnemy()
@@ -177,11 +209,30 @@ public class NormalStageController : SingletonMono<NormalStageController>
         MakeStage();
     }
 
+    public void StageBossTimeOut()
+    {
+        //보스 끄기
+        for (int i = 0; i < currentSpawnedEnemies.Count; i++)
+        {
+            currentSpawnedEnemies[i].gameObject.SetActive(false);
+        }
+        
+        stageState.Value = NormalStageState.Normal;
+        
+        UiSubHpBar.Instance.ShowGauge(false);
+
+        UiBossTimer.Instance.StopBossTimer();
+    }
+
     public void SetStageBossClear()
     {
-        ServerData.userInfoTable.TableDatas[UserInfoTable.CurrentStage].Value++;
-
         stageState.Value = NormalStageState.Normal;
+        
+        UiSubHpBar.Instance.ShowGauge(false);
+        
+        UiBossTimer.Instance.StopBossTimer();
+        
+        ServerData.userInfoTable.TableDatas[UserInfoTable.CurrentStage].Value++;
 
         if (stageSyncRoutine != null)
         {
@@ -191,7 +242,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
         StartCoroutine(StageSyncRoutine());
     }
 
-    private WaitForSeconds delay = new WaitForSeconds(1.0f);
+    private WaitForSeconds delay = new WaitForSeconds(10.0f);
     private Coroutine stageSyncRoutine;
 
     private IEnumerator StageSyncRoutine()
@@ -200,4 +251,11 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
         ServerData.userInfoTable.UpData(UserInfoTable.CurrentStage, false);
     }
+
+    private void OnDestroy()
+    {
+        base.OnDestroy();
+        disposable.Dispose();
+    }
+    
 }

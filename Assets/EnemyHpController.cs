@@ -28,6 +28,7 @@ public class EnemyHpController : MonoBehaviour
 
     private bool initialized = false;
 
+    private bool isBossEnemy = false;
  
 
     private void BaseInit()
@@ -46,7 +47,15 @@ public class EnemyHpController : MonoBehaviour
     {
         currentHp.AsObservable().Subscribe(e =>
         {
-            enemyHpBar.UpdateGauge(e, maxHp);
+            if (isBossEnemy==false)
+            {
+                enemyHpBar.UpdateGauge(e, maxHp);
+            }
+            else
+            {
+                UiSubHpBar.Instance.UpdateGauge(e, maxHp);
+            }
+
         }).AddTo(this);
     }
 
@@ -64,6 +73,8 @@ public class EnemyHpController : MonoBehaviour
     public void Initialize(EnemyTableData enemyTableData,bool isBossEnemy=false)
     {
         this.enemyTableData = enemyTableData;
+
+        this.isBossEnemy = isBossEnemy;
         
         BaseInit();
 
