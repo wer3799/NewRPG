@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 
 //파일 예시
 //Option1
@@ -12,10 +13,8 @@ using System.Text;
 
 public static class EnumCodeGenerator
 {
-    public static void GenerateEnumFromTextFile(string inputFilePath, string enumName, string outputFilePath)
+    public static void GenerateEnumFromTextFile(string[] inputLines,string enumName, string outputFilePath)
     {
-        // Read the input text file
-        string[] inputLines = File.ReadAllLines(inputFilePath);
 
         // Create a new StringBuilder to hold the C# code for the Enum
         StringBuilder codeBuilder = new StringBuilder();
@@ -39,11 +38,14 @@ public static class EnumCodeGenerator
 
         codeBuilder.AppendLine("}");
 
-        // Write the C# code to the output file
+        string fileContents = File.ReadAllText(outputFilePath);
         File.WriteAllText(outputFilePath, codeBuilder.ToString());
-
-        // Compile the generated code
-        CompileGeneratedCode(outputFilePath);
+        
+        // // Write the C# code to the output file
+        // File.WriteAllText(outputFilePath, codeBuilder.ToString());
+        //
+        // // Compile the generated code
+        // CompileGeneratedCode(outputFilePath);
     }
 
     private static void CompileGeneratedCode(string codeFilePath)
