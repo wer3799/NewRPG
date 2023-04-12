@@ -61,7 +61,7 @@ public class EnemyHpController : MonoBehaviour
         this.defense = defense;
     }
 
-    public void Initialize(EnemyTableData enemyTableData)
+    public void Initialize(EnemyTableData enemyTableData,bool isBossEnemy=false)
     {
         this.enemyTableData = enemyTableData;
         
@@ -69,7 +69,7 @@ public class EnemyHpController : MonoBehaviour
 
         SetDefense(enemyTableData.Defense);
         
-        SetHp(enemyTableData.Hp);
+        SetHp(enemyTableData.Hp * enemyTableData.Bosshpratio);
 
     }
 

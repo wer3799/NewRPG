@@ -480,6 +480,52 @@ MonoBehaviour:
   mGUI_ShowCallback: 0
   mLocalizeTarget: {fileID: 2108998625}
   mLocalizeTargetName: I2.Loc.LocalizeTarget_TextMeshPro_UGUI
+--- !u!1 &278837412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 278837414}
+  - component: {fileID: 278837413}
+  m_Layer: 0
+  m_Name: GameEscapeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &278837413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278837412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98a6eef5e0cd4b9a9137c018fca52d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DontDestroy: 1
+  popupObject: {fileID: 0}
+--- !u!4 &278837414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278837412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 840.3884, y: 504.8329, z: -4.0672836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &316708278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,11 +1080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea6ebc81c54f3bae732dace80005b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DontDestroy: 1
-  poolSets: []
-  damageTextPrefab: {fileID: 0}
-  playerTr: {fileID: 0}
-  zOffset: 0
 --- !u!4 &1173852044
 Transform:
   m_ObjectHideFlags: 0
@@ -1853,7 +1894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DontDestroy: 1
-  editorLoginId: Test
+  editorLoginId: ee2e2e
   testId: a_8846847867697156085
   nickNameInputBoard: {fileID: 911817243}
   loginId: 
@@ -2127,10 +2168,6 @@ PrefabInstance:
     - target: {fileID: 7676500511631068865, guid: f9507a253b8054843978630e888e1ebf, type: 3}
       propertyPath: m_Name
       value: InGameCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 7676500511631068865, guid: f9507a253b8054843978630e888e1ebf, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676500511631068926, guid: f9507a253b8054843978630e888e1ebf, type: 3}
       propertyPath: m_Pivot.x

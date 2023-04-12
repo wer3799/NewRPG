@@ -21,4 +21,9 @@ public abstract class PoolItem : MonoBehaviour
     {
         ReturnToPool();
     }
+
+    public void Dispose()
+    {
+        this.returnToPool = null;
+    }
 }

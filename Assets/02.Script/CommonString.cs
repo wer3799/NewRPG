@@ -100,3 +100,13 @@ public static class CommonString
     public static string weapon78Key = "weapon78";
     public static string weapon79Key = "weapon79";
 }
+
+public static class GameString
+{
+    public static string GetString(string key)
+    {
+        return I2.Loc.LocalizationManager.GetTranslation(key);
+    }
+    
+    public static string Notice =>I2.Loc.LocalizationManager.GetTranslation("Notice");
+}

@@ -9,6 +9,12 @@ using UnityEngine.Serialization;
 public class TableManager : SingletonMono<TableManager>
 {
     public StageMap stageMap;
+    
+    public int GetLastStageIdx()
+    {
+        return stageMap.dataArray[stageMap.dataArray.Length - 1].Id;
+    }
+    
     public EnemyTable enemyTable;
     private Dictionary<string, EnemyTableData> enemyData = null;
 
@@ -61,4 +67,6 @@ public class TableManager : SingletonMono<TableManager>
 
 
     public GoldAbilTable goldAbilTable;
+
+ 
 }

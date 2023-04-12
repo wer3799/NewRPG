@@ -12,15 +12,17 @@ public class Enemy : PoolItem
     [SerializeField]
     private EnemyHpController enemyHpController;
 
+    private EnemyTableData enemyTableData;
+
     public bool isFieldBossEnemy { get; private set; } = false;
-    
+
     private Action<Enemy> returnCallBack;
-    
+
     public void SetReturnCallBack(Action<Enemy> returnCallBack)
     {
         this.returnCallBack = returnCallBack;
     }
-    
+
 #if UNITY_EDITOR
     private void OnValidate()
     {
@@ -33,17 +35,27 @@ public class Enemy : PoolItem
     {
         enemyHpController.whenEnemyDead.AsObservable().Subscribe(e =>
         {
+            
             this.gameObject.SetActive(false);
+
+            if (isFieldBossEnemy)
+            {
+                NormalStageController.Instance.SetStageBossClear();
+            }
+            
         }).AddTo(this);
     }
 
-    public void Initialize(EnemyTableData enemyTableData)
+    public void Initialize(EnemyTableData enemyTableData, bool isBossEnemy = false)
     {
         //여기 여러번 타서 구독 여러번 하면 안됨
+        this.enemyTableData = enemyTableData;
 
+        isFieldBossEnemy = isBossEnemy;
+        
         enemyMoveController.Initialize(enemyTableData);
 
-        enemyHpController.Initialize(enemyTableData);
+        enemyHpController.Initialize(enemyTableData,isBossEnemy);
     }
 
     private void OnDisable()

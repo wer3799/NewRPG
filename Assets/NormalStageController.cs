@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UniRx;
 using UnityEngine;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
@@ -16,7 +17,9 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
     private GameObject currentMapObject;
 
-    private NormalStageState normalStageState = NormalStageState.Normal;
+    private ReactiveProperty<NormalStageState> stageState = new ReactiveProperty<NormalStageState>();
+
+    public NormalStageState StageState => stageState.Value;
 
     private List<ObjectPool<Enemy>> spawnedEnemyList = new List<ObjectPool<Enemy>>();
 
@@ -24,9 +27,14 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
     private Coroutine normalEnemySpawnRoutine;
 
-    private StageMapData mapTableData;
+    private ReactiveProperty<StageMapData> mapTableData = new ReactiveProperty<StageMapData>();
+
+    public ReactiveProperty<StageMapData> MapTableData => mapTableData;
 
     private NormalStageMap normalStageMap;
+
+
+    public bool IsBossState => stageState.Value == NormalStageState.Boss;
 
     private void Start()
     {
@@ -46,32 +54,36 @@ public class NormalStageController : SingletonMono<NormalStageController>
         }
 
         normalEnemySpawnRoutine = StartCoroutine(NormalEnemySpawnRoutine());
-        
+
         AutoManager.Instance.SetAuto(true);
     }
 
     private IEnumerator NormalEnemySpawnRoutine()
     {
-        WaitForSeconds spawnDelay = new WaitForSeconds(mapTableData.Nextspawndelay);
+        WaitForSeconds spawnDelay = new WaitForSeconds(mapTableData.Value.Nextspawndelay);
 
         while (true)
         {
-            for (int i = 0; i < mapTableData.Spawnenemies.Length; i++)
+            for (int i = 0; i < mapTableData.Value.Spawnenemies.Length; i++)
             {
-                for (int j = 0; j < mapTableData.Spawnnum; j++)
+                for (int j = 0; j < mapTableData.Value.Spawnnum; j++)
                 {
+                    if (stageState.Value == NormalStageState.Boss) continue;
+
                     int randIdx = Random.Range(0, spawnedEnemyList.Count);
 
-                    var enemyTableData = TableManager.Instance.EnemyData[mapTableData.Spawnenemies[i]];
+                    var enemyTableData = TableManager.Instance.EnemyData[mapTableData.Value.Spawnenemies[i]];
 
                     var enemyPrefab = spawnedEnemyList[randIdx].GetItem();
 
                     enemyPrefab.Initialize(enemyTableData);
-                    
+
+                    enemyPrefab.transform.localScale = Vector3.one;
+
                     enemyPrefab.SetReturnCallBack(EnemyRemoveCallBack);
 
                     enemyPrefab.transform.position = normalStageMap.GetRandomSpawnPos();
-                    
+
                     currentSpawnedEnemies.Add(enemyPrefab);
                 }
             }
@@ -96,32 +108,96 @@ public class NormalStageController : SingletonMono<NormalStageController>
         }
 
         spawnedEnemyList.Clear();
-        
+
         currentSpawnedEnemies.Clear();
     }
+
 
     private void MakeObjectByCurrentStageId()
     {
         int currentStageId = (int)ServerData.userInfoTable.TableDatas[UserInfoTable.CurrentStage].Value;
 
-        mapTableData = TableManager.Instance.stageMap.dataArray[currentStageId];
+        mapTableData.Value = TableManager.Instance.stageMap.dataArray[currentStageId];
 
-        var mapPrefab = Resources.Load<GameObject>($"Map/{mapTableData.Mappreset}");
+        var mapPrefab = Resources.Load<GameObject>($"Map/{mapTableData.Value.Mappreset}");
 
         currentMapObject = GameObject.Instantiate(mapPrefab);
         currentMapObject.transform.localPosition = Vector3.zero;
         normalStageMap = currentMapObject.GetComponent<NormalStageMap>();
 
-        List<string> enemyPrefabNames = mapTableData.Spawnenemies.ToList();
+        List<string> enemyPrefabNames = mapTableData.Value.Spawnenemies.ToList();
 
         for (int i = 0; i < enemyPrefabNames.Count; i++)
         {
             spawnedEnemyList.Add(new ObjectPool<Enemy>(Resources.Load<Enemy>($"Enemy/{enemyPrefabNames[i]}"), this.transform, 10));
         }
     }
-    
+
     private void EnemyRemoveCallBack(Enemy enemy)
     {
         currentSpawnedEnemies.Remove(enemy);
+    }
+
+    public void StartStageBoss()
+    {
+        stageState.Value = NormalStageState.Boss;
+        DisableAllEnemies();
+        SpawnBossEnemy();
+    }
+
+    private void SpawnBossEnemy()
+    {
+        var enemyTableData = TableManager.Instance.EnemyData[mapTableData.Value.Spawnenemies[0]];
+
+        var enemyPrefab = spawnedEnemyList[0].GetItem();
+
+        enemyPrefab.Initialize(enemyTableData, isBossEnemy: true);
+
+        enemyPrefab.SetReturnCallBack(EnemyRemoveCallBack);
+
+        enemyPrefab.transform.position = normalStageMap.GetBossSpawnPos();
+
+        enemyPrefab.transform.localScale = Vector3.one * 5f;
+
+        currentSpawnedEnemies.Add(enemyPrefab);
+    }
+
+    private void DisableAllEnemies()
+    {
+        for (int i = 0; i < spawnedEnemyList.Count; i++)
+        {
+            spawnedEnemyList[i].DisableAllObject();
+        }
+    }
+
+    public void MoveNextStage()
+    {
+        DestroyPrefObjects();
+
+        MakeStage();
+    }
+
+    public void SetStageBossClear()
+    {
+        ServerData.userInfoTable.TableDatas[UserInfoTable.CurrentStage].Value++;
+
+        stageState.Value = NormalStageState.Normal;
+
+        if (stageSyncRoutine != null)
+        {
+            StopCoroutine(stageSyncRoutine);
+        }
+
+        StartCoroutine(StageSyncRoutine());
+    }
+
+    private WaitForSeconds delay = new WaitForSeconds(1.0f);
+    private Coroutine stageSyncRoutine;
+
+    private IEnumerator StageSyncRoutine()
+    {
+        yield return delay;
+
+        ServerData.userInfoTable.UpData(UserInfoTable.CurrentStage, false);
     }
 }

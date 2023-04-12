@@ -76,7 +76,11 @@ public class ObjectPool<T> where T : PoolItem
     {
         while (pool.Count > 0)
         {
-            UnityEngine.Object.Destroy(pool.Dequeue());
+            var item = pool.Dequeue();
+            
+            item.Dispose();
+            
+            UnityEngine.Object.Destroy(item);
         }
 
         pool = null;
@@ -86,6 +90,9 @@ public class ObjectPool<T> where T : PoolItem
 
         for (int i = 0; i < keys.Count; i++)
         {
+            
+            outPool[keys[i]].Dispose();
+            
             UnityEngine.Object.Destroy(outPool[keys[i]].gameObject);
         }
 
