@@ -3,19 +3,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoolItem : MonoBehaviour
+public abstract class PoolItem : MonoBehaviour
 {
-    private Action<PoolItem> returnFunc;
+    private Action<PoolItem> returnToPool;
 
-    public void SetReturnFunc(Action<PoolItem> returnFunc)
+    public void SetReturnEvent(Action<PoolItem> returnToPool)
     {
-        this.returnFunc = returnFunc;
+        this.returnToPool = returnToPool;
     }
 
-    public void ReturnToPool()
+    private void ReturnToPool()
     {
-        returnFunc?.Invoke(this);
+        returnToPool?.Invoke(this);
     }
 
-    public void ResetState(){}
+    public void OnDisable()
+    {
+        ReturnToPool();
+    }
 }

@@ -34,8 +34,6 @@ public class Enemy : PoolItem
         enemyHpController.whenEnemyDead.AsObservable().Subscribe(e =>
         {
             this.gameObject.SetActive(false);
-
-            ReturnToPool();
         }).AddTo(this);
     }
 
@@ -50,6 +48,7 @@ public class Enemy : PoolItem
 
     private void OnDisable()
     {
+        base.OnDisable();
         this.returnCallBack?.Invoke(this);
 
         // if (isFieldBossEnemy && MapInfo.Instance != null)

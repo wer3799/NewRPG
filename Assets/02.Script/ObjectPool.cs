@@ -1,91 +1,65 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
-using Spine;
-using UnityEngine;
 using System.Linq;
+using UnityEngine;
+using Object = System.Object;
 
 public class ObjectPool<T> where T : PoolItem
 {
-    private Stack<T> inPool;
-    private Dictionary<int, T> outPool;
-    public Dictionary<int, T> OutPool=>outPool;
-
     private T prefab;
     private Transform parent;
-
-    public ObjectPool(T prefab, Transform parent, int initialPoolSize = 0)
+    private Queue<T> pool = new Queue<T>();
+    public Queue<T> Pool => pool;
+    private Dictionary<int, T> outPool = new Dictionary<int, T>();
+    public Dictionary<int, T> OutPool => outPool;
+    
+    public ObjectPool(T prefab, Transform parent, int initCount)
     {
         this.prefab = prefab;
         this.parent = parent;
 
-        inPool = new Stack<T>();
-        outPool = new Dictionary<int, T>();
-
-        for (int i = 0; i < initialPoolSize; i++)
+        for (int i = 0; i < initCount; i++)
         {
             MakeItem();
         }
     }
-
-    private void MakeItem()
-    {
-        var initObject = Object.Instantiate<T>(prefab, parent);
-
-        initObject.SetReturnFunc(ReturnObject);
-
-        initObject.gameObject.SetActive(false);
-
-        inPool.Push(initObject);
-    }
-
     public T GetItem()
     {
-        if (inPool.Count == 0)
+        T item = null;
+        if (pool.Count == 0)
         {
-            MakeItem();
+            item = MakeItem();
         }
 
-        T obj = inPool.Pop();
+        item = pool.Dequeue();
 
-        if (outPool.ContainsKey(obj.GetInstanceID()))
-        {
-            
-        }
-        
-        outPool.Add(obj.GetInstanceID(), obj);
+        item.gameObject.SetActive(true);
 
-        obj.gameObject.SetActive(true);
+        outPool.Add(item.GetInstanceID(), item);
 
-        return obj;
+        return item;
     }
 
-    private void ReturnObject(PoolItem obj)
+    private T MakeItem()
     {
-        obj.gameObject.SetActive(false);
+        var item = UnityEngine.Object.Instantiate(prefab, parent);
+        
+        item.gameObject.SetActive(false);
+        
+        item.SetReturnEvent(ReturnToPool);
+        
+        pool.Enqueue(item);
+        
+        return item;
+    }
 
-        inPool.Push(obj as T);
-
+    private void ReturnToPool(PoolItem obj)
+    {
+        pool.Enqueue(obj as T);
         outPool.Remove(obj.GetInstanceID());
     }
 
-    public void DestroyAllItems()
-    {
-        foreach (T obj in inPool)
-        {
-            Object.Destroy(obj.gameObject);
-        }
-
-        inPool.Clear();
-        inPool = null;
-
-        foreach (var obj in outPool)
-        {
-            Object.Destroy(obj.Value.gameObject);
-        }
-
-        outPool.Clear();
-        outPool = null;
-    }
-    
     public void DisableAllObject()
     {
         var keys = outPool.Keys.ToList();
@@ -96,5 +70,27 @@ public class ObjectPool<T> where T : PoolItem
         }
 
         outPool.Clear();
+    }
+
+    public void DestroyAllItems()
+    {
+        while (pool.Count > 0)
+        {
+            UnityEngine.Object.Destroy(pool.Dequeue());
+        }
+
+        pool = null;
+        
+        
+        var keys = outPool.Keys.ToList();
+
+        for (int i = 0; i < keys.Count; i++)
+        {
+            UnityEngine.Object.Destroy(outPool[keys[i]].gameObject);
+        }
+
+        outPool.Clear();
+
+        outPool = null;
     }
 }
