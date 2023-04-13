@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/SettingData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/SettingData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/Slash0.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/Slash0.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/Utils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnemyHpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyHpController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +142,7 @@
       <workItem from="1680801890680" duration="3000" />
       <workItem from="1680801900332" duration="26000" />
       <workItem from="1680801938580" duration="21000" />
-      <workItem from="1680801968768" duration="13195000" />
+      <workItem from="1680801968768" duration="13883000" />
     </task>
     <servers />
   </component>
