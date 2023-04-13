@@ -41,11 +41,15 @@ public class GoldAbilTableData
   public int Statustype { get {return statustype; } set { this.statustype = value;} }
   
   [SerializeField]
-  string needstatuskey;
-  public string Needstatuskey { get {return needstatuskey; } set { this.needstatuskey = value;} }
+  int needstatuskey;
+  public int Needstatuskey { get {return needstatuskey; } set { this.needstatuskey = value;} }
   
   [SerializeField]
   int unlocklevel;
   public int Unlocklevel { get {return unlocklevel; } set { this.unlocklevel = value;} }
+  
+  [SerializeField]
+  bool ispercent;
+  public bool Ispercent { get {return ispercent; } set { this.ispercent = value;} }
   
 }

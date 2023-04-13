@@ -30,6 +30,10 @@ MonoBehaviour:
     name: nameKey
     isEnable: 0
     isArray: 0
+  - type: 8
+    name: syncAlways
+    isEnable: 0
+    isArray: 0
   excelFilePath: Assets/04.Table/Goods.xls
   SheetNames:
   - Goods

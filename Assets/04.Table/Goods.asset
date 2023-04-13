@@ -24,6 +24,3 @@ MonoBehaviour:
   - id: 2
     stringid: Diamond
     namekey: Diamond
-  - id: 3
-    stringid: Test
-    namekey: Test

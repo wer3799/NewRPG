@@ -50,53 +50,33 @@ public abstract class SkillBase
 
     private void SpawnActiveEffect()
     {
-        //     Transform targetTr = null;
-        //
-        //     if (skillInfo.SKILLCASTTYPE == SkillCastType.Player)
-        //     {
-        //         targetTr = PlayerMoveController.Instance.transform;
-        //     }
-        //     else if (skillInfo.SKILLCASTTYPE == SkillCastType.Son)
-        //     {
-        //         if (SonSkillCaster.Instance != null)
-        //             targetTr = SonSkillCaster.Instance.skillSpawnPos;
-        //     }
-        //     else//사천왕
-        //     {
-        //         if (FourSkillCaster.Instance != null)
-        //             targetTr = FourSkillCaster.Instance.skillSpawnPos;
-        //     }
-        //
-        //     if (targetTr == null) return;
-        //
-        //     MoveDirection moveDirection = PlayerMoveController.Instance.MoveDirection;
-        //
-        //     bool showFirstSlotEffect = SettingData.ShowEffect.Value == 0 &&
-        //                             ServerData.skillServerTable.IsFistSlotSkill(skillInfo.Id) &&
-        //                             SettingData.showOneSkillEffect.Value == 1;
-        //
-        //     Vector3 activeEffectSpawnPos2 = targetTr.position + Vector3.up * 0.5f - Vector3.forward * 5f;
-        //
-        //     if (string.IsNullOrEmpty(skillInfo.Activeeffectname2) == false)
-        //     {
-        //
-        //         Transform parent = skillInfo.Iseffectrootplayer ? targetTr : null;
-        //
-        //         var effect = EffectManager.SpawnEffectAllTime(skillInfo.Activeeffectname2, activeEffectSpawnPos2, parent, showFirstSlotEffect: showFirstSlotEffect);
-        //
-        //         if (effect != null)
-        //         {
-        //             if (skillInfo.Iseffectrootplayer == false)
-        //             {
-        //                 effect.transform.position = targetTr.position;
-        //
-        //                 effect.transform.localScale = new Vector3(1f, 1f, 1f);
-        //             }
-        //             else
-        //             {
-        //                 effect.transform.localScale = new Vector3(Mathf.Abs(effect.transform.localScale.x) * (moveDirection == MoveDirection.Right ? 1f : -1f), effect.transform.localScale.y, effect.transform.localScale.z);
-        //             }
-        //         }
-        //     }
+        Transform targetTr = null;
+
+        if (skillInfo.SKILLCASTTYPE == SkillCastType.Player)
+        {
+            targetTr = PlayerMoveController.Instance.transform;
+        }
+
+        MoveDirection moveDirection = PlayerMoveController.Instance.MoveDirection;
+
+        Vector3 activeEffectSpawnPos = targetTr.position;
+
+        Transform parent = skillInfo.Iseffectrootplayer ? targetTr : null;
+
+        var effect = EffectManager.SpawnEffectAllTime(skillInfo.Activeeffectname1, activeEffectSpawnPos, parent);
+
+        if (effect != null)
+        {
+            if (skillInfo.Iseffectrootplayer == false)
+            {
+                effect.transform.position = targetTr.position;
+
+                effect.transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            else
+            {
+                effect.transform.localScale = new Vector3(Mathf.Abs(effect.transform.localScale.x) * (moveDirection == MoveDirection.Right ? 1f : -1f), effect.transform.localScale.y, effect.transform.localScale.z);
+            }
+        }
     }
 }

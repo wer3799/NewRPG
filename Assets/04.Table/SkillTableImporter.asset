@@ -94,6 +94,14 @@ MonoBehaviour:
     name: ActiveOffset
     isEnable: 0
     isArray: 0
+  - type: 7
+    name: SkillCastType
+    isEnable: 0
+    isArray: 0
+  - type: 8
+    name: Iseffectrootplayer
+    isEnable: 0
+    isArray: 0
   excelFilePath: Assets/04.Table/SkillTable.xls
   SheetNames:
   - SkillTable

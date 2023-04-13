@@ -6,6 +6,11 @@ using UnityEngine;
 using UniRx;
 using CodeStage.AntiCheat.ObscuredTypes;
 
+public enum SkillCastType
+{
+    Player,
+}
+
 public class PlayerSkillCaster : SingletonMono<PlayerSkillCaster>
 {
     [SerializeField]

@@ -25,12 +25,14 @@ MonoBehaviour:
     damageaddvalue: 0.2
     targetcount: 5
     hitcount: 1
-    targetrange: 1
+    targetrange: 0.1
     skillgrade: 0
-    activeeffectname1: circle1
+    activeeffectname1: slash
     hiteffectname: 1-1_hit
     skilltype: 0
     soundname: 1-1
     haseffecttype: 11
     haseffectvalue: 50
     activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1

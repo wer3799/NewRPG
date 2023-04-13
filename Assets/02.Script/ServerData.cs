@@ -10,6 +10,8 @@ public static class ServerData
     public static GoodsTable goodsTable { get; private set; } = new GoodsTable();
     public static SkillServerTable skillServerTable { get; private set; } = new SkillServerTable();
     
+    public static GoldAbilServerTable goldAbilServerTable { get; private set; } = new GoldAbilServerTable();
+    
     #region string
     public static string inDate_str = "inDate";
     public static string format_string = "S";
@@ -30,6 +32,7 @@ public static class ServerData
         userInfoTable.Initialize();
         goodsTable.Initialize();
         skillServerTable.Initialize();
+        goldAbilServerTable.Initialize();
     }
     
     public static void ShowCommonErrorPopup(BackendReturnObject bro, Action retryCallBack)

@@ -23,8 +23,9 @@ MonoBehaviour:
     basevalue: 10
     addvalue: 1
     statustype: 0
-    needstatuskey: 
+    needstatuskey: -1
     unlocklevel: 0
+    ispercent: 0
   - id: 1
     stringid: G1
     name: GoldStat1
@@ -33,8 +34,9 @@ MonoBehaviour:
     basevalue: 10
     addvalue: 1
     statustype: 1
-    needstatuskey: GoldStat0
+    needstatuskey: 0
     unlocklevel: 50000
+    ispercent: 0
   - id: 2
     stringid: G2
     name: GoldStat2
@@ -43,8 +45,9 @@ MonoBehaviour:
     basevalue: 10
     addvalue: 1
     statustype: 2
-    needstatuskey: GoldStat1
+    needstatuskey: 1
     unlocklevel: 50000
+    ispercent: 0
   - id: 3
     stringid: G3
     name: GoldStat3
@@ -53,8 +56,9 @@ MonoBehaviour:
     basevalue: 10
     addvalue: 1
     statustype: 3
-    needstatuskey: GoldStat2
+    needstatuskey: 2
     unlocklevel: 50000
+    ispercent: 0
   - id: 4
     stringid: G4
     name: GoldStat4
@@ -63,5 +67,6 @@ MonoBehaviour:
     basevalue: 10
     addvalue: 1
     statustype: 4
-    needstatuskey: GoldStat3
+    needstatuskey: 3
     unlocklevel: 50000
+    ispercent: 0

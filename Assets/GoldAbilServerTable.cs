@@ -7,67 +7,26 @@ using LitJson;
 using System;
 using UniRx;
 
-
-public class GoodsTable
+public class GoldAbilServerTable 
 {
     public static string Indate;
-    public const string tableName = "GoodsTable";
+    public const string tableName = "GoldStatusTable";
 
-    private ReactiveDictionary<string, ReactiveProperty<float>> tableDatas = new ReactiveDictionary<string, ReactiveProperty<float>>();
-    public ReactiveDictionary<string, ReactiveProperty<float>> TableDatas => tableDatas;
+    private ReactiveDictionary<string, ReactiveProperty<int>> tableDatas = new ReactiveDictionary<string, ReactiveProperty<int>>();
+    public ReactiveDictionary<string, ReactiveProperty<int>> TableDatas => tableDatas;
 
-    public List<string> ignoreSyncGoodsList = new List<string>();
-
-    public static Dictionary<GoodsEnum, string> GoodsKey = new Dictionary<GoodsEnum, string>();
-
-    public ReactiveProperty<float> GetTableData(string key)
+    public ReactiveProperty<int> GetTableData(string key)
     {
         return tableDatas[key];
     }
 
-    public ReactiveProperty<float> GetTableData(GoodsEnum key)
-    {
-        return tableDatas[GoodsKey[key]];
-    }
-
-    public float GetCurrentGoods(string key)
+    public int GetCurrentLevel(string key)
     {
         return tableDatas[key].Value;
     }
 
-    private void SetIgnoreList()
-    {
-        ignoreSyncGoodsList.Clear();
-
-        var tableData = TableManager.Instance.goodsTable.dataArray;
-
-        for (int i = 0; i < tableData.Length; i++)
-        {
-            if (tableData[i].Syncalways == false)
-            {
-                ignoreSyncGoodsList.Add(tableData[i].Namekey);
-            }
-        }
-    }
-
-    private void SetGoodsKey()
-    {
-        GoodsKey.Clear();
-
-        var tableData = TableManager.Instance.goodsTable.dataArray;
-
-        for (int i = 0; i < tableData.Length; i++)
-        {
-            GoodsKey.Add(Enum.Parse<GoodsEnum>(tableData[i].Namekey), tableData[i].Namekey);
-        }
-    }
-
     public void Initialize()
     {
-        SetGoodsKey();
-
-        SetIgnoreList();
-
         tableDatas.Clear();
 
         SendQueue.Enqueue(Backend.GameData.GetMyData, tableName, new Where(), callback =>
@@ -87,12 +46,12 @@ public class GoodsTable
             {
                 Param defultValues = new Param();
 
-                var table = TableManager.Instance.goodsTable.dataArray;
+                var table = TableManager.Instance.goldAbilTable.dataArray;
 
                 for (int i = 0; i < table.Length; i++)
                 {
                     defultValues.Add(table[i].Stringid, 0d);
-                    tableDatas.Add(table[i].Stringid, new ReactiveProperty<float>(0f));
+                    tableDatas.Add(table[i].Stringid, new ReactiveProperty<int>(0));
                 }
 
                 var bro = Backend.GameData.Insert(tableName, defultValues);
@@ -127,7 +86,7 @@ public class GoodsTable
                     Indate = data[ServerData.inDate_str][ServerData.format_string].ToString();
                 }
 
-                var table = TableManager.Instance.goodsTable.dataArray;
+                var table = TableManager.Instance.goldAbilTable.dataArray;
 
                 for (int i = 0; i < table.Length; i++)
                 {
@@ -135,12 +94,12 @@ public class GoodsTable
                     {
                         //값로드
                         var value = data[table[i].Stringid][ServerData.format_Number].ToString();
-                        tableDatas.Add(table[i].Stringid, new ReactiveProperty<float>(float.Parse(value)));
+                        tableDatas.Add(table[i].Stringid, new ReactiveProperty<int>(int.Parse(value)));
                     }
                     else
                     {
-                        tableDatas.Add(table[i].Stringid, new ReactiveProperty<float>(0f));
-                        defultValues.Add(table[i].Stringid, 0f);
+                        tableDatas.Add(table[i].Stringid, new ReactiveProperty<int>(0));
+                        defultValues.Add(table[i].Stringid, 0);
                         paramCount++;
                     }
                 }
@@ -159,7 +118,7 @@ public class GoodsTable
         });
     }
 
-    public void AddLocalData(string key, float amount)
+    public void AddLocalData(string key, int amount)
     {
         tableDatas[key].Value += amount;
     }
@@ -175,7 +134,7 @@ public class GoodsTable
         UpData(key, tableDatas[key].Value, LocalOnly);
     }
 
-    public void UpData(string key, float data, bool LocalOnly)
+    public void UpData(string key, int data, bool LocalOnly)
     {
         if (tableDatas.ContainsKey(key) == false)
         {
@@ -247,5 +206,15 @@ public class GoodsTable
 
     public void SyncAllDataForce()
     {
+    }
+
+    public float GetStatusValue(object key, int currentLevel)
+    {
+        return currentLevel;
+    }
+
+    public float GetStatusUpgradePrice(object key, int currentLevel)
+    {
+        return 1f;
     }
 }

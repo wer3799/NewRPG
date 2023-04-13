@@ -50,12 +50,16 @@ MonoBehaviour:
     name: StatusType
     isEnable: 0
     isArray: 0
-  - type: 1
+  - type: 3
     name: NeedStatusKey
     isEnable: 0
     isArray: 0
   - type: 3
     name: UnlockLevel
+    isEnable: 0
+    isArray: 0
+  - type: 8
+    name: Ispercent
     isEnable: 0
     isArray: 0
   excelFilePath: Assets/04.Table/GoldAbilTable.xls

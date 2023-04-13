@@ -84,4 +84,12 @@ public class SkillTableData
   float activeoffset;
   public float Activeoffset { get {return activeoffset; } set { this.activeoffset = value;} }
   
+  [SerializeField]
+  SkillCastType skillcasttype;
+  public SkillCastType SKILLCASTTYPE { get {return skillcasttype; } set { this.skillcasttype = value;} }
+  
+  [SerializeField]
+  bool iseffectrootplayer;
+  public bool Iseffectrootplayer { get {return iseffectrootplayer; } set { this.iseffectrootplayer = value;} }
+  
 }

@@ -20,4 +20,8 @@ public class GoodsData
   string namekey;
   public string Namekey { get {return namekey; } set { this.namekey = value;} }
   
+  [SerializeField]
+  bool syncalways;
+  public bool Syncalways { get {return syncalways; } set { this.syncalways = value;} }
+  
 }
