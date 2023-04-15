@@ -3,37 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GoodsTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GoodsTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GrowthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GrowthManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ServerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/GoldAbilImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/GoldAbilImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/GoldAbilTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/GoldAbilTable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/GoldAbilTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/GoldAbilTable.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/Goods.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/Goods.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/Goods.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/Goods.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/GoodsTableImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/GoodsTableImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTable.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SkillTableImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SkillTableImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/InGameCanvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/UiConfirmPopup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/UiConfirmPopup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/UiYesNoPopup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefabs/UiYesNoPopup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EffectManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoodsEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoodsEnum.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerSkillCaster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/GooglePlayGamesManifest.androidlib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/GooglePlayGamesManifest.androidlib.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/GoldAbilTableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/GoldAbilTableData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/GoodsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/GoodsData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/SkillTableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/SkillTableData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkillBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkillBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/GameEscapeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoldAbilStatusCell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GrowthTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InGameScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LoginManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainTabButtons.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkillServerTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TableManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UiExpGauge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UiGoldAbilBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UiLoading.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -140,10 +114,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="41357">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="41357" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -179,7 +153,8 @@
       <workItem from="1680801968768" duration="15347000" />
       <workItem from="1681401725924" duration="79000" />
       <workItem from="1681401813863" duration="5949000" />
-      <workItem from="1681415237290" duration="2735000" />
+      <workItem from="1681415237290" duration="5651000" />
+      <workItem from="1681568542351" duration="7559000" />
     </task>
     <servers />
   </component>

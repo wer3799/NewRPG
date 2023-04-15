@@ -23,6 +23,8 @@ public class GameBalance
     public readonly static float MaxDamTextNum = 100;
     public readonly static int effectActiveDistance = 15;
     public readonly static int stageBossClearTime = 10;
+    
+    public readonly static int levelUpStatPoint = 1;
 }
 
 public static class DamageBalance
@@ -32,5 +34,13 @@ public static class DamageBalance
     public static float GetRandomDamageRange()
     {
         return Random.Range(baseMinDamage , baseMaxDamage);
+    }
+}
+
+public static class GameDataCalculator
+{
+    public static float GetMaxExp(int level)
+    {
+        return Mathf.Pow(level, level < 10000 ? 2.3f : 2.38f) * 6f + Mathf.Pow(level, 1.5f) * 50;
     }
 }

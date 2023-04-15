@@ -59,6 +59,21 @@ public class ChatManager : SingletonMono<ChatManager>
     public bool chatConnected { get; private set; }
     public bool chatConnected_Guild { get; private set; }
 
+    private void Start()
+    {
+        Subscribe();
+    }
+
+    private void Subscribe()
+    {
+        PlayerData.Instance.WhenUserDataLoadComplete.AsObservable().Subscribe(e =>
+        {
+            
+            ConnectToChattingServer();
+            
+        }).AddTo(this);
+    }
+
     public void ConnectToChattingServer()
     {
         return;

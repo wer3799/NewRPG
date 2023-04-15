@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,6 +20,13 @@ public class PreSceneStartButton : SingletonMono<PreSceneStartButton>
         startButton.interactable = false;
         textObject.SetActive(false);
         waitText.SetActive(true);
+
+        PlayerData.Instance.WhenUserDataLoadComplete.AsObservable().Subscribe(e =>
+        {
+            
+            SetInteractive();
+
+        }).AddTo(this);
     }
     public void SetInteractive()
     {

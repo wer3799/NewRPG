@@ -194,11 +194,6 @@ public class UserInfoTable
         }
     }
 
-    public void AutoUpdateRoutine()
-    {
-        UpdateLastLoginTime();
-    }
-
     private bool isFirstInit = true;
 
     public void UpdateLastLoginTime()

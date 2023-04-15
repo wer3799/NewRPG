@@ -19,6 +19,8 @@ public class PlayerData : SingletonMono<PlayerData>
     public bool HasIOSFlag { get; private set; } = false;
 #endif
 
+    public ReactiveCommand WhenUserDataLoadComplete = new ReactiveCommand();
+
     public void NickNameChanged(string nickName)
     {
         LogManager.Instance.SendLogType("NickChange", "pref", NickName);
@@ -29,7 +31,6 @@ public class PlayerData : SingletonMono<PlayerData>
 
     public void LoadUserNickName()
     {
-        Debug.LogError("IOS_5");
         Backend.BMember.GetUserInfo(WhenUserInfoLoadComplete);
     }
 
@@ -75,18 +76,12 @@ public class PlayerData : SingletonMono<PlayerData>
 
     private void WhenUserInfoLoadComplete()
     {
-        PreSceneStartButton.Instance.SetInteractive();
-        ChatManager.Instance.ConnectToChattingServer();
-        Subscribe();
-
-        SaveManager.Instance.StartAutoSave();
+        WhenUserDataLoadComplete.Execute();
+      
         //PushManager.Instance.Initialize();
         
         SRDebug.Init();
     }
 
-    private void Subscribe()
-    {
-      //  RankManager.Instance.Subscribe();
-    }
+ 
 }

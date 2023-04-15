@@ -217,14 +217,14 @@ public class GoodsTable
         });
     }
 
-    public void SyncAllData(List<string> ignoreList = null)
+    public void SyncExceptIgnoreList()
     {
         Param param = new Param();
 
         var e = tableDatas.GetEnumerator();
         while (e.MoveNext())
         {
-            if (ignoreList != null && ignoreList.Contains(e.Current.Key) == true) continue;
+            if (ServerData.goodsTable.ignoreSyncGoodsList != null && ServerData.goodsTable.ignoreSyncGoodsList.Contains(e.Current.Key) == true) continue;
             param.Add(e.Current.Key, e.Current.Value.Value);
         }
 
@@ -243,9 +243,5 @@ public class GoodsTable
             }
 #endif
         });
-    }
-
-    public void SyncAllDataForce()
-    {
     }
 }

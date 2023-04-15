@@ -1,19 +1,32 @@
+using System;
 using BackEnd;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UniRx;
 
 public class SaveManager : SingletonMono<SaveManager>
 {
-
     private WaitForSeconds updateDelay = new WaitForSeconds(60.0f);
 
-    private WaitForSeconds updateDelay_DailyMission = new WaitForSeconds(7000.0f);
+    private WaitForSeconds versionCheckDelay = new WaitForSeconds(3600.0f);
 
-    private WaitForSeconds versionCheckDelay = new WaitForSeconds(1200.0f);
-
-    //12시간
     private WaitForSeconds tockenRefreshDelay = new WaitForSeconds(43200f);
+
+    private void Start()
+    {
+        Subscribe();
+    }
+
+    private void Subscribe()
+    {
+        PlayerData.Instance.WhenUserDataLoadComplete.AsObservable().Subscribe(e =>
+        {
+            
+            StartAutoSave();
+
+        }).AddTo(this);
+    }
 
     public void StartAutoSave()
     {
@@ -46,13 +59,12 @@ public class SaveManager : SingletonMono<SaveManager>
                 //버전이 높거나 같음
                 if (clientVersion >= int.Parse(serverVersion))
                 {
-
                 }
                 else
                 {
                     PopupManager.Instance.ShowVersionUpPopup(CommonString.Notice, "업데이트 버전이 있습니다. 스토어로 이동합니다.\n업데이트 버튼이 활성화 되지 않은 경우\n구글 플레이 스토어를 닫았다가 다시 열어 보세요!", () =>
                     {
-                        SyncDatasForce();
+                        SyncAutoSaveData();
 #if UNITY_ANDROID
                         Application.OpenURL("https://play.google.com/store/apps/details?id=com.DragonGames.yoyo&hl=ko");
 #endif
@@ -89,37 +101,27 @@ public class SaveManager : SingletonMono<SaveManager>
     {
         while (true)
         {
-            SyncDatasInQueue();
             yield return updateDelay;
+            SyncAutoSaveData();
         }
     }
 
- 
 
     //SendQueue에서 저장
-    public void SyncDatasInQueue()
+    public void SyncAutoSaveData()
     {
-        // if (GrowthManager.Instance != null)
-        // {
-        //     GrowthManager.Instance.SyncLevelUpDatas();
-        // }
+        GrowthManager.Instance.SyncLevelUpDatas();
 
-        ServerData.goodsTable.SyncAllData(ServerData.goodsTable.ignoreSyncGoodsList);
+        ServerData.goodsTable.SyncExceptIgnoreList();
 
-        ServerData.userInfoTable.AutoUpdateRoutine();
-
-        //CollectionManager.Instance.SyncToServer();
-
-        // if (BuffManager.Instance != null)
-        // {
-        //     BuffManager.Instance.UpdateBuffTime();
-        //     ServerData.buffServerTable.SyncAllData();
-        // }
+        ServerData.userInfoTable.UpdateLastLoginTime();
     }
+
     private void OnApplicationQuit()
     {
+        SyncAutoSaveData();
+        
         SetOfflineRewardAlarm();
-        SyncDatasForce();
     }
 
     public void SetOfflineRewardAlarm()
@@ -130,20 +132,5 @@ public class SaveManager : SingletonMono<SaveManager>
         }
     }
 
-    //동기로 저장
-    public void SyncDatasForce()
-    {
-        // if (BuffManager.Instance != null)
-        // {
-        //     BuffManager.Instance.UpdateBuffTime();
-        //     ServerData.buffServerTable.SyncAllDataForce();
-        // }
-
-        ServerData.goodsTable.SyncAllDataForce();
-
-        // if (GrowthManager.Instance != null)
-        // {
-        //     GrowthManager.Instance.SyncLevelUpDatas();
-        // }
-    }
+ 
 }
