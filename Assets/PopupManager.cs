@@ -32,8 +32,15 @@ public class PopupManager : SingletonMono<PopupManager>
     [SerializeField]
     private GameObject chatBoard;
 
+    [SerializeField]
+    private Animator stageChangeEffect;
+    
     public bool ignoreAlarmMessage { get; private set; }
 
+    public void ShowStageChangeEffect()
+    {
+        stageChangeEffect.SetTrigger("Play");
+    }
     public void SetIgnoreAlarmMessage(bool ignore)
     {
         ignoreAlarmMessage = ignore;

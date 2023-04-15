@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 using UniRx;
+using UnityEngine.Serialization;
 
 public class UiExpGauge : SingletonMono<UiExpGauge>
 {
@@ -17,14 +18,15 @@ public class UiExpGauge : SingletonMono<UiExpGauge>
     [SerializeField]
     private TextMeshProUGUI levelDescription;
     
-    public bool updateGaugeFlag = true;
+    [HideInInspector]
+    public bool updateFlag = true;
 
     private void LateUpdate()
     {
-        if (updateGaugeFlag)
+        if (updateFlag)
         {
             UpdateUi();
-            updateGaugeFlag = false;
+            updateFlag = false;
         }
     }
 

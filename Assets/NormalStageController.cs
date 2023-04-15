@@ -204,6 +204,8 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
     public void MoveNextStage()
     {
+        PopupManager.Instance.ShowStageChangeEffect();
+        
         DestroyPrefObjects();
 
         MakeStage();

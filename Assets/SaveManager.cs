@@ -20,12 +20,7 @@ public class SaveManager : SingletonMono<SaveManager>
 
     private void Subscribe()
     {
-        PlayerData.Instance.WhenUserDataLoadComplete.AsObservable().Subscribe(e =>
-        {
-            
-            StartAutoSave();
-
-        }).AddTo(this);
+        PlayerData.Instance.WhenUserDataLoadComplete.AsObservable().Subscribe(e => { StartAutoSave(); }).AddTo(this);
     }
 
     public void StartAutoSave()
@@ -120,7 +115,7 @@ public class SaveManager : SingletonMono<SaveManager>
     private void OnApplicationQuit()
     {
         SyncAutoSaveData();
-        
+
         SetOfflineRewardAlarm();
     }
 
@@ -132,5 +127,13 @@ public class SaveManager : SingletonMono<SaveManager>
         }
     }
 
- 
+#if UNITY_EDITOR
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            SyncAutoSaveData();
+        }
+    }
+#endif
 }

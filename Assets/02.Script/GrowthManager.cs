@@ -39,7 +39,7 @@ public class GrowthManager : SingletonMono<GrowthManager>
             StartCoroutine(LevelUpRoutine());
         }
 
-        UiExpGauge.Instance.updateGaugeFlag = true;
+        UiExpGauge.Instance.updateFlag = true;
     }
 
     private bool CanLevelUp()
@@ -49,7 +49,7 @@ public class GrowthManager : SingletonMono<GrowthManager>
 
     private IEnumerator LevelUpRoutine()
     {
-        while (CanLevelUp() == false)
+        while (CanLevelUp() == true)
         {
             LevelUpLocal();
 
@@ -58,7 +58,7 @@ public class GrowthManager : SingletonMono<GrowthManager>
             yield return null;
         }
 
-        UiExpGauge.Instance.updateGaugeFlag = true;
+        UiExpGauge.Instance.updateFlag = true;
     }
 
     private void LevelUpLocal()
@@ -76,7 +76,7 @@ public class GrowthManager : SingletonMono<GrowthManager>
 
         Param growthParam = new Param();
 
-        growthParam.Add(GrowthTable.Exp, ServerData.growthTable.GetTableData(GrowthTable.Exp).Value);
+        growthParam.Add(GrowthTable.Exp, Math.Truncate(ServerData.growthTable.GetTableData(GrowthTable.Exp).Value));
 
         growthParam.Add(GrowthTable.Level, ServerData.growthTable.GetTableData(GrowthTable.Level).Value);
 

@@ -35,15 +35,20 @@ public class Enemy : PoolItem
     {
         enemyHpController.whenEnemyDead.AsObservable().Subscribe(e =>
         {
-            
-            this.gameObject.SetActive(false);
-
-            if (isFieldBossEnemy)
-            {
-                NormalStageController.Instance.SetStageBossClear();
-            }
-            
+            WhenEnemyDead();
         }).AddTo(this);
+    }
+
+    private void WhenEnemyDead()
+    {
+        this.gameObject.SetActive(false);
+
+        if (isFieldBossEnemy)
+        {
+            NormalStageController.Instance.SetStageBossClear();
+        }
+            
+        GrowthManager.Instance.GetExp(enemyTableData.Exp);
     }
 
     public void Initialize(EnemyTableData enemyTableData, bool isBossEnemy = false)

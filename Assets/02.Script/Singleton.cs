@@ -74,11 +74,6 @@ public class SingletonMono<T> : MonoBehaviour where T : class, new()
         ms_bInstance = false;
         ms_Instance = null;
     }
-
-    private void WhenEnemyDead()
-    {
-
-    }
 }
 
 public class SingletonEventTrigger<T> : EventTrigger where T : class, new()
