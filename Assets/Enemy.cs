@@ -49,6 +49,11 @@ public class Enemy : PoolItem
         }
             
         GrowthManager.Instance.GetExp(enemyTableData.Exp);
+
+        ServerData.goodsTable.GetGoldByEnemy(enemyTableData.Gold);
+        
+        ServerData.goodsTable.GetGrowthStoneByEnemy(enemyTableData.Growthstone);
+        
     }
 
     public void Initialize(EnemyTableData enemyTableData, bool isBossEnemy = false)

@@ -244,4 +244,19 @@ public class GoodsTable
 #endif
         });
     }
+
+    public void GetGoldByEnemy(float amount)
+    {
+        float calculatedAmount = amount;
+
+        tableDatas[GoodsKey[GoodsEnum.Gold]].Value += calculatedAmount;
+    }
+
+    public void GetGrowthStoneByEnemy(float amount)
+    {
+        float calculatedAmount = amount;
+
+        tableDatas[GoodsKey[GoodsEnum.GrowthStone]].Value += calculatedAmount;
+        
+    }
 }

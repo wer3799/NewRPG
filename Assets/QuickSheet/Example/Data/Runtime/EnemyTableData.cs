@@ -56,4 +56,8 @@ public class EnemyTableData
   float neardistance;
   public float Neardistance { get {return neardistance; } set { this.neardistance = value;} }
   
+  [SerializeField]
+  float growthstone;
+  public float Growthstone { get {return growthstone; } set { this.growthstone = value;} }
+  
 }

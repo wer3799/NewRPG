@@ -20,10 +20,11 @@ MonoBehaviour:
     attackpower: 0
     movespeed: 1
     hp: 20
-    exp: 50
+    exp: 100000
     gold: 100
     enemygrade: 0
     defense: 5
     bosshpratio: 3
     bossattackratio: 1.3
     neardistance: 1
+    growthstone: 100

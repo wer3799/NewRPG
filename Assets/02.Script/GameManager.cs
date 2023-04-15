@@ -14,4 +14,9 @@ public class GameManager : SingletonMono<GameManager>
 
     public static ContentsType contentsType = ContentsType.NormalField;
 
+    private void Start()
+    {
+        ResourcesContainer.Initialize();
+    }
+
 }
