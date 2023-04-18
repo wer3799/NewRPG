@@ -13,51 +13,47 @@ public class EnemyTableData
   public int Id { get {return id; } set { this.id = value;} }
   
   [SerializeField]
-  string name;
-  public string Name { get {return name; } set { this.name = value;} }
+  string prefabname;
+  public string Prefabname { get {return prefabname; } set { this.prefabname = value;} }
   
   [SerializeField]
-  float attackpower;
-  public float Attackpower { get {return attackpower; } set { this.attackpower = value;} }
+  int minlevel;
+  public int Minlevel { get {return minlevel; } set { this.minlevel = value;} }
   
   [SerializeField]
-  float movespeed;
-  public float Movespeed { get {return movespeed; } set { this.movespeed = value;} }
+  int maxlevel;
+  public int Maxlevel { get {return maxlevel; } set { this.maxlevel = value;} }
   
   [SerializeField]
-  double hp;
-  public double Hp { get {return hp; } set { this.hp = value;} }
+  double starthp;
+  public double Starthp { get {return starthp; } set { this.starthp = value;} }
   
   [SerializeField]
-  float exp;
-  public float Exp { get {return exp; } set { this.exp = value;} }
+  double perhp;
+  public double Perhp { get {return perhp; } set { this.perhp = value;} }
   
   [SerializeField]
-  float gold;
-  public float Gold { get {return gold; } set { this.gold = value;} }
+  double startatt;
+  public double Startatt { get {return startatt; } set { this.startatt = value;} }
   
   [SerializeField]
-  int enemygrade;
-  public int Enemygrade { get {return enemygrade; } set { this.enemygrade = value;} }
+  double peratt;
+  public double Peratt { get {return peratt; } set { this.peratt = value;} }
   
   [SerializeField]
-  float defense;
-  public float Defense { get {return defense; } set { this.defense = value;} }
+  float startdef;
+  public float Startdef { get {return startdef; } set { this.startdef = value;} }
   
   [SerializeField]
-  float bosshpratio;
-  public float Bosshpratio { get {return bosshpratio; } set { this.bosshpratio = value;} }
+  float intervaldef;
+  public float Intervaldef { get {return intervaldef; } set { this.intervaldef = value;} }
   
   [SerializeField]
-  float bossattackratio;
-  public float Bossattackratio { get {return bossattackratio; } set { this.bossattackratio = value;} }
+  double startexocism;
+  public double Startexocism { get {return startexocism; } set { this.startexocism = value;} }
   
   [SerializeField]
-  float neardistance;
-  public float Neardistance { get {return neardistance; } set { this.neardistance = value;} }
-  
-  [SerializeField]
-  float growthstone;
-  public float Growthstone { get {return growthstone; } set { this.growthstone = value;} }
+  double intervalexocisim;
+  public double Intervalexocisim { get {return intervalexocisim; } set { this.intervalexocisim = value;} }
   
 }

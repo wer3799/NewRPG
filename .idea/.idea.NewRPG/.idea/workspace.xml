@@ -3,193 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GoodsTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GoodsTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Font.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Font/BoldFont.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Font/BoldFont.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Font/NormalFont.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Font/NormalFont.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/BOX1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/BOX1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/BOX2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/BOX2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/BOX3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/BOX3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/HpBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/HpBar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/19.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/2 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/2 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/2 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/2 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/20.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/21.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/26.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/35.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/36.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/502_Ninja_Dexterity_E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/502_Ninja_Dexterity_E.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Event.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Event.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/KakaoTalk_20210706_221929939.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/KakaoTalk_20210706_221929939.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/New Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/New Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664 4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/NoPointUi/Status/KakaoTalk_20210726_112519664_01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Shop_Box134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Shop_Box134.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Shop_Box135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Shop_Box135.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Shop_Box136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/Shop_Box136.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/TIger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/TIger.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/chat-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/chat-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/comment-ol 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/comment-ol 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/comment-ol 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/comment-ol 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/comment-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/comment-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/hand-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/hand-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/list-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/list-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/lock-closed-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/lock-closed-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/lock-open-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/lock-open-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/potion-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/potion-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/profile-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/profile-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/question-hs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/question-hs.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/question-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/question-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/question.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/refresh-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/refresh-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/tige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/tige.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/time.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/time.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/video-ol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/video-ol.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/도철문.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/도철문.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/밑.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/밑.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/백자+떡살.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/백자+떡살.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/연꽃문 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/연꽃문 (1).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/영숲도꺠.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/Icons/영숲도꺠.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/bottom.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/fire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/fire.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/stone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/stone.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/cloud.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/hollow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/hollow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/paper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/paper.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/touch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/Ui/ui/touch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/UiResource.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/UiResource/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/UiResource/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/UiResource/White.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/03.Resources/UiResource/White.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/08.Animator/StageChangeEffect.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.Animator/StageChangeEffect.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/08.Animator/StageFadeEffect.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/08.Animator/StageFadeEffect.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyHpController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NormalStageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/I2Languages.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/I2Languages.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,25 +84,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.2693182&quot;,
-    &quot;do_not_show_Android_plugin_suggestion&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.26994908",
+    "do_not_show_Android_plugin_suggestion": "true",
+    "settings.editor.selected.configurable": "CodeInspectionSettingsId",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/macbookpro/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/macbookpro/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/macbookpro/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/macbookpro/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
+      "/Users/macbookpro/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/Users/macbookpro/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity" />
@@ -300,10 +130,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="41357">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="41357" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -341,7 +171,8 @@
       <workItem from="1681401813863" duration="5949000" />
       <workItem from="1681415237290" duration="5651000" />
       <workItem from="1681568542351" duration="9994000" />
-      <workItem from="1681581156287" duration="1676000" />
+      <workItem from="1681581156287" duration="2420000" />
+      <workItem from="1681835328287" duration="3428000" />
     </task>
     <servers />
   </component>
@@ -363,25 +194,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/ResourcesContainer.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/ResourcesContainer.cs" initialLine="17" containingFunctionPresentation="method 'Initialize'">
-            <startOffsets>
-              <option value="568" />
-            </startOffsets>
-            <endOffsets>
-              <option value="569" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

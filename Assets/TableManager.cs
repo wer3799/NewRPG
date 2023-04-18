@@ -16,29 +16,31 @@ public class TableManager : SingletonMono<TableManager>
     }
     
     public EnemyTable enemyTable;
-    private Dictionary<string, EnemyTableData> enemyData = null;
 
-    public Dictionary<string, EnemyTableData> EnemyData
+    public EnemyTableData GetTableDataByLevel(int level)
     {
-        get
+        EnemyTableData ret = null;
+        
+        var tableData = enemyTable.dataArray;
+
+        for (int i = 0; i < tableData.Length; i++)
         {
-            LoadEnemyData();
-            return enemyData;
+            if (level >= tableData[i].Minlevel && level <= tableData[i].Maxlevel)
+            {
+                ret = tableData[i];
+                break;
+            }
         }
-    }
 
-    private void LoadEnemyData()
-    {
-        if (enemyData != null) return;
-
-        enemyData = new Dictionary<string, EnemyTableData>();
-
-        for (int i = 0; i < enemyTable.dataArray.Length; i++)
+        if (ret == null)
         {
-            enemyData.Add(enemyTable.dataArray[i].Name, enemyTable.dataArray[i]);
+            #if UNITY_EDITOR
+            Debug.LogError("@@@@Enemy data load failed");
+            #endif
         }
+
+        return ret;
     }
-    
     
     public SkillTable skillTable;
     

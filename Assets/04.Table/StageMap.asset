@@ -17,85 +17,10501 @@ MonoBehaviour:
   dataArray:
   - id: 0
     mappreset: 0
+    chapter: 1
+    stage: 0
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 200
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 1
     mappreset: 0
+    chapter: 1
+    stage: 1
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 204
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 2
     mappreset: 0
+    chapter: 1
+    stage: 2
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 208
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 3
     mappreset: 0
+    chapter: 1
+    stage: 3
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 212
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 4
     mappreset: 0
+    chapter: 1
+    stage: 4
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 216
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 5
     mappreset: 0
+    chapter: 1
+    stage: 5
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 220
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 6
     mappreset: 0
+    chapter: 1
+    stage: 6
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 224
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 7
     mappreset: 0
+    chapter: 1
+    stage: 7
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 228
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 8
     mappreset: 0
+    chapter: 1
+    stage: 8
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 232
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 9
     mappreset: 0
+    chapter: 1
+    stage: 9
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 236
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 10
     mappreset: 0
+    chapter: 1
+    stage: 10
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 240
     spawnenemies:
     - 0
-    nextspawndelay: 3
   - id: 11
     mappreset: 0
+    chapter: 1
+    stage: 11
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
     spawndelay: 12
-    spawnnum: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 244
     spawnenemies:
     - 0
-    nextspawndelay: 3
+  - id: 12
+    mappreset: 0
+    chapter: 1
+    stage: 12
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 248
+    spawnenemies:
+    - 0
+  - id: 13
+    mappreset: 0
+    chapter: 1
+    stage: 13
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 252
+    spawnenemies:
+    - 0
+  - id: 14
+    mappreset: 0
+    chapter: 1
+    stage: 14
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 256
+    spawnenemies:
+    - 0
+  - id: 15
+    mappreset: 0
+    chapter: 1
+    stage: 15
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 260
+    spawnenemies:
+    - 0
+  - id: 16
+    mappreset: 0
+    chapter: 1
+    stage: 16
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 264
+    spawnenemies:
+    - 0
+  - id: 17
+    mappreset: 0
+    chapter: 1
+    stage: 17
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 268
+    spawnenemies:
+    - 0
+  - id: 18
+    mappreset: 0
+    chapter: 1
+    stage: 18
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 272
+    spawnenemies:
+    - 0
+  - id: 19
+    mappreset: 0
+    chapter: 1
+    stage: 19
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 276
+    spawnenemies:
+    - 0
+  - id: 20
+    mappreset: 0
+    chapter: 1
+    stage: 20
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 280
+    spawnenemies:
+    - 0
+  - id: 21
+    mappreset: 0
+    chapter: 1
+    stage: 21
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 284
+    spawnenemies:
+    - 0
+  - id: 22
+    mappreset: 0
+    chapter: 1
+    stage: 22
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 288
+    spawnenemies:
+    - 0
+  - id: 23
+    mappreset: 0
+    chapter: 1
+    stage: 23
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 292
+    spawnenemies:
+    - 0
+  - id: 24
+    mappreset: 0
+    chapter: 1
+    stage: 24
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 296
+    spawnenemies:
+    - 0
+  - id: 25
+    mappreset: 0
+    chapter: 1
+    stage: 25
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 300
+    spawnenemies:
+    - 0
+  - id: 26
+    mappreset: 0
+    chapter: 1
+    stage: 26
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 304
+    spawnenemies:
+    - 0
+  - id: 27
+    mappreset: 0
+    chapter: 1
+    stage: 27
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 308
+    spawnenemies:
+    - 0
+  - id: 28
+    mappreset: 0
+    chapter: 1
+    stage: 28
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 312
+    spawnenemies:
+    - 0
+  - id: 29
+    mappreset: 0
+    chapter: 1
+    stage: 29
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 316
+    spawnenemies:
+    - 0
+  - id: 30
+    mappreset: 0
+    chapter: 1
+    stage: 30
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 320
+    spawnenemies:
+    - 0
+  - id: 31
+    mappreset: 0
+    chapter: 1
+    stage: 31
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 324
+    spawnenemies:
+    - 0
+  - id: 32
+    mappreset: 0
+    chapter: 1
+    stage: 32
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 328
+    spawnenemies:
+    - 0
+  - id: 33
+    mappreset: 0
+    chapter: 1
+    stage: 33
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 332
+    spawnenemies:
+    - 0
+  - id: 34
+    mappreset: 0
+    chapter: 1
+    stage: 34
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 336
+    spawnenemies:
+    - 0
+  - id: 35
+    mappreset: 0
+    chapter: 1
+    stage: 35
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 340
+    spawnenemies:
+    - 0
+  - id: 36
+    mappreset: 0
+    chapter: 1
+    stage: 36
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 344
+    spawnenemies:
+    - 0
+  - id: 37
+    mappreset: 0
+    chapter: 1
+    stage: 37
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 348
+    spawnenemies:
+    - 0
+  - id: 38
+    mappreset: 0
+    chapter: 1
+    stage: 38
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 352
+    spawnenemies:
+    - 0
+  - id: 39
+    mappreset: 0
+    chapter: 1
+    stage: 39
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 356
+    spawnenemies:
+    - 0
+  - id: 40
+    mappreset: 0
+    chapter: 1
+    stage: 40
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 360
+    spawnenemies:
+    - 0
+  - id: 41
+    mappreset: 0
+    chapter: 1
+    stage: 41
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 364
+    spawnenemies:
+    - 0
+  - id: 42
+    mappreset: 0
+    chapter: 1
+    stage: 42
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 368
+    spawnenemies:
+    - 0
+  - id: 43
+    mappreset: 0
+    chapter: 1
+    stage: 43
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 372
+    spawnenemies:
+    - 0
+  - id: 44
+    mappreset: 0
+    chapter: 1
+    stage: 44
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 376
+    spawnenemies:
+    - 0
+  - id: 45
+    mappreset: 0
+    chapter: 1
+    stage: 45
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 380
+    spawnenemies:
+    - 0
+  - id: 46
+    mappreset: 0
+    chapter: 1
+    stage: 46
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 384
+    spawnenemies:
+    - 0
+  - id: 47
+    mappreset: 0
+    chapter: 1
+    stage: 47
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 388
+    spawnenemies:
+    - 0
+  - id: 48
+    mappreset: 0
+    chapter: 1
+    stage: 48
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 392
+    spawnenemies:
+    - 0
+  - id: 49
+    mappreset: 0
+    chapter: 1
+    stage: 49
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 11
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 396
+    spawnenemies:
+    - 0
+  - id: 50
+    mappreset: 0
+    chapter: 2
+    stage: 50
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 400
+    spawnenemies:
+    - 0
+  - id: 51
+    mappreset: 0
+    chapter: 2
+    stage: 51
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 404
+    spawnenemies:
+    - 0
+  - id: 52
+    mappreset: 0
+    chapter: 2
+    stage: 52
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 408
+    spawnenemies:
+    - 0
+  - id: 53
+    mappreset: 0
+    chapter: 2
+    stage: 53
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 412
+    spawnenemies:
+    - 0
+  - id: 54
+    mappreset: 0
+    chapter: 2
+    stage: 54
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 416
+    spawnenemies:
+    - 0
+  - id: 55
+    mappreset: 0
+    chapter: 2
+    stage: 55
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 420
+    spawnenemies:
+    - 0
+  - id: 56
+    mappreset: 0
+    chapter: 2
+    stage: 56
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 424
+    spawnenemies:
+    - 0
+  - id: 57
+    mappreset: 0
+    chapter: 2
+    stage: 57
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 428
+    spawnenemies:
+    - 0
+  - id: 58
+    mappreset: 0
+    chapter: 2
+    stage: 58
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 432
+    spawnenemies:
+    - 0
+  - id: 59
+    mappreset: 0
+    chapter: 2
+    stage: 59
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 436
+    spawnenemies:
+    - 0
+  - id: 60
+    mappreset: 0
+    chapter: 2
+    stage: 60
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 440
+    spawnenemies:
+    - 0
+  - id: 61
+    mappreset: 0
+    chapter: 2
+    stage: 61
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 444
+    spawnenemies:
+    - 0
+  - id: 62
+    mappreset: 0
+    chapter: 2
+    stage: 62
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 448
+    spawnenemies:
+    - 0
+  - id: 63
+    mappreset: 0
+    chapter: 2
+    stage: 63
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 452
+    spawnenemies:
+    - 0
+  - id: 64
+    mappreset: 0
+    chapter: 2
+    stage: 64
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 456
+    spawnenemies:
+    - 0
+  - id: 65
+    mappreset: 0
+    chapter: 2
+    stage: 65
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 460
+    spawnenemies:
+    - 0
+  - id: 66
+    mappreset: 0
+    chapter: 2
+    stage: 66
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 464
+    spawnenemies:
+    - 0
+  - id: 67
+    mappreset: 0
+    chapter: 2
+    stage: 67
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 468
+    spawnenemies:
+    - 0
+  - id: 68
+    mappreset: 0
+    chapter: 2
+    stage: 68
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 472
+    spawnenemies:
+    - 0
+  - id: 69
+    mappreset: 0
+    chapter: 2
+    stage: 69
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 476
+    spawnenemies:
+    - 0
+  - id: 70
+    mappreset: 0
+    chapter: 2
+    stage: 70
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 480
+    spawnenemies:
+    - 0
+  - id: 71
+    mappreset: 0
+    chapter: 2
+    stage: 71
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 484
+    spawnenemies:
+    - 0
+  - id: 72
+    mappreset: 0
+    chapter: 2
+    stage: 72
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 488
+    spawnenemies:
+    - 0
+  - id: 73
+    mappreset: 0
+    chapter: 2
+    stage: 73
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 492
+    spawnenemies:
+    - 0
+  - id: 74
+    mappreset: 0
+    chapter: 2
+    stage: 74
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 496
+    spawnenemies:
+    - 0
+  - id: 75
+    mappreset: 0
+    chapter: 2
+    stage: 75
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 500
+    spawnenemies:
+    - 0
+  - id: 76
+    mappreset: 0
+    chapter: 2
+    stage: 76
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 504
+    spawnenemies:
+    - 0
+  - id: 77
+    mappreset: 0
+    chapter: 2
+    stage: 77
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 508
+    spawnenemies:
+    - 0
+  - id: 78
+    mappreset: 0
+    chapter: 2
+    stage: 78
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 512
+    spawnenemies:
+    - 0
+  - id: 79
+    mappreset: 0
+    chapter: 2
+    stage: 79
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 516
+    spawnenemies:
+    - 0
+  - id: 80
+    mappreset: 0
+    chapter: 2
+    stage: 80
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 520
+    spawnenemies:
+    - 0
+  - id: 81
+    mappreset: 0
+    chapter: 2
+    stage: 81
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 524
+    spawnenemies:
+    - 0
+  - id: 82
+    mappreset: 0
+    chapter: 2
+    stage: 82
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 528
+    spawnenemies:
+    - 0
+  - id: 83
+    mappreset: 0
+    chapter: 2
+    stage: 83
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 532
+    spawnenemies:
+    - 0
+  - id: 84
+    mappreset: 0
+    chapter: 2
+    stage: 84
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 536
+    spawnenemies:
+    - 0
+  - id: 85
+    mappreset: 0
+    chapter: 2
+    stage: 85
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 540
+    spawnenemies:
+    - 0
+  - id: 86
+    mappreset: 0
+    chapter: 2
+    stage: 86
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 544
+    spawnenemies:
+    - 0
+  - id: 87
+    mappreset: 0
+    chapter: 2
+    stage: 87
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 548
+    spawnenemies:
+    - 0
+  - id: 88
+    mappreset: 0
+    chapter: 2
+    stage: 88
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 552
+    spawnenemies:
+    - 0
+  - id: 89
+    mappreset: 0
+    chapter: 2
+    stage: 89
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 556
+    spawnenemies:
+    - 0
+  - id: 90
+    mappreset: 0
+    chapter: 2
+    stage: 90
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 560
+    spawnenemies:
+    - 0
+  - id: 91
+    mappreset: 0
+    chapter: 2
+    stage: 91
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 564
+    spawnenemies:
+    - 0
+  - id: 92
+    mappreset: 0
+    chapter: 2
+    stage: 92
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 568
+    spawnenemies:
+    - 0
+  - id: 93
+    mappreset: 0
+    chapter: 2
+    stage: 93
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 572
+    spawnenemies:
+    - 0
+  - id: 94
+    mappreset: 0
+    chapter: 2
+    stage: 94
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 576
+    spawnenemies:
+    - 0
+  - id: 95
+    mappreset: 0
+    chapter: 2
+    stage: 95
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 580
+    spawnenemies:
+    - 0
+  - id: 96
+    mappreset: 0
+    chapter: 2
+    stage: 96
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 584
+    spawnenemies:
+    - 0
+  - id: 97
+    mappreset: 0
+    chapter: 2
+    stage: 97
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 588
+    spawnenemies:
+    - 0
+  - id: 98
+    mappreset: 0
+    chapter: 2
+    stage: 98
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 592
+    spawnenemies:
+    - 0
+  - id: 99
+    mappreset: 0
+    chapter: 2
+    stage: 99
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 12
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 596
+    spawnenemies:
+    - 0
+  - id: 100
+    mappreset: 0
+    chapter: 3
+    stage: 100
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 600
+    spawnenemies:
+    - 0
+  - id: 101
+    mappreset: 0
+    chapter: 3
+    stage: 101
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 604
+    spawnenemies:
+    - 0
+  - id: 102
+    mappreset: 0
+    chapter: 3
+    stage: 102
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 608
+    spawnenemies:
+    - 0
+  - id: 103
+    mappreset: 0
+    chapter: 3
+    stage: 103
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 612
+    spawnenemies:
+    - 0
+  - id: 104
+    mappreset: 0
+    chapter: 3
+    stage: 104
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 616
+    spawnenemies:
+    - 0
+  - id: 105
+    mappreset: 0
+    chapter: 3
+    stage: 105
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 620
+    spawnenemies:
+    - 0
+  - id: 106
+    mappreset: 0
+    chapter: 3
+    stage: 106
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 624
+    spawnenemies:
+    - 0
+  - id: 107
+    mappreset: 0
+    chapter: 3
+    stage: 107
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 628
+    spawnenemies:
+    - 0
+  - id: 108
+    mappreset: 0
+    chapter: 3
+    stage: 108
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 632
+    spawnenemies:
+    - 0
+  - id: 109
+    mappreset: 0
+    chapter: 3
+    stage: 109
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 636
+    spawnenemies:
+    - 0
+  - id: 110
+    mappreset: 0
+    chapter: 3
+    stage: 110
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 640
+    spawnenemies:
+    - 0
+  - id: 111
+    mappreset: 0
+    chapter: 3
+    stage: 111
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 644
+    spawnenemies:
+    - 0
+  - id: 112
+    mappreset: 0
+    chapter: 3
+    stage: 112
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 648
+    spawnenemies:
+    - 0
+  - id: 113
+    mappreset: 0
+    chapter: 3
+    stage: 113
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 652
+    spawnenemies:
+    - 0
+  - id: 114
+    mappreset: 0
+    chapter: 3
+    stage: 114
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 656
+    spawnenemies:
+    - 0
+  - id: 115
+    mappreset: 0
+    chapter: 3
+    stage: 115
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 660
+    spawnenemies:
+    - 0
+  - id: 116
+    mappreset: 0
+    chapter: 3
+    stage: 116
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 664
+    spawnenemies:
+    - 0
+  - id: 117
+    mappreset: 0
+    chapter: 3
+    stage: 117
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 668
+    spawnenemies:
+    - 0
+  - id: 118
+    mappreset: 0
+    chapter: 3
+    stage: 118
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 672
+    spawnenemies:
+    - 0
+  - id: 119
+    mappreset: 0
+    chapter: 3
+    stage: 119
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 12
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 676
+    spawnenemies:
+    - 0
+  - id: 120
+    mappreset: 0
+    chapter: 3
+    stage: 120
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 680
+    spawnenemies:
+    - 0
+  - id: 121
+    mappreset: 0
+    chapter: 3
+    stage: 121
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 684
+    spawnenemies:
+    - 0
+  - id: 122
+    mappreset: 0
+    chapter: 3
+    stage: 122
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 688
+    spawnenemies:
+    - 0
+  - id: 123
+    mappreset: 0
+    chapter: 3
+    stage: 123
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 692
+    spawnenemies:
+    - 0
+  - id: 124
+    mappreset: 0
+    chapter: 3
+    stage: 124
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 696
+    spawnenemies:
+    - 0
+  - id: 125
+    mappreset: 0
+    chapter: 3
+    stage: 125
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 700
+    spawnenemies:
+    - 0
+  - id: 126
+    mappreset: 0
+    chapter: 3
+    stage: 126
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 704
+    spawnenemies:
+    - 0
+  - id: 127
+    mappreset: 0
+    chapter: 3
+    stage: 127
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 708
+    spawnenemies:
+    - 0
+  - id: 128
+    mappreset: 0
+    chapter: 3
+    stage: 128
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 712
+    spawnenemies:
+    - 0
+  - id: 129
+    mappreset: 0
+    chapter: 3
+    stage: 129
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 716
+    spawnenemies:
+    - 0
+  - id: 130
+    mappreset: 0
+    chapter: 3
+    stage: 130
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 720
+    spawnenemies:
+    - 0
+  - id: 131
+    mappreset: 0
+    chapter: 3
+    stage: 131
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 724
+    spawnenemies:
+    - 0
+  - id: 132
+    mappreset: 0
+    chapter: 3
+    stage: 132
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 728
+    spawnenemies:
+    - 0
+  - id: 133
+    mappreset: 0
+    chapter: 3
+    stage: 133
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 732
+    spawnenemies:
+    - 0
+  - id: 134
+    mappreset: 0
+    chapter: 3
+    stage: 134
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 13
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 736
+    spawnenemies:
+    - 0
+  - id: 135
+    mappreset: 0
+    chapter: 3
+    stage: 135
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 740
+    spawnenemies:
+    - 0
+  - id: 136
+    mappreset: 0
+    chapter: 3
+    stage: 136
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 744
+    spawnenemies:
+    - 0
+  - id: 137
+    mappreset: 0
+    chapter: 3
+    stage: 137
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 748
+    spawnenemies:
+    - 0
+  - id: 138
+    mappreset: 0
+    chapter: 3
+    stage: 138
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 752
+    spawnenemies:
+    - 0
+  - id: 139
+    mappreset: 0
+    chapter: 3
+    stage: 139
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 756
+    spawnenemies:
+    - 0
+  - id: 140
+    mappreset: 0
+    chapter: 3
+    stage: 140
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 760
+    spawnenemies:
+    - 0
+  - id: 141
+    mappreset: 0
+    chapter: 3
+    stage: 141
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 764
+    spawnenemies:
+    - 0
+  - id: 142
+    mappreset: 0
+    chapter: 3
+    stage: 142
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 768
+    spawnenemies:
+    - 0
+  - id: 143
+    mappreset: 0
+    chapter: 3
+    stage: 143
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 772
+    spawnenemies:
+    - 0
+  - id: 144
+    mappreset: 0
+    chapter: 3
+    stage: 144
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 776
+    spawnenemies:
+    - 0
+  - id: 145
+    mappreset: 0
+    chapter: 3
+    stage: 145
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 780
+    spawnenemies:
+    - 0
+  - id: 146
+    mappreset: 0
+    chapter: 3
+    stage: 146
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 784
+    spawnenemies:
+    - 0
+  - id: 147
+    mappreset: 0
+    chapter: 3
+    stage: 147
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 788
+    spawnenemies:
+    - 0
+  - id: 148
+    mappreset: 0
+    chapter: 3
+    stage: 148
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 792
+    spawnenemies:
+    - 0
+  - id: 149
+    mappreset: 0
+    chapter: 3
+    stage: 149
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 796
+    spawnenemies:
+    - 0
+  - id: 150
+    mappreset: 0
+    chapter: 4
+    stage: 150
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 800
+    spawnenemies:
+    - 0
+  - id: 151
+    mappreset: 0
+    chapter: 4
+    stage: 151
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 804
+    spawnenemies:
+    - 0
+  - id: 152
+    mappreset: 0
+    chapter: 4
+    stage: 152
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 808
+    spawnenemies:
+    - 0
+  - id: 153
+    mappreset: 0
+    chapter: 4
+    stage: 153
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 812
+    spawnenemies:
+    - 0
+  - id: 154
+    mappreset: 0
+    chapter: 4
+    stage: 154
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 816
+    spawnenemies:
+    - 0
+  - id: 155
+    mappreset: 0
+    chapter: 4
+    stage: 155
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 820
+    spawnenemies:
+    - 0
+  - id: 156
+    mappreset: 0
+    chapter: 4
+    stage: 156
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 824
+    spawnenemies:
+    - 0
+  - id: 157
+    mappreset: 0
+    chapter: 4
+    stage: 157
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 828
+    spawnenemies:
+    - 0
+  - id: 158
+    mappreset: 0
+    chapter: 4
+    stage: 158
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 832
+    spawnenemies:
+    - 0
+  - id: 159
+    mappreset: 0
+    chapter: 4
+    stage: 159
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 836
+    spawnenemies:
+    - 0
+  - id: 160
+    mappreset: 0
+    chapter: 4
+    stage: 160
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 840
+    spawnenemies:
+    - 0
+  - id: 161
+    mappreset: 0
+    chapter: 4
+    stage: 161
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 844
+    spawnenemies:
+    - 0
+  - id: 162
+    mappreset: 0
+    chapter: 4
+    stage: 162
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 848
+    spawnenemies:
+    - 0
+  - id: 163
+    mappreset: 0
+    chapter: 4
+    stage: 163
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 852
+    spawnenemies:
+    - 0
+  - id: 164
+    mappreset: 0
+    chapter: 4
+    stage: 164
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 856
+    spawnenemies:
+    - 0
+  - id: 165
+    mappreset: 0
+    chapter: 4
+    stage: 165
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 860
+    spawnenemies:
+    - 0
+  - id: 166
+    mappreset: 0
+    chapter: 4
+    stage: 166
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 864
+    spawnenemies:
+    - 0
+  - id: 167
+    mappreset: 0
+    chapter: 4
+    stage: 167
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 868
+    spawnenemies:
+    - 0
+  - id: 168
+    mappreset: 0
+    chapter: 4
+    stage: 168
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 872
+    spawnenemies:
+    - 0
+  - id: 169
+    mappreset: 0
+    chapter: 4
+    stage: 169
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 876
+    spawnenemies:
+    - 0
+  - id: 170
+    mappreset: 0
+    chapter: 4
+    stage: 170
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 880
+    spawnenemies:
+    - 0
+  - id: 171
+    mappreset: 0
+    chapter: 4
+    stage: 171
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 884
+    spawnenemies:
+    - 0
+  - id: 172
+    mappreset: 0
+    chapter: 4
+    stage: 172
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 888
+    spawnenemies:
+    - 0
+  - id: 173
+    mappreset: 0
+    chapter: 4
+    stage: 173
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 892
+    spawnenemies:
+    - 0
+  - id: 174
+    mappreset: 0
+    chapter: 4
+    stage: 174
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 896
+    spawnenemies:
+    - 0
+  - id: 175
+    mappreset: 0
+    chapter: 4
+    stage: 175
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 900
+    spawnenemies:
+    - 0
+  - id: 176
+    mappreset: 0
+    chapter: 4
+    stage: 176
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 904
+    spawnenemies:
+    - 0
+  - id: 177
+    mappreset: 0
+    chapter: 4
+    stage: 177
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 908
+    spawnenemies:
+    - 0
+  - id: 178
+    mappreset: 0
+    chapter: 4
+    stage: 178
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 912
+    spawnenemies:
+    - 0
+  - id: 179
+    mappreset: 0
+    chapter: 4
+    stage: 179
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 14
+    spawndelay: 11
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 916
+    spawnenemies:
+    - 0
+  - id: 180
+    mappreset: 0
+    chapter: 4
+    stage: 180
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 916
+    spawnenemies:
+    - 0
+  - id: 181
+    mappreset: 0
+    chapter: 4
+    stage: 181
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 918
+    spawnenemies:
+    - 0
+  - id: 182
+    mappreset: 0
+    chapter: 4
+    stage: 182
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 918
+    spawnenemies:
+    - 0
+  - id: 183
+    mappreset: 0
+    chapter: 4
+    stage: 183
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 920
+    spawnenemies:
+    - 0
+  - id: 184
+    mappreset: 0
+    chapter: 4
+    stage: 184
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 920
+    spawnenemies:
+    - 0
+  - id: 185
+    mappreset: 0
+    chapter: 4
+    stage: 185
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 922
+    spawnenemies:
+    - 0
+  - id: 186
+    mappreset: 0
+    chapter: 4
+    stage: 186
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 922
+    spawnenemies:
+    - 0
+  - id: 187
+    mappreset: 0
+    chapter: 4
+    stage: 187
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 924
+    spawnenemies:
+    - 0
+  - id: 188
+    mappreset: 0
+    chapter: 4
+    stage: 188
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 924
+    spawnenemies:
+    - 0
+  - id: 189
+    mappreset: 0
+    chapter: 4
+    stage: 189
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 926
+    spawnenemies:
+    - 0
+  - id: 190
+    mappreset: 0
+    chapter: 4
+    stage: 190
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 926
+    spawnenemies:
+    - 0
+  - id: 191
+    mappreset: 0
+    chapter: 4
+    stage: 191
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 928
+    spawnenemies:
+    - 0
+  - id: 192
+    mappreset: 0
+    chapter: 4
+    stage: 192
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 928
+    spawnenemies:
+    - 0
+  - id: 193
+    mappreset: 0
+    chapter: 4
+    stage: 193
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 930
+    spawnenemies:
+    - 0
+  - id: 194
+    mappreset: 0
+    chapter: 4
+    stage: 194
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 15
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 930
+    spawnenemies:
+    - 0
+  - id: 195
+    mappreset: 0
+    chapter: 4
+    stage: 195
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 932
+    spawnenemies:
+    - 0
+  - id: 196
+    mappreset: 0
+    chapter: 4
+    stage: 196
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 932
+    spawnenemies:
+    - 0
+  - id: 197
+    mappreset: 0
+    chapter: 4
+    stage: 197
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 934
+    spawnenemies:
+    - 0
+  - id: 198
+    mappreset: 0
+    chapter: 4
+    stage: 198
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 934
+    spawnenemies:
+    - 0
+  - id: 199
+    mappreset: 0
+    chapter: 4
+    stage: 199
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 936
+    spawnenemies:
+    - 0
+  - id: 200
+    mappreset: 0
+    chapter: 5
+    stage: 200
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 936
+    spawnenemies:
+    - 0
+  - id: 201
+    mappreset: 0
+    chapter: 5
+    stage: 201
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 938
+    spawnenemies:
+    - 0
+  - id: 202
+    mappreset: 0
+    chapter: 5
+    stage: 202
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 938
+    spawnenemies:
+    - 0
+  - id: 203
+    mappreset: 0
+    chapter: 5
+    stage: 203
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 940
+    spawnenemies:
+    - 0
+  - id: 204
+    mappreset: 0
+    chapter: 5
+    stage: 204
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 940
+    spawnenemies:
+    - 0
+  - id: 205
+    mappreset: 0
+    chapter: 5
+    stage: 205
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 942
+    spawnenemies:
+    - 0
+  - id: 206
+    mappreset: 0
+    chapter: 5
+    stage: 206
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 942
+    spawnenemies:
+    - 0
+  - id: 207
+    mappreset: 0
+    chapter: 5
+    stage: 207
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 944
+    spawnenemies:
+    - 0
+  - id: 208
+    mappreset: 0
+    chapter: 5
+    stage: 208
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 944
+    spawnenemies:
+    - 0
+  - id: 209
+    mappreset: 0
+    chapter: 5
+    stage: 209
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 946
+    spawnenemies:
+    - 0
+  - id: 210
+    mappreset: 0
+    chapter: 5
+    stage: 210
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 211
+    mappreset: 0
+    chapter: 5
+    stage: 211
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 212
+    mappreset: 0
+    chapter: 5
+    stage: 212
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 213
+    mappreset: 0
+    chapter: 5
+    stage: 213
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 214
+    mappreset: 0
+    chapter: 5
+    stage: 214
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 215
+    mappreset: 0
+    chapter: 5
+    stage: 215
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 216
+    mappreset: 0
+    chapter: 5
+    stage: 216
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 217
+    mappreset: 0
+    chapter: 5
+    stage: 217
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 218
+    mappreset: 0
+    chapter: 5
+    stage: 218
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 219
+    mappreset: 0
+    chapter: 5
+    stage: 219
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 220
+    mappreset: 0
+    chapter: 5
+    stage: 220
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 221
+    mappreset: 0
+    chapter: 5
+    stage: 221
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 222
+    mappreset: 0
+    chapter: 5
+    stage: 222
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 223
+    mappreset: 0
+    chapter: 5
+    stage: 223
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 224
+    mappreset: 0
+    chapter: 5
+    stage: 224
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 948
+    spawnenemies:
+    - 0
+  - id: 225
+    mappreset: 0
+    chapter: 5
+    stage: 225
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 226
+    mappreset: 0
+    chapter: 5
+    stage: 226
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 227
+    mappreset: 0
+    chapter: 5
+    stage: 227
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 228
+    mappreset: 0
+    chapter: 5
+    stage: 228
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 229
+    mappreset: 0
+    chapter: 5
+    stage: 229
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 230
+    mappreset: 0
+    chapter: 5
+    stage: 230
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 231
+    mappreset: 0
+    chapter: 5
+    stage: 231
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 232
+    mappreset: 0
+    chapter: 5
+    stage: 232
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 233
+    mappreset: 0
+    chapter: 5
+    stage: 233
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 234
+    mappreset: 0
+    chapter: 5
+    stage: 234
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 235
+    mappreset: 0
+    chapter: 5
+    stage: 235
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 236
+    mappreset: 0
+    chapter: 5
+    stage: 236
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 237
+    mappreset: 0
+    chapter: 5
+    stage: 237
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 238
+    mappreset: 0
+    chapter: 5
+    stage: 238
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 239
+    mappreset: 0
+    chapter: 5
+    stage: 239
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 950
+    spawnenemies:
+    - 0
+  - id: 240
+    mappreset: 0
+    chapter: 5
+    stage: 240
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 241
+    mappreset: 0
+    chapter: 5
+    stage: 241
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 242
+    mappreset: 0
+    chapter: 5
+    stage: 242
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 243
+    mappreset: 0
+    chapter: 5
+    stage: 243
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 244
+    mappreset: 0
+    chapter: 5
+    stage: 244
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 245
+    mappreset: 0
+    chapter: 5
+    stage: 245
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 246
+    mappreset: 0
+    chapter: 5
+    stage: 246
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 247
+    mappreset: 0
+    chapter: 5
+    stage: 247
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 248
+    mappreset: 0
+    chapter: 5
+    stage: 248
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 249
+    mappreset: 0
+    chapter: 5
+    stage: 249
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 250
+    mappreset: 0
+    chapter: 6
+    stage: 250
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 251
+    mappreset: 0
+    chapter: 6
+    stage: 251
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 252
+    mappreset: 0
+    chapter: 6
+    stage: 252
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 253
+    mappreset: 0
+    chapter: 6
+    stage: 253
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 254
+    mappreset: 0
+    chapter: 6
+    stage: 254
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 952
+    spawnenemies:
+    - 0
+  - id: 255
+    mappreset: 0
+    chapter: 6
+    stage: 255
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 256
+    mappreset: 0
+    chapter: 6
+    stage: 256
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 257
+    mappreset: 0
+    chapter: 6
+    stage: 257
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 258
+    mappreset: 0
+    chapter: 6
+    stage: 258
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 259
+    mappreset: 0
+    chapter: 6
+    stage: 259
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 260
+    mappreset: 0
+    chapter: 6
+    stage: 260
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 261
+    mappreset: 0
+    chapter: 6
+    stage: 261
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 262
+    mappreset: 0
+    chapter: 6
+    stage: 262
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 263
+    mappreset: 0
+    chapter: 6
+    stage: 263
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 264
+    mappreset: 0
+    chapter: 6
+    stage: 264
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 265
+    mappreset: 0
+    chapter: 6
+    stage: 265
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 266
+    mappreset: 0
+    chapter: 6
+    stage: 266
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 267
+    mappreset: 0
+    chapter: 6
+    stage: 267
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 268
+    mappreset: 0
+    chapter: 6
+    stage: 268
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 269
+    mappreset: 0
+    chapter: 6
+    stage: 269
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 10
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 956
+    spawnenemies:
+    - 0
+  - id: 270
+    mappreset: 0
+    chapter: 6
+    stage: 270
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 271
+    mappreset: 0
+    chapter: 6
+    stage: 271
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 272
+    mappreset: 0
+    chapter: 6
+    stage: 272
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 273
+    mappreset: 0
+    chapter: 6
+    stage: 273
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 274
+    mappreset: 0
+    chapter: 6
+    stage: 274
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 275
+    mappreset: 0
+    chapter: 6
+    stage: 275
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 276
+    mappreset: 0
+    chapter: 6
+    stage: 276
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 277
+    mappreset: 0
+    chapter: 6
+    stage: 277
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 278
+    mappreset: 0
+    chapter: 6
+    stage: 278
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 279
+    mappreset: 0
+    chapter: 6
+    stage: 279
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 280
+    mappreset: 0
+    chapter: 6
+    stage: 280
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 281
+    mappreset: 0
+    chapter: 6
+    stage: 281
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 282
+    mappreset: 0
+    chapter: 6
+    stage: 282
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 283
+    mappreset: 0
+    chapter: 6
+    stage: 283
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 284
+    mappreset: 0
+    chapter: 6
+    stage: 284
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 960
+    spawnenemies:
+    - 0
+  - id: 285
+    mappreset: 0
+    chapter: 6
+    stage: 285
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 286
+    mappreset: 0
+    chapter: 6
+    stage: 286
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 287
+    mappreset: 0
+    chapter: 6
+    stage: 287
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 288
+    mappreset: 0
+    chapter: 6
+    stage: 288
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 289
+    mappreset: 0
+    chapter: 6
+    stage: 289
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 290
+    mappreset: 0
+    chapter: 6
+    stage: 290
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 291
+    mappreset: 0
+    chapter: 6
+    stage: 291
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 292
+    mappreset: 0
+    chapter: 6
+    stage: 292
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 293
+    mappreset: 0
+    chapter: 6
+    stage: 293
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 294
+    mappreset: 0
+    chapter: 6
+    stage: 294
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 295
+    mappreset: 0
+    chapter: 6
+    stage: 295
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 296
+    mappreset: 0
+    chapter: 6
+    stage: 296
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 297
+    mappreset: 0
+    chapter: 6
+    stage: 297
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 298
+    mappreset: 0
+    chapter: 6
+    stage: 298
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 299
+    mappreset: 0
+    chapter: 6
+    stage: 299
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 300
+    mappreset: 0
+    chapter: 7
+    stage: 300
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 301
+    mappreset: 0
+    chapter: 7
+    stage: 301
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 302
+    mappreset: 0
+    chapter: 7
+    stage: 302
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 303
+    mappreset: 0
+    chapter: 7
+    stage: 303
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 304
+    mappreset: 0
+    chapter: 7
+    stage: 304
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 305
+    mappreset: 0
+    chapter: 7
+    stage: 305
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 306
+    mappreset: 0
+    chapter: 7
+    stage: 306
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 307
+    mappreset: 0
+    chapter: 7
+    stage: 307
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 308
+    mappreset: 0
+    chapter: 7
+    stage: 308
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 309
+    mappreset: 0
+    chapter: 7
+    stage: 309
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 310
+    mappreset: 0
+    chapter: 7
+    stage: 310
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 311
+    mappreset: 0
+    chapter: 7
+    stage: 311
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 312
+    mappreset: 0
+    chapter: 7
+    stage: 312
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 313
+    mappreset: 0
+    chapter: 7
+    stage: 313
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 314
+    mappreset: 0
+    chapter: 7
+    stage: 314
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 315
+    mappreset: 0
+    chapter: 7
+    stage: 315
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 316
+    mappreset: 0
+    chapter: 7
+    stage: 316
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 317
+    mappreset: 0
+    chapter: 7
+    stage: 317
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 318
+    mappreset: 0
+    chapter: 7
+    stage: 318
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 319
+    mappreset: 0
+    chapter: 7
+    stage: 319
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 320
+    mappreset: 0
+    chapter: 7
+    stage: 320
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 321
+    mappreset: 0
+    chapter: 7
+    stage: 321
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 322
+    mappreset: 0
+    chapter: 7
+    stage: 322
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 323
+    mappreset: 0
+    chapter: 7
+    stage: 323
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 324
+    mappreset: 0
+    chapter: 7
+    stage: 324
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 325
+    mappreset: 0
+    chapter: 7
+    stage: 325
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 326
+    mappreset: 0
+    chapter: 7
+    stage: 326
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 327
+    mappreset: 0
+    chapter: 7
+    stage: 327
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 328
+    mappreset: 0
+    chapter: 7
+    stage: 328
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 329
+    mappreset: 0
+    chapter: 7
+    stage: 329
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 330
+    mappreset: 0
+    chapter: 7
+    stage: 330
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 331
+    mappreset: 0
+    chapter: 7
+    stage: 331
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 332
+    mappreset: 0
+    chapter: 7
+    stage: 332
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 333
+    mappreset: 0
+    chapter: 7
+    stage: 333
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 334
+    mappreset: 0
+    chapter: 7
+    stage: 334
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 335
+    mappreset: 0
+    chapter: 7
+    stage: 335
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 336
+    mappreset: 0
+    chapter: 7
+    stage: 336
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 337
+    mappreset: 0
+    chapter: 7
+    stage: 337
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 338
+    mappreset: 0
+    chapter: 7
+    stage: 338
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 339
+    mappreset: 0
+    chapter: 7
+    stage: 339
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 340
+    mappreset: 0
+    chapter: 7
+    stage: 340
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 341
+    mappreset: 0
+    chapter: 7
+    stage: 341
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 342
+    mappreset: 0
+    chapter: 7
+    stage: 342
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 343
+    mappreset: 0
+    chapter: 7
+    stage: 343
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 344
+    mappreset: 0
+    chapter: 7
+    stage: 344
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 345
+    mappreset: 0
+    chapter: 7
+    stage: 345
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 346
+    mappreset: 0
+    chapter: 7
+    stage: 346
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 347
+    mappreset: 0
+    chapter: 7
+    stage: 347
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 348
+    mappreset: 0
+    chapter: 7
+    stage: 348
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 349
+    mappreset: 0
+    chapter: 7
+    stage: 349
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 16
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 350
+    mappreset: 0
+    chapter: 8
+    stage: 350
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 351
+    mappreset: 0
+    chapter: 8
+    stage: 351
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 352
+    mappreset: 0
+    chapter: 8
+    stage: 352
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 353
+    mappreset: 0
+    chapter: 8
+    stage: 353
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 354
+    mappreset: 0
+    chapter: 8
+    stage: 354
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 355
+    mappreset: 0
+    chapter: 8
+    stage: 355
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 356
+    mappreset: 0
+    chapter: 8
+    stage: 356
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 357
+    mappreset: 0
+    chapter: 8
+    stage: 357
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 358
+    mappreset: 0
+    chapter: 8
+    stage: 358
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 359
+    mappreset: 0
+    chapter: 8
+    stage: 359
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 360
+    mappreset: 0
+    chapter: 8
+    stage: 360
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 361
+    mappreset: 0
+    chapter: 8
+    stage: 361
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 362
+    mappreset: 0
+    chapter: 8
+    stage: 362
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 363
+    mappreset: 0
+    chapter: 8
+    stage: 363
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 364
+    mappreset: 0
+    chapter: 8
+    stage: 364
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 365
+    mappreset: 0
+    chapter: 8
+    stage: 365
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 366
+    mappreset: 0
+    chapter: 8
+    stage: 366
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 367
+    mappreset: 0
+    chapter: 8
+    stage: 367
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 368
+    mappreset: 0
+    chapter: 8
+    stage: 368
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 369
+    mappreset: 0
+    chapter: 8
+    stage: 369
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 370
+    mappreset: 0
+    chapter: 8
+    stage: 370
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 371
+    mappreset: 0
+    chapter: 8
+    stage: 371
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 372
+    mappreset: 0
+    chapter: 8
+    stage: 372
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 373
+    mappreset: 0
+    chapter: 8
+    stage: 373
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 374
+    mappreset: 0
+    chapter: 8
+    stage: 374
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 375
+    mappreset: 0
+    chapter: 8
+    stage: 375
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 376
+    mappreset: 0
+    chapter: 8
+    stage: 376
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 377
+    mappreset: 0
+    chapter: 8
+    stage: 377
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 378
+    mappreset: 0
+    chapter: 8
+    stage: 378
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 379
+    mappreset: 0
+    chapter: 8
+    stage: 379
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 380
+    mappreset: 0
+    chapter: 8
+    stage: 380
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 381
+    mappreset: 0
+    chapter: 8
+    stage: 381
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 382
+    mappreset: 0
+    chapter: 8
+    stage: 382
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 383
+    mappreset: 0
+    chapter: 8
+    stage: 383
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 384
+    mappreset: 0
+    chapter: 8
+    stage: 384
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 385
+    mappreset: 0
+    chapter: 8
+    stage: 385
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 386
+    mappreset: 0
+    chapter: 8
+    stage: 386
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 387
+    mappreset: 0
+    chapter: 8
+    stage: 387
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 388
+    mappreset: 0
+    chapter: 8
+    stage: 388
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 389
+    mappreset: 0
+    chapter: 8
+    stage: 389
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 390
+    mappreset: 0
+    chapter: 8
+    stage: 390
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 391
+    mappreset: 0
+    chapter: 8
+    stage: 391
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 392
+    mappreset: 0
+    chapter: 8
+    stage: 392
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 393
+    mappreset: 0
+    chapter: 8
+    stage: 393
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 394
+    mappreset: 0
+    chapter: 8
+    stage: 394
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 395
+    mappreset: 0
+    chapter: 8
+    stage: 395
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 396
+    mappreset: 0
+    chapter: 8
+    stage: 396
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 397
+    mappreset: 0
+    chapter: 8
+    stage: 397
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 398
+    mappreset: 0
+    chapter: 8
+    stage: 398
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 399
+    mappreset: 0
+    chapter: 8
+    stage: 399
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 400
+    mappreset: 0
+    chapter: 9
+    stage: 400
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 17
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 401
+    mappreset: 0
+    chapter: 9
+    stage: 401
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 402
+    mappreset: 0
+    chapter: 9
+    stage: 402
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 403
+    mappreset: 0
+    chapter: 9
+    stage: 403
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 404
+    mappreset: 0
+    chapter: 9
+    stage: 404
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 405
+    mappreset: 0
+    chapter: 9
+    stage: 405
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 406
+    mappreset: 0
+    chapter: 9
+    stage: 406
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 407
+    mappreset: 0
+    chapter: 9
+    stage: 407
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 408
+    mappreset: 0
+    chapter: 9
+    stage: 408
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 409
+    mappreset: 0
+    chapter: 9
+    stage: 409
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 410
+    mappreset: 0
+    chapter: 9
+    stage: 410
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 411
+    mappreset: 0
+    chapter: 9
+    stage: 411
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 412
+    mappreset: 0
+    chapter: 9
+    stage: 412
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 413
+    mappreset: 0
+    chapter: 9
+    stage: 413
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 414
+    mappreset: 0
+    chapter: 9
+    stage: 414
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 415
+    mappreset: 0
+    chapter: 9
+    stage: 415
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 416
+    mappreset: 0
+    chapter: 9
+    stage: 416
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 417
+    mappreset: 0
+    chapter: 9
+    stage: 417
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 418
+    mappreset: 0
+    chapter: 9
+    stage: 418
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 419
+    mappreset: 0
+    chapter: 9
+    stage: 419
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 420
+    mappreset: 0
+    chapter: 9
+    stage: 420
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 421
+    mappreset: 0
+    chapter: 9
+    stage: 421
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 422
+    mappreset: 0
+    chapter: 9
+    stage: 422
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 423
+    mappreset: 0
+    chapter: 9
+    stage: 423
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 424
+    mappreset: 0
+    chapter: 9
+    stage: 424
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 425
+    mappreset: 0
+    chapter: 9
+    stage: 425
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 426
+    mappreset: 0
+    chapter: 9
+    stage: 426
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 427
+    mappreset: 0
+    chapter: 9
+    stage: 427
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 428
+    mappreset: 0
+    chapter: 9
+    stage: 428
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 429
+    mappreset: 0
+    chapter: 9
+    stage: 429
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 430
+    mappreset: 0
+    chapter: 9
+    stage: 430
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 431
+    mappreset: 0
+    chapter: 9
+    stage: 431
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 432
+    mappreset: 0
+    chapter: 9
+    stage: 432
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 433
+    mappreset: 0
+    chapter: 9
+    stage: 433
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 434
+    mappreset: 0
+    chapter: 9
+    stage: 434
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 435
+    mappreset: 0
+    chapter: 9
+    stage: 435
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 436
+    mappreset: 0
+    chapter: 9
+    stage: 436
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 437
+    mappreset: 0
+    chapter: 9
+    stage: 437
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 438
+    mappreset: 0
+    chapter: 9
+    stage: 438
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 439
+    mappreset: 0
+    chapter: 9
+    stage: 439
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 440
+    mappreset: 0
+    chapter: 9
+    stage: 440
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 441
+    mappreset: 0
+    chapter: 9
+    stage: 441
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 442
+    mappreset: 0
+    chapter: 9
+    stage: 442
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 443
+    mappreset: 0
+    chapter: 9
+    stage: 443
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 444
+    mappreset: 0
+    chapter: 9
+    stage: 444
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 445
+    mappreset: 0
+    chapter: 9
+    stage: 445
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 446
+    mappreset: 0
+    chapter: 9
+    stage: 446
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 447
+    mappreset: 0
+    chapter: 9
+    stage: 447
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 448
+    mappreset: 0
+    chapter: 9
+    stage: 448
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 449
+    mappreset: 0
+    chapter: 9
+    stage: 449
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 450
+    mappreset: 0
+    chapter: 10
+    stage: 450
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 18
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 964
+    spawnenemies:
+    - 0
+  - id: 451
+    mappreset: 0
+    chapter: 10
+    stage: 451
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 452
+    mappreset: 0
+    chapter: 10
+    stage: 452
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 453
+    mappreset: 0
+    chapter: 10
+    stage: 453
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 454
+    mappreset: 0
+    chapter: 10
+    stage: 454
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 455
+    mappreset: 0
+    chapter: 10
+    stage: 455
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 456
+    mappreset: 0
+    chapter: 10
+    stage: 456
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 457
+    mappreset: 0
+    chapter: 10
+    stage: 457
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 458
+    mappreset: 0
+    chapter: 10
+    stage: 458
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 459
+    mappreset: 0
+    chapter: 10
+    stage: 459
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 460
+    mappreset: 0
+    chapter: 10
+    stage: 460
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 461
+    mappreset: 0
+    chapter: 10
+    stage: 461
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 462
+    mappreset: 0
+    chapter: 10
+    stage: 462
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 463
+    mappreset: 0
+    chapter: 10
+    stage: 463
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 464
+    mappreset: 0
+    chapter: 10
+    stage: 464
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 465
+    mappreset: 0
+    chapter: 10
+    stage: 465
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 466
+    mappreset: 0
+    chapter: 10
+    stage: 466
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 467
+    mappreset: 0
+    chapter: 10
+    stage: 467
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 468
+    mappreset: 0
+    chapter: 10
+    stage: 468
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 469
+    mappreset: 0
+    chapter: 10
+    stage: 469
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 470
+    mappreset: 0
+    chapter: 10
+    stage: 470
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 471
+    mappreset: 0
+    chapter: 10
+    stage: 471
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 472
+    mappreset: 0
+    chapter: 10
+    stage: 472
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 473
+    mappreset: 0
+    chapter: 10
+    stage: 473
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 474
+    mappreset: 0
+    chapter: 10
+    stage: 474
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 475
+    mappreset: 0
+    chapter: 10
+    stage: 475
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 476
+    mappreset: 0
+    chapter: 10
+    stage: 476
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 477
+    mappreset: 0
+    chapter: 10
+    stage: 477
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 478
+    mappreset: 0
+    chapter: 10
+    stage: 478
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 479
+    mappreset: 0
+    chapter: 10
+    stage: 479
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 480
+    mappreset: 0
+    chapter: 10
+    stage: 480
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 481
+    mappreset: 0
+    chapter: 10
+    stage: 481
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 482
+    mappreset: 0
+    chapter: 10
+    stage: 482
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 483
+    mappreset: 0
+    chapter: 10
+    stage: 483
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 484
+    mappreset: 0
+    chapter: 10
+    stage: 484
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 485
+    mappreset: 0
+    chapter: 10
+    stage: 485
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 486
+    mappreset: 0
+    chapter: 10
+    stage: 486
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 487
+    mappreset: 0
+    chapter: 10
+    stage: 487
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 488
+    mappreset: 0
+    chapter: 10
+    stage: 488
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 489
+    mappreset: 0
+    chapter: 10
+    stage: 489
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 490
+    mappreset: 0
+    chapter: 10
+    stage: 490
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 491
+    mappreset: 0
+    chapter: 10
+    stage: 491
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 492
+    mappreset: 0
+    chapter: 10
+    stage: 492
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 493
+    mappreset: 0
+    chapter: 10
+    stage: 493
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 494
+    mappreset: 0
+    chapter: 10
+    stage: 494
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 495
+    mappreset: 0
+    chapter: 10
+    stage: 495
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 496
+    mappreset: 0
+    chapter: 10
+    stage: 496
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 497
+    mappreset: 0
+    chapter: 10
+    stage: 497
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 498
+    mappreset: 0
+    chapter: 10
+    stage: 498
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 499
+    mappreset: 0
+    chapter: 10
+    stage: 499
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 980
+    spawnenemies:
+    - 0
+  - id: 500
+    mappreset: 0
+    chapter: 11
+    stage: 500
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 501
+    mappreset: 0
+    chapter: 11
+    stage: 501
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 502
+    mappreset: 0
+    chapter: 11
+    stage: 502
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 503
+    mappreset: 0
+    chapter: 11
+    stage: 503
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 504
+    mappreset: 0
+    chapter: 11
+    stage: 504
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 505
+    mappreset: 0
+    chapter: 11
+    stage: 505
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 506
+    mappreset: 0
+    chapter: 11
+    stage: 506
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 507
+    mappreset: 0
+    chapter: 11
+    stage: 507
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 508
+    mappreset: 0
+    chapter: 11
+    stage: 508
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 509
+    mappreset: 0
+    chapter: 11
+    stage: 509
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 510
+    mappreset: 0
+    chapter: 11
+    stage: 510
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 511
+    mappreset: 0
+    chapter: 11
+    stage: 511
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 512
+    mappreset: 0
+    chapter: 11
+    stage: 512
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 513
+    mappreset: 0
+    chapter: 11
+    stage: 513
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 514
+    mappreset: 0
+    chapter: 11
+    stage: 514
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 515
+    mappreset: 0
+    chapter: 11
+    stage: 515
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 516
+    mappreset: 0
+    chapter: 11
+    stage: 516
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 517
+    mappreset: 0
+    chapter: 11
+    stage: 517
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 518
+    mappreset: 0
+    chapter: 11
+    stage: 518
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 519
+    mappreset: 0
+    chapter: 11
+    stage: 519
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 520
+    mappreset: 0
+    chapter: 11
+    stage: 520
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 521
+    mappreset: 0
+    chapter: 11
+    stage: 521
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 522
+    mappreset: 0
+    chapter: 11
+    stage: 522
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 523
+    mappreset: 0
+    chapter: 11
+    stage: 523
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 524
+    mappreset: 0
+    chapter: 11
+    stage: 524
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 525
+    mappreset: 0
+    chapter: 11
+    stage: 525
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 526
+    mappreset: 0
+    chapter: 11
+    stage: 526
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 527
+    mappreset: 0
+    chapter: 11
+    stage: 527
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 528
+    mappreset: 0
+    chapter: 11
+    stage: 528
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 529
+    mappreset: 0
+    chapter: 11
+    stage: 529
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 530
+    mappreset: 0
+    chapter: 11
+    stage: 530
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 531
+    mappreset: 0
+    chapter: 11
+    stage: 531
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 532
+    mappreset: 0
+    chapter: 11
+    stage: 532
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 533
+    mappreset: 0
+    chapter: 11
+    stage: 533
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 534
+    mappreset: 0
+    chapter: 11
+    stage: 534
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 535
+    mappreset: 0
+    chapter: 11
+    stage: 535
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 536
+    mappreset: 0
+    chapter: 11
+    stage: 536
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 537
+    mappreset: 0
+    chapter: 11
+    stage: 537
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 538
+    mappreset: 0
+    chapter: 11
+    stage: 538
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 539
+    mappreset: 0
+    chapter: 11
+    stage: 539
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 540
+    mappreset: 0
+    chapter: 11
+    stage: 540
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 541
+    mappreset: 0
+    chapter: 11
+    stage: 541
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 542
+    mappreset: 0
+    chapter: 11
+    stage: 542
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 543
+    mappreset: 0
+    chapter: 11
+    stage: 543
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 544
+    mappreset: 0
+    chapter: 11
+    stage: 544
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 545
+    mappreset: 0
+    chapter: 11
+    stage: 545
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 546
+    mappreset: 0
+    chapter: 11
+    stage: 546
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 547
+    mappreset: 0
+    chapter: 11
+    stage: 547
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 548
+    mappreset: 0
+    chapter: 11
+    stage: 548
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 549
+    mappreset: 0
+    chapter: 11
+    stage: 549
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 550
+    mappreset: 0
+    chapter: 12
+    stage: 550
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 19
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 990
+    spawnenemies:
+    - 0
+  - id: 551
+    mappreset: 0
+    chapter: 12
+    stage: 551
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 552
+    mappreset: 0
+    chapter: 12
+    stage: 552
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 553
+    mappreset: 0
+    chapter: 12
+    stage: 553
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 554
+    mappreset: 0
+    chapter: 12
+    stage: 554
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 555
+    mappreset: 0
+    chapter: 12
+    stage: 555
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 556
+    mappreset: 0
+    chapter: 12
+    stage: 556
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 557
+    mappreset: 0
+    chapter: 12
+    stage: 557
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 558
+    mappreset: 0
+    chapter: 12
+    stage: 558
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 559
+    mappreset: 0
+    chapter: 12
+    stage: 559
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 560
+    mappreset: 0
+    chapter: 12
+    stage: 560
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 561
+    mappreset: 0
+    chapter: 12
+    stage: 561
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 562
+    mappreset: 0
+    chapter: 12
+    stage: 562
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 563
+    mappreset: 0
+    chapter: 12
+    stage: 563
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 564
+    mappreset: 0
+    chapter: 12
+    stage: 564
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 565
+    mappreset: 0
+    chapter: 12
+    stage: 565
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 566
+    mappreset: 0
+    chapter: 12
+    stage: 566
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 567
+    mappreset: 0
+    chapter: 12
+    stage: 567
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 568
+    mappreset: 0
+    chapter: 12
+    stage: 568
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 569
+    mappreset: 0
+    chapter: 12
+    stage: 569
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 570
+    mappreset: 0
+    chapter: 12
+    stage: 570
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 571
+    mappreset: 0
+    chapter: 12
+    stage: 571
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 572
+    mappreset: 0
+    chapter: 12
+    stage: 572
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 573
+    mappreset: 0
+    chapter: 12
+    stage: 573
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 574
+    mappreset: 0
+    chapter: 12
+    stage: 574
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 575
+    mappreset: 0
+    chapter: 12
+    stage: 575
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 576
+    mappreset: 0
+    chapter: 12
+    stage: 576
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 577
+    mappreset: 0
+    chapter: 12
+    stage: 577
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 578
+    mappreset: 0
+    chapter: 12
+    stage: 578
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 579
+    mappreset: 0
+    chapter: 12
+    stage: 579
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 580
+    mappreset: 0
+    chapter: 12
+    stage: 580
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 581
+    mappreset: 0
+    chapter: 12
+    stage: 581
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 582
+    mappreset: 0
+    chapter: 12
+    stage: 582
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 583
+    mappreset: 0
+    chapter: 12
+    stage: 583
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 584
+    mappreset: 0
+    chapter: 12
+    stage: 584
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 585
+    mappreset: 0
+    chapter: 12
+    stage: 585
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 586
+    mappreset: 0
+    chapter: 12
+    stage: 586
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 587
+    mappreset: 0
+    chapter: 12
+    stage: 587
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 588
+    mappreset: 0
+    chapter: 12
+    stage: 588
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 589
+    mappreset: 0
+    chapter: 12
+    stage: 589
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 590
+    mappreset: 0
+    chapter: 12
+    stage: 590
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 591
+    mappreset: 0
+    chapter: 12
+    stage: 591
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 592
+    mappreset: 0
+    chapter: 12
+    stage: 592
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 593
+    mappreset: 0
+    chapter: 12
+    stage: 593
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 594
+    mappreset: 0
+    chapter: 12
+    stage: 594
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 595
+    mappreset: 0
+    chapter: 12
+    stage: 595
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 596
+    mappreset: 0
+    chapter: 12
+    stage: 596
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 597
+    mappreset: 0
+    chapter: 12
+    stage: 597
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 598
+    mappreset: 0
+    chapter: 12
+    stage: 598
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 599
+    mappreset: 0
+    chapter: 12
+    stage: 599
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 600
+    mappreset: 0
+    chapter: 13
+    stage: 600
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 601
+    mappreset: 0
+    chapter: 13
+    stage: 601
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 602
+    mappreset: 0
+    chapter: 13
+    stage: 602
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 603
+    mappreset: 0
+    chapter: 13
+    stage: 603
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 604
+    mappreset: 0
+    chapter: 13
+    stage: 604
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 605
+    mappreset: 0
+    chapter: 13
+    stage: 605
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 606
+    mappreset: 0
+    chapter: 13
+    stage: 606
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 607
+    mappreset: 0
+    chapter: 13
+    stage: 607
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 608
+    mappreset: 0
+    chapter: 13
+    stage: 608
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 609
+    mappreset: 0
+    chapter: 13
+    stage: 609
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 610
+    mappreset: 0
+    chapter: 13
+    stage: 610
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 611
+    mappreset: 0
+    chapter: 13
+    stage: 611
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 612
+    mappreset: 0
+    chapter: 13
+    stage: 612
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 613
+    mappreset: 0
+    chapter: 13
+    stage: 613
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 614
+    mappreset: 0
+    chapter: 13
+    stage: 614
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 615
+    mappreset: 0
+    chapter: 13
+    stage: 615
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 616
+    mappreset: 0
+    chapter: 13
+    stage: 616
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 617
+    mappreset: 0
+    chapter: 13
+    stage: 617
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 618
+    mappreset: 0
+    chapter: 13
+    stage: 618
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 619
+    mappreset: 0
+    chapter: 13
+    stage: 619
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 620
+    mappreset: 0
+    chapter: 13
+    stage: 620
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 621
+    mappreset: 0
+    chapter: 13
+    stage: 621
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 622
+    mappreset: 0
+    chapter: 13
+    stage: 622
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 623
+    mappreset: 0
+    chapter: 13
+    stage: 623
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 624
+    mappreset: 0
+    chapter: 13
+    stage: 624
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 625
+    mappreset: 0
+    chapter: 13
+    stage: 625
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 626
+    mappreset: 0
+    chapter: 13
+    stage: 626
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 627
+    mappreset: 0
+    chapter: 13
+    stage: 627
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 628
+    mappreset: 0
+    chapter: 13
+    stage: 628
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 629
+    mappreset: 0
+    chapter: 13
+    stage: 629
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 630
+    mappreset: 0
+    chapter: 13
+    stage: 630
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 631
+    mappreset: 0
+    chapter: 13
+    stage: 631
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 632
+    mappreset: 0
+    chapter: 13
+    stage: 632
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 633
+    mappreset: 0
+    chapter: 13
+    stage: 633
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 634
+    mappreset: 0
+    chapter: 13
+    stage: 634
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 635
+    mappreset: 0
+    chapter: 13
+    stage: 635
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 636
+    mappreset: 0
+    chapter: 13
+    stage: 636
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 637
+    mappreset: 0
+    chapter: 13
+    stage: 637
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 638
+    mappreset: 0
+    chapter: 13
+    stage: 638
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 639
+    mappreset: 0
+    chapter: 13
+    stage: 639
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 640
+    mappreset: 0
+    chapter: 13
+    stage: 640
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 641
+    mappreset: 0
+    chapter: 13
+    stage: 641
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 642
+    mappreset: 0
+    chapter: 13
+    stage: 642
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 643
+    mappreset: 0
+    chapter: 13
+    stage: 643
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 644
+    mappreset: 0
+    chapter: 13
+    stage: 644
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 645
+    mappreset: 0
+    chapter: 13
+    stage: 645
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 646
+    mappreset: 0
+    chapter: 13
+    stage: 646
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 647
+    mappreset: 0
+    chapter: 13
+    stage: 647
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 648
+    mappreset: 0
+    chapter: 13
+    stage: 648
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 649
+    mappreset: 0
+    chapter: 13
+    stage: 649
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 20
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 650
+    mappreset: 0
+    chapter: 14
+    stage: 650
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 651
+    mappreset: 0
+    chapter: 14
+    stage: 651
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 652
+    mappreset: 0
+    chapter: 14
+    stage: 652
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 653
+    mappreset: 0
+    chapter: 14
+    stage: 653
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 654
+    mappreset: 0
+    chapter: 14
+    stage: 654
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 655
+    mappreset: 0
+    chapter: 14
+    stage: 655
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 656
+    mappreset: 0
+    chapter: 14
+    stage: 656
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 657
+    mappreset: 0
+    chapter: 14
+    stage: 657
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 658
+    mappreset: 0
+    chapter: 14
+    stage: 658
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 659
+    mappreset: 0
+    chapter: 14
+    stage: 659
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 660
+    mappreset: 0
+    chapter: 14
+    stage: 660
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 661
+    mappreset: 0
+    chapter: 14
+    stage: 661
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 662
+    mappreset: 0
+    chapter: 14
+    stage: 662
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 663
+    mappreset: 0
+    chapter: 14
+    stage: 663
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 664
+    mappreset: 0
+    chapter: 14
+    stage: 664
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 665
+    mappreset: 0
+    chapter: 14
+    stage: 665
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 666
+    mappreset: 0
+    chapter: 14
+    stage: 666
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 667
+    mappreset: 0
+    chapter: 14
+    stage: 667
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 668
+    mappreset: 0
+    chapter: 14
+    stage: 668
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 669
+    mappreset: 0
+    chapter: 14
+    stage: 669
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 670
+    mappreset: 0
+    chapter: 14
+    stage: 670
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 671
+    mappreset: 0
+    chapter: 14
+    stage: 671
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 672
+    mappreset: 0
+    chapter: 14
+    stage: 672
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 673
+    mappreset: 0
+    chapter: 14
+    stage: 673
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 674
+    mappreset: 0
+    chapter: 14
+    stage: 674
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 675
+    mappreset: 0
+    chapter: 14
+    stage: 675
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 676
+    mappreset: 0
+    chapter: 14
+    stage: 676
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 677
+    mappreset: 0
+    chapter: 14
+    stage: 677
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 678
+    mappreset: 0
+    chapter: 14
+    stage: 678
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 679
+    mappreset: 0
+    chapter: 14
+    stage: 679
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 680
+    mappreset: 0
+    chapter: 14
+    stage: 680
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 681
+    mappreset: 0
+    chapter: 14
+    stage: 681
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 682
+    mappreset: 0
+    chapter: 14
+    stage: 682
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 683
+    mappreset: 0
+    chapter: 14
+    stage: 683
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 684
+    mappreset: 0
+    chapter: 14
+    stage: 684
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 685
+    mappreset: 0
+    chapter: 14
+    stage: 685
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 686
+    mappreset: 0
+    chapter: 14
+    stage: 686
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 687
+    mappreset: 0
+    chapter: 14
+    stage: 687
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 688
+    mappreset: 0
+    chapter: 14
+    stage: 688
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 689
+    mappreset: 0
+    chapter: 14
+    stage: 689
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 690
+    mappreset: 0
+    chapter: 14
+    stage: 690
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 691
+    mappreset: 0
+    chapter: 14
+    stage: 691
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 692
+    mappreset: 0
+    chapter: 14
+    stage: 692
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 693
+    mappreset: 0
+    chapter: 14
+    stage: 693
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 694
+    mappreset: 0
+    chapter: 14
+    stage: 694
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 695
+    mappreset: 0
+    chapter: 14
+    stage: 695
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 696
+    mappreset: 0
+    chapter: 14
+    stage: 696
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 697
+    mappreset: 0
+    chapter: 14
+    stage: 697
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 698
+    mappreset: 0
+    chapter: 14
+    stage: 698
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 699
+    mappreset: 0
+    chapter: 14
+    stage: 699
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 700
+    mappreset: 0
+    chapter: 15
+    stage: 700
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 701
+    mappreset: 0
+    chapter: 15
+    stage: 701
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 702
+    mappreset: 0
+    chapter: 15
+    stage: 702
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 703
+    mappreset: 0
+    chapter: 15
+    stage: 703
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 704
+    mappreset: 0
+    chapter: 15
+    stage: 704
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 705
+    mappreset: 0
+    chapter: 15
+    stage: 705
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 706
+    mappreset: 0
+    chapter: 15
+    stage: 706
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 707
+    mappreset: 0
+    chapter: 15
+    stage: 707
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 708
+    mappreset: 0
+    chapter: 15
+    stage: 708
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 709
+    mappreset: 0
+    chapter: 15
+    stage: 709
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 710
+    mappreset: 0
+    chapter: 15
+    stage: 710
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 711
+    mappreset: 0
+    chapter: 15
+    stage: 711
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 712
+    mappreset: 0
+    chapter: 15
+    stage: 712
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 713
+    mappreset: 0
+    chapter: 15
+    stage: 713
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 714
+    mappreset: 0
+    chapter: 15
+    stage: 714
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 715
+    mappreset: 0
+    chapter: 15
+    stage: 715
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 716
+    mappreset: 0
+    chapter: 15
+    stage: 716
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 717
+    mappreset: 0
+    chapter: 15
+    stage: 717
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 718
+    mappreset: 0
+    chapter: 15
+    stage: 718
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 719
+    mappreset: 0
+    chapter: 15
+    stage: 719
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 720
+    mappreset: 0
+    chapter: 15
+    stage: 720
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 721
+    mappreset: 0
+    chapter: 15
+    stage: 721
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 722
+    mappreset: 0
+    chapter: 15
+    stage: 722
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 723
+    mappreset: 0
+    chapter: 15
+    stage: 723
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 724
+    mappreset: 0
+    chapter: 15
+    stage: 724
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 725
+    mappreset: 0
+    chapter: 15
+    stage: 725
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 726
+    mappreset: 0
+    chapter: 15
+    stage: 726
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 727
+    mappreset: 0
+    chapter: 15
+    stage: 727
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 728
+    mappreset: 0
+    chapter: 15
+    stage: 728
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 729
+    mappreset: 0
+    chapter: 15
+    stage: 729
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 730
+    mappreset: 0
+    chapter: 15
+    stage: 730
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 731
+    mappreset: 0
+    chapter: 15
+    stage: 731
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 732
+    mappreset: 0
+    chapter: 15
+    stage: 732
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 733
+    mappreset: 0
+    chapter: 15
+    stage: 733
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 734
+    mappreset: 0
+    chapter: 15
+    stage: 734
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 735
+    mappreset: 0
+    chapter: 15
+    stage: 735
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 736
+    mappreset: 0
+    chapter: 15
+    stage: 736
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 737
+    mappreset: 0
+    chapter: 15
+    stage: 737
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 738
+    mappreset: 0
+    chapter: 15
+    stage: 738
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 739
+    mappreset: 0
+    chapter: 15
+    stage: 739
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 740
+    mappreset: 0
+    chapter: 15
+    stage: 740
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 741
+    mappreset: 0
+    chapter: 15
+    stage: 741
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 742
+    mappreset: 0
+    chapter: 15
+    stage: 742
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 743
+    mappreset: 0
+    chapter: 15
+    stage: 743
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 744
+    mappreset: 0
+    chapter: 15
+    stage: 744
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 745
+    mappreset: 0
+    chapter: 15
+    stage: 745
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 746
+    mappreset: 0
+    chapter: 15
+    stage: 746
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 747
+    mappreset: 0
+    chapter: 15
+    stage: 747
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 748
+    mappreset: 0
+    chapter: 15
+    stage: 748
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0
+  - id: 749
+    mappreset: 0
+    chapter: 15
+    stage: 749
+    monsterlevel: 1
+    multiplebosspower: 2
+    spawnamount: 21
+    spawndelay: 9
+    movespeed: 1
+    exp: 100
+    gold: 100
+    growthstoneamount: 1000
+    spawnenemies:
+    - 0

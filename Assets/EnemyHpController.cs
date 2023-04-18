@@ -11,7 +11,7 @@ public class EnemyHpController : MonoBehaviour
     public ReactiveCommand<double> whenEnemyDamaged { get; private set; } = new ReactiveCommand<double>();
     public double maxHp { get; private set; }
 
-    private EnemyTableData enemyTableData;
+    private EnemyInfo enemyInfo;
 
     [SerializeField]
     private EnemyHpBar enemyHpBar;
@@ -70,17 +70,17 @@ public class EnemyHpController : MonoBehaviour
         this.defense = defense;
     }
 
-    public void Initialize(EnemyTableData enemyTableData,bool isBossEnemy=false)
+    public void Initialize(EnemyInfo enemyInfo,bool isBossEnemy=false)
     {
-        this.enemyTableData = enemyTableData;
+        this.enemyInfo = enemyInfo;
 
         this.isBossEnemy = isBossEnemy;
         
         BaseInit();
 
-        SetDefense(enemyTableData.Defense);
+        SetDefense(enemyInfo.Defense);
         
-        SetHp(enemyTableData.Hp * enemyTableData.Bosshpratio);
+        SetHp(enemyInfo.Hp);
 
     }
 

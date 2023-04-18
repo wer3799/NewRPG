@@ -25,6 +25,7 @@ public class GameBalance
     public readonly static int stageBossClearTime = 10;
     
     public readonly static int levelUpStatPoint = 1;
+    public readonly static float enemyApproachDistance = 1;
 }
 
 public static class DamageBalance

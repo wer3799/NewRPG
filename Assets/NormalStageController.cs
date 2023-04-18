@@ -73,25 +73,45 @@ public class NormalStageController : SingletonMono<NormalStageController>
         AutoManager.Instance.SetAuto(true);
     }
 
+    public EnemyInfo GetCurrentStageEnemyInfo(bool bossEnemy = false)
+    {
+        EnemyTableData enemyTableData = TableManager.Instance.GetTableDataByLevel(MapTableData.Value.Monsterlevel);
+
+        double Hp = enemyTableData.Starthp * enemyTableData.Perhp * MapTableData.Value.Monsterlevel;
+        float Exp = MapTableData.Value.Exp;
+        float Gold = MapTableData.Value.Gold;
+        float GrowthStone = MapTableData.Value.Growthstoneamount;
+        float MoveSpeed = MapTableData.Value.Movespeed;
+        float Defense = enemyTableData.Startdef * enemyTableData.Intervaldef;
+
+        if (bossEnemy)
+        {
+            Hp *= MapTableData.Value.Multiplebosspower;
+            Defense *= (float)MapTableData.Value.Multiplebosspower;
+        }
+        
+        return new EnemyInfo(Hp, Exp, Gold, GrowthStone, MoveSpeed, Defense);
+    }
+
     private IEnumerator NormalEnemySpawnRoutine()
     {
-        WaitForSeconds spawnDelay = new WaitForSeconds(mapTableData.Value.Nextspawndelay);
+        WaitForSeconds spawnDelay = new WaitForSeconds(mapTableData.Value.Spawndelay);
 
         while (true)
         {
+            EnemyInfo enemyInfo = GetCurrentStageEnemyInfo();
+
             for (int i = 0; i < mapTableData.Value.Spawnenemies.Length; i++)
             {
-                for (int j = 0; j < mapTableData.Value.Spawnnum; j++)
+                for (int j = 0; j < mapTableData.Value.Spawnamount; j++)
                 {
                     if (stageState.Value == NormalStageState.Boss) continue;
 
                     int randIdx = Random.Range(0, spawnedEnemyList.Count);
 
-                    var enemyTableData = TableManager.Instance.EnemyData[mapTableData.Value.Spawnenemies[i]];
-
                     var enemyPrefab = spawnedEnemyList[randIdx].GetItem();
 
-                    enemyPrefab.Initialize(enemyTableData);
+                    enemyPrefab.Initialize(enemyInfo);
 
                     enemyPrefab.transform.localScale = Vector3.one;
 
@@ -154,36 +174,31 @@ public class NormalStageController : SingletonMono<NormalStageController>
     }
 
     private CompositeDisposable disposable = new CompositeDisposable();
-    
+
     public void StartStageBoss()
     {
         stageState.Value = NormalStageState.Boss;
-        
+
         DisableAllEnemies();
-        
+
         SpawnBossEnemy();
-        
+
         UiSubHpBar.Instance.ShowGauge(true);
-        
+
         UiBossTimer.Instance.StartBossTimer(GameBalance.stageBossClearTime);
-        
+
         disposable.Clear();
 
-        UiBossTimer.Instance.whenFieldBossTimerEnd.AsObservable().Subscribe(e =>
-        {
-            
-            StageBossTimeOut();
-
-        }).AddTo(disposable);
+        UiBossTimer.Instance.whenFieldBossTimerEnd.AsObservable().Subscribe(e => { StageBossTimeOut(); }).AddTo(disposable);
     }
 
     private void SpawnBossEnemy()
     {
-        var enemyTableData = TableManager.Instance.EnemyData[mapTableData.Value.Spawnenemies[0]];
+        EnemyInfo enemyInfo = GetCurrentStageEnemyInfo(true);
 
         var enemyPrefab = spawnedEnemyList[0].GetItem();
 
-        enemyPrefab.Initialize(enemyTableData, isBossEnemy: true);
+        enemyPrefab.Initialize(enemyInfo, isBossEnemy: true);
 
         enemyPrefab.SetReturnCallBack(EnemyRemoveCallBack);
 
@@ -205,7 +220,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
     public void MoveNextStage()
     {
         PopupManager.Instance.ShowStageChangeEffect();
-        
+
         DestroyPrefObjects();
 
         MakeStage();
@@ -218,9 +233,9 @@ public class NormalStageController : SingletonMono<NormalStageController>
         {
             currentSpawnedEnemies[i].gameObject.SetActive(false);
         }
-        
+
         stageState.Value = NormalStageState.Normal;
-        
+
         UiSubHpBar.Instance.ShowGauge(false);
 
         UiBossTimer.Instance.StopBossTimer();
@@ -229,11 +244,11 @@ public class NormalStageController : SingletonMono<NormalStageController>
     public void SetStageBossClear()
     {
         stageState.Value = NormalStageState.Normal;
-        
+
         UiSubHpBar.Instance.ShowGauge(false);
-        
+
         UiBossTimer.Instance.StopBossTimer();
-        
+
         ServerData.userInfoTable.TableDatas[UserInfoTable.CurrentStage].Value++;
 
         if (stageSyncRoutine != null)
@@ -244,7 +259,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
         StartCoroutine(StageSyncRoutine());
     }
 
-    private WaitForSeconds delay = new WaitForSeconds(10.0f);
+    private WaitForSeconds delay = new WaitForSeconds(1.0f);
     private Coroutine stageSyncRoutine;
 
     private IEnumerator StageSyncRoutine()
@@ -259,5 +274,4 @@ public class NormalStageController : SingletonMono<NormalStageController>
         base.OnDestroy();
         disposable.Dispose();
     }
-    
 }

@@ -26,28 +26,52 @@ MonoBehaviour:
     name: MapPreset
     isEnable: 0
     isArray: 0
+  - type: 3
+    name: Chapter
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: Stage
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: MonsterLevel
+    isEnable: 0
+    isArray: 0
+  - type: 6
+    name: MultipleBossPower
+    isEnable: 0
+    isArray: 0
+  - type: 3
+    name: SpawnAmount
+    isEnable: 0
+    isArray: 0
   - type: 5
     name: SpawnDelay
     isEnable: 0
     isArray: 0
-  - type: 3
-    name: SpawnNum
+  - type: 5
+    name: MoveSpeed
+    isEnable: 0
+    isArray: 0
+  - type: 5
+    name: Exp
+    isEnable: 0
+    isArray: 0
+  - type: 5
+    name: Gold
+    isEnable: 0
+    isArray: 0
+  - type: 5
+    name: GrowthStoneAmount
     isEnable: 0
     isArray: 0
   - type: 1
-    name: SpawnEnemies
+    name: Spawnenemies
     isEnable: 0
     isArray: 1
-  - type: 5
-    name: NextSpawnDelay
-    isEnable: 0
-    isArray: 0
-  - type: 3
-    name: MaxSpawnEnemyNum
-    isEnable: 0
-    isArray: 0
   excelFilePath: Assets/04.Table/StageMap.xls
   SheetNames:
   - StageMap
-  - Sheet1
+  - Balance
   currentSelectedSheet: 0
