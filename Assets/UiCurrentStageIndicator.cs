@@ -27,7 +27,7 @@ public class UiCurrentStageIndicator : MonoBehaviour
             }
             else
             {
-                description.SetText($"{e.Id + 1}스테이지");
+                description.SetText($"{e.Chapter}-{e.Stage}");
             }
             
         }).AddTo(this);

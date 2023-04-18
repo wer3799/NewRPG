@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameBalance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTable.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/EnemyTableImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMap.xls.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/StageMapImporter.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyHpController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NormalStageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/EnemyTableData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/StageMapData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiCurrentStageIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiCurrentStageIndicator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +156,7 @@
       <workItem from="1681415237290" duration="5651000" />
       <workItem from="1681568542351" duration="9994000" />
       <workItem from="1681581156287" duration="2420000" />
-      <workItem from="1681835328287" duration="3428000" />
+      <workItem from="1681835328287" duration="3566000" />
     </task>
     <servers />
   </component>
