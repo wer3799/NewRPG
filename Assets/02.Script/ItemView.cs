@@ -59,11 +59,35 @@ public class ItemView : MonoBehaviour
 
     private ItemData itemData;
 
+    private Sprite GetItemIcon()
+    {
+        switch (itemData.itemType)
+        {
+            case ItemType.SubWeapon:
+            {
+                return CommonResourceContainer.GetSubWeaponSprite(itemData.idx);
+            }
+                break;
+            case ItemType.Charm:
+            {
+                return CommonResourceContainer.GetCharmSprite(itemData.idx);
+            }
+                break;
+            case ItemType.Norigae:
+            {
+                return CommonResourceContainer.GetNorigaeSprite(itemData.idx);
+            }
+                break;
+        }
+
+        return null;
+    }
+
     public void Initialize(ItemData itemData)
     {
         this.itemData = itemData;
 
-        // weaponIcon.sprite = itemData.icon;
+        weaponIcon.sprite = GetItemIcon();
 
         //this.gradeText.SetText(CommonResourceContainer.GetGradeFrame(itemData.grade));
 
@@ -99,6 +123,24 @@ public class ItemView : MonoBehaviour
                 ServerData.subWeaponServerTable.TableDatas[stringId].level.AsObservable().Subscribe(WhenLevelChanged).AddTo(disposable);
             }
                 break;
+            case ItemType.Charm:
+            {
+                string stringId = TableManager.Instance.charm.dataArray[itemData.idx].Stringid;
+
+                ServerData.charmServerTable.TableDatas[stringId].amount.AsObservable().Subscribe(WhenCountChanged).AddTo(disposable);
+
+                ServerData.charmServerTable.TableDatas[stringId].level.AsObservable().Subscribe(WhenLevelChanged).AddTo(disposable);
+            }
+                break;
+            case ItemType.Norigae:
+            {
+                string stringId = TableManager.Instance.norigae.dataArray[itemData.idx].Stringid;
+
+                ServerData.norigaeServerTable.TableDatas[stringId].amount.AsObservable().Subscribe(WhenCountChanged).AddTo(disposable);
+
+                ServerData.norigaeServerTable.TableDatas[stringId].level.AsObservable().Subscribe(WhenLevelChanged).AddTo(disposable);
+            }
+                break;
         }
     }
 
@@ -120,7 +162,21 @@ public class ItemView : MonoBehaviour
             {
                 var tableData = TableManager.Instance.subWeapon.dataArray[itemData.idx];
 
-                amountText.SetText($"({ServerData.subWeaponServerTable.GetCurrentWeaponCount(tableData.Stringid)}/{tableData.Requireupgrade})");
+                amountText.SetText($"({ServerData.subWeaponServerTable.GetCount(tableData.Stringid)}/{tableData.Requireupgrade})");
+            }
+                break;
+            case ItemType.Charm:
+            {
+                var tableData = TableManager.Instance.charm.dataArray[itemData.idx];
+
+                amountText.SetText($"({ServerData.charmServerTable.GetCount(tableData.Stringid)}/{tableData.Requireupgrade})");
+            }
+                break;
+            case ItemType.Norigae:
+            {
+                var tableData = TableManager.Instance.norigae.dataArray[itemData.idx];
+
+                amountText.SetText($"({ServerData.norigaeServerTable.GetCount(tableData.Stringid)}/{tableData.Requireupgrade})");
             }
                 break;
         }

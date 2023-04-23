@@ -45,7 +45,7 @@ public class SubWeaponServerTable
         }
     }
 
-    public int GetCurrentWeaponCount(string idx)
+    public int GetCount(string idx)
     {
         return tableDatas[idx].amount.Value;
     }

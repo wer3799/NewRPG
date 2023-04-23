@@ -10,7 +10,7 @@ using UnityEngine.Serialization;
 
 public class UiItemGacha : MonoBehaviour
 {
-    [FormerlySerializedAs("gachaType")] public ItemType itemType;
+    public ItemType itemType;
 
     public string GetGachaLevelKey()
     {
@@ -124,15 +124,11 @@ public class UiItemGacha : MonoBehaviour
         }
 
         //UiTutorialManager.Instance.SetClear(TutorialStep.GetWeapon);
-
-        itemDatas.Clear();
-    
+        
         gachaResultCellInfos.Clear();
-
-
+        
         int gachaLevel = UiGachaPopup.Instance.GachaLevel(itemType);
-
-       
+        
         SetProbAndItemDatas(itemType,gachaLevel);
         
         List<int> serverUpdateList = new List<int>();
@@ -161,6 +157,18 @@ public class UiItemGacha : MonoBehaviour
                 {
                     var tableData = TableManager.Instance.subWeapon.dataArray[itemDatas[randomIdx].idx];
                     ServerData.subWeaponServerTable.UpData(tableData, cellInfo.amount);
+                }
+                    break;
+                case ItemType.Charm:
+                {
+                    var tableData = TableManager.Instance.charm.dataArray[itemDatas[randomIdx].idx];
+                    ServerData.charmServerTable.UpData(tableData, cellInfo.amount);
+                }
+                    break;
+                case ItemType.Norigae:
+                {
+                    var tableData = TableManager.Instance.norigae.dataArray[itemDatas[randomIdx].idx];
+                    ServerData.norigaeServerTable.UpData(tableData, cellInfo.amount);
                 }
                     break;
             }
@@ -193,7 +201,110 @@ public class UiItemGacha : MonoBehaviour
                 
                 for (int i = 0; i < tableData.Length; i++)
                 {
-                    itemDatas.Add(new ItemData());
+                    itemDatas.Add(new ItemData(itemType,tableData[i].Id,tableData[i].Grade));
+                    
+                    if (gachaLevel == 0)
+                    {
+                        probs.Add(tableData[i].Gachalv1);
+                    }
+                    else if (gachaLevel == 1)
+                    {
+                        probs.Add(tableData[i].Gachalv2);
+                    }
+                    else if (gachaLevel == 2)
+                    {
+                        probs.Add(tableData[i].Gachalv3);
+                    }
+                    else if (gachaLevel == 3)
+                    {
+                        probs.Add(tableData[i].Gachalv4);
+                    }
+                    else if (gachaLevel == 4)
+                    {
+                        probs.Add(tableData[i].Gachalv5);
+                    }
+                    else if (gachaLevel == 5)
+                    {
+                        probs.Add(tableData[i].Gachalv6);
+                    }
+                    else if (gachaLevel == 6)
+                    {
+                        probs.Add(tableData[i].Gachalv7);
+                    }
+                    else if (gachaLevel == 7)
+                    {
+                        probs.Add(tableData[i].Gachalv8);
+                    }
+                    else if (gachaLevel == 8)
+                    {
+                        probs.Add(tableData[i].Gachalv9);
+                    }
+                    else if (gachaLevel == 9)
+                    {
+                        probs.Add(tableData[i].Gachalv10);
+                    }
+                }
+
+            } break;
+            case ItemType.Charm:
+            {
+                var tableData = TableManager.Instance.charm.dataArray;
+                
+                for (int i = 0; i < tableData.Length; i++)
+                {
+                    itemDatas.Add(new ItemData(itemType,tableData[i].Id,tableData[i].Grade));
+                    
+                    if (gachaLevel == 0)
+                    {
+                        probs.Add(tableData[i].Gachalv1);
+                    }
+                    else if (gachaLevel == 1)
+                    {
+                        probs.Add(tableData[i].Gachalv2);
+                    }
+                    else if (gachaLevel == 2)
+                    {
+                        probs.Add(tableData[i].Gachalv3);
+                    }
+                    else if (gachaLevel == 3)
+                    {
+                        probs.Add(tableData[i].Gachalv4);
+                    }
+                    else if (gachaLevel == 4)
+                    {
+                        probs.Add(tableData[i].Gachalv5);
+                    }
+                    else if (gachaLevel == 5)
+                    {
+                        probs.Add(tableData[i].Gachalv6);
+                    }
+                    else if (gachaLevel == 6)
+                    {
+                        probs.Add(tableData[i].Gachalv7);
+                    }
+                    else if (gachaLevel == 7)
+                    {
+                        probs.Add(tableData[i].Gachalv8);
+                    }
+                    else if (gachaLevel == 8)
+                    {
+                        probs.Add(tableData[i].Gachalv9);
+                    }
+                    else if (gachaLevel == 9)
+                    {
+                        probs.Add(tableData[i].Gachalv10);
+                    }
+                }
+
+            } break;
+            
+            case ItemType.Norigae:
+            {
+                var tableData = TableManager.Instance.norigae.dataArray;
+                
+                for (int i = 0; i < tableData.Length; i++)
+                {
+                    itemDatas.Add(new ItemData(itemType,tableData[i].Id,tableData[i].Grade));
                     
                     if (gachaLevel == 0)
                     {
@@ -278,6 +389,50 @@ public class UiItemGacha : MonoBehaviour
                 
                 //무기
                 transactionList.Add(TransactionValue.SetUpdateV2(SubWeaponServerTable.tableName, SubWeaponServerTable.Indate,Backend.UserInDate,subWeaponParam));
+
+            } 
+                break;
+            case ItemType.Charm:
+            {
+                Param charmParam = new Param();
+        
+                var table = TableManager.Instance.charm.dataArray;
+        
+                var tableDatas = ServerData.charmServerTable.TableDatas;
+        
+                for (int i = 0; i < table.Length; i++)
+                {
+                    if (serverUpdateList != null && serverUpdateList.Contains(table[i].Id) == false) continue;
+
+                    string key = table[i].Stringid;
+                    //hasitem 1
+                    charmParam.Add(key, tableDatas[key].ConvertToString());
+                }
+                
+                //무기
+                transactionList.Add(TransactionValue.SetUpdateV2(CharmServerTable.tableName, CharmServerTable.Indate,Backend.UserInDate,charmParam));
+
+            } 
+                break;
+            case ItemType.Norigae:
+            {
+                Param norigaeParam = new Param();
+        
+                var table = TableManager.Instance.norigae.dataArray;
+        
+                var tableDatas = ServerData.norigaeServerTable.TableDatas;
+        
+                for (int i = 0; i < table.Length; i++)
+                {
+                    if (serverUpdateList != null && serverUpdateList.Contains(table[i].Id) == false) continue;
+
+                    string key = table[i].Stringid;
+                    //hasitem 1
+                    norigaeParam.Add(key, tableDatas[key].ConvertToString());
+                }
+                
+                //무기
+                transactionList.Add(TransactionValue.SetUpdateV2(NorigaeServerTable.tableName, NorigaeServerTable.Indate,Backend.UserInDate,norigaeParam));
 
             } 
                 break;

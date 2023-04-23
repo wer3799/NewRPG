@@ -8,8 +8,12 @@ using UnityEngine.UI;
 
 public enum ItemType
 {
-    SubWeapon,Max
+    SubWeapon,
+    Charm,
+    Norigae,
+    Max
 }
+
 public class UiGachaPopup : SingletonMono<UiGachaPopup>
 {
     //누적
@@ -25,6 +29,7 @@ public class UiGachaPopup : SingletonMono<UiGachaPopup>
     private List<TextMeshProUGUI> gachaLevelText;
 
     public static string GachaNumKey = "gachaNum";
+
     private void Start()
     {
         Subscribe();
@@ -34,14 +39,10 @@ public class UiGachaPopup : SingletonMono<UiGachaPopup>
     {
         for (int i = 0; i < (int)ItemType.Max; i++)
         {
-            ServerData.userInfoTable.GetTableData($"{GachaNumKey}{i}").AsObservable().Subscribe(e =>
-            {
-                
-                WhenGachaNumChanged((ItemType)i, e);
+            int idx = i;
 
-            }).AddTo(this); 
+            ServerData.userInfoTable.GetTableData($"{GachaNumKey}{idx}").AsObservable().Subscribe(e => { WhenGachaNumChanged((ItemType)idx, e); }).AddTo(this);
         }
-      
     }
 
     public List<int> GetGachaLevelMinNum(ItemType itemType)
@@ -49,7 +50,7 @@ public class UiGachaPopup : SingletonMono<UiGachaPopup>
         return gachaLevelData.GachaLevelMinNum[(int)itemType];
     }
 
-    private void WhenGachaNumChanged(ItemType itemType,double num)
+    private void WhenGachaNumChanged(ItemType itemType, double num)
     {
         int gachaLevel = GachaLevel(itemType);
 
@@ -87,14 +88,15 @@ public class UiGachaPopup : SingletonMono<UiGachaPopup>
     {
         return $"{GachaNumKey}{(int)type}";
     }
-    
+
     public int GachaLevel(ItemType type)
     {
         int gachaNum = (int)ServerData.userInfoTable.GetTableData($"{GachaNumKey}{(int)type}").Value;
 
         int gachaLevel = 0;
 
-        List<int> gacbaLevelInfo =  GetGachaLevelMinNum(type);;
+        List<int> gacbaLevelInfo = GetGachaLevelMinNum(type);
+        ;
 
         for (int i = 0; i < gacbaLevelInfo.Count; i++)
         {

@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/CharmServerTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/CharmServerTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/CommonResourceContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/CommonResourceContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/ItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/ItemView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/UiGachaPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/UiGachaPopup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/UiItemGacha.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/UiItemGacha.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/SubWeapon.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/SubWeapon.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/ItemView.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/ItemView.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/UiShop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/UiShop.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NorigaeServerTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NorigaeServerTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubWeaponServerTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubWeaponServerTable.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,10 +128,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="48672">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="48672" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -163,6 +172,7 @@
       <workItem from="1681581156287" duration="2420000" />
       <workItem from="1681835328287" duration="4164000" />
       <workItem from="1682106555674" duration="11668000" />
+      <workItem from="1682275734952" duration="1849000" />
     </task>
     <servers />
   </component>
