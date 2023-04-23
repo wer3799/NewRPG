@@ -146,4 +146,32 @@ public class Utils
             return retStr;
         }
     }
+    
+    
+    public static int GetRandomIdx(List<float> inputDatas)
+    {
+        float total = 0;
+
+        for (int i = 0; i < inputDatas.Count; i++)
+        {
+            total += inputDatas[i];
+        }
+
+        float pivot = UnityEngine.Random.Range(0f, 1f) * total;
+
+        for (int i = 0; i < inputDatas.Count; i++)
+        {
+            if (pivot < inputDatas[i])
+            {
+                return i;
+            }
+            else
+            {
+                pivot -= inputDatas[i];
+            }
+        }
+
+        return 0;
+    }
+    
 }

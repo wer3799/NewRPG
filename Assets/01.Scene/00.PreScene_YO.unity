@@ -949,6 +949,10 @@ MonoBehaviour:
   skillTable: {fileID: 11400000, guid: 96550a3b6851b4a429402d8cc0b125ca, type: 2}
   goldAbilTable: {fileID: 11400000, guid: ca9f6933d0ff449769583485048ec0c2, type: 2}
   goodsTable: {fileID: 11400000, guid: 7e746dce628d75a4eae31d36f2ff1147, type: 2}
+  mainWeapon: {fileID: 11400000, guid: b05455e8c7a524b75bc2f5b7eec9b8c0, type: 2}
+  subWeapon: {fileID: 11400000, guid: cc100f267ee0a4b91afa044f4630219f, type: 2}
+  charm: {fileID: 11400000, guid: 20f3546f2ff9742178e20ef62fe3b9ec, type: 2}
+  norigae: {fileID: 11400000, guid: 6cf48d97c9bf343a6a7d333b39afcd7c, type: 2}
 --- !u!4 &916661093
 Transform:
   m_ObjectHideFlags: 0

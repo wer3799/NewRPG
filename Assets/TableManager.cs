@@ -9,18 +9,18 @@ using UnityEngine.Serialization;
 public class TableManager : SingletonMono<TableManager>
 {
     public StageMap stageMap;
-    
+
     public int GetLastStageIdx()
     {
         return stageMap.dataArray[stageMap.dataArray.Length - 1].Id;
     }
-    
+
     public EnemyTable enemyTable;
 
     public EnemyTableData GetTableDataByLevel(int level)
     {
         EnemyTableData ret = null;
-        
+
         var tableData = enemyTable.dataArray;
 
         for (int i = 0; i < tableData.Length; i++)
@@ -34,16 +34,16 @@ public class TableManager : SingletonMono<TableManager>
 
         if (ret == null)
         {
-            #if UNITY_EDITOR
+#if UNITY_EDITOR
             Debug.LogError("@@@@Enemy data load failed");
-            #endif
+#endif
         }
 
         return ret;
     }
-    
+
     public SkillTable skillTable;
-    
+
     private Dictionary<int, SkillTableData> skillData = null;
 
     public Dictionary<int, SkillTableData> SkillData
@@ -72,4 +72,11 @@ public class TableManager : SingletonMono<TableManager>
 
     public Goods goodsTable;
 
+    public MainWeapon mainWeapon;
+
+    public SubWeapon subWeapon;
+
+    public Charm charm;
+
+    public Norigae norigae;
 }

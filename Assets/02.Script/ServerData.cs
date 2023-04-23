@@ -13,6 +13,11 @@ public static class ServerData
 
     public static GoldAbilServerTable goldAbilServerTable { get; private set; } = new GoldAbilServerTable();
 
+    public static MainWeaponServerTable mainWeaponServerTable { get; private set; } = new MainWeaponServerTable();
+    public static SubWeaponServerTable subWeaponServerTable { get; private set; } = new SubWeaponServerTable();
+    public static CharmServerTable charmServerTable { get; private set; } = new CharmServerTable();
+    public static NorigaeServerTable norigaeServerTable { get; private set; } = new NorigaeServerTable();
+
     #region string
 
     public static string inDate_str = "inDate";
@@ -38,6 +43,10 @@ public static class ServerData
         skillServerTable.Initialize();
         goldAbilServerTable.Initialize();
         growthTable.Initialize();
+        mainWeaponServerTable.Initialize();
+        subWeaponServerTable.Initialize();
+        charmServerTable.Initialize();
+        norigaeServerTable.Initialize();
     }
 
     public static void ShowCommonErrorPopup(BackendReturnObject bro, Action retryCallBack)

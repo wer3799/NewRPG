@@ -20,6 +20,10 @@ public class UserInfoTable
     public ReactiveCommand whenServerTimeUpdated = new ReactiveCommand();
     public const string sleepRewardSavedTime = "sleepRewardSavedTime";
     public const string selectedSkillGroupId  = "selectedSkillGroupId";
+    
+    public const string gachaNum_SubWeapon  = "gachaNum0";
+    public const string gachaNum_Charm  = "gachaNum1";
+    public const string gachaNum_Norigae  = "gachaNum2";
 
     private Dictionary<string, double> tableSchema = new Dictionary<string, double>()
     {
@@ -27,6 +31,10 @@ public class UserInfoTable
         { CurrentStage, 0f },
         { sleepRewardSavedTime, 0f },
         { selectedSkillGroupId, 0f },
+        
+        { gachaNum_SubWeapon, 0f },
+        { gachaNum_Charm, 0f },
+        { gachaNum_Norigae, 0f },
     };
 
     private Dictionary<string, ReactiveProperty<double>>
