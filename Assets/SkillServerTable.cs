@@ -12,112 +12,61 @@ public class SkillServerTable
     public static string Indate;
     public static string tableName = "SkillTable";
 
-    public static string SkillHasAmount = "SkillHasAmount";
-    public static string SkillAlreadyHas = "SkillAlreadyHas";
-    public static string SkillAwakeNum = "SkillAwakeNum";
-    public static string SkillLevel = "SkillLevel";
-    public static string SkillCollectionLevel = "SkillCollectionLevel";
-    public static string SkillSlotIdx_0 = "SkillSlotIdx_0";
-    public static string SkillSlotIdx_1 = "SkillSlotIdx_1";
-    public static string SkillSlotIdx_2 = "SkillSlotIdx_2";
 
-    private Dictionary<string, List<int>> tableSchema = new Dictionary<string, List<int>>()
+    private ReactiveDictionary<string, ItemServerData> tableDatas = new ReactiveDictionary<string, ItemServerData>();
+
+    public ReactiveDictionary<string, ItemServerData> TableDatas => tableDatas;
+
+    public float GetSkillDamagePer(int idx)
     {
-        { SkillHasAmount, new List<int>() },
-        { SkillAlreadyHas, new List<int>() },
-        { SkillAwakeNum, new List<int>() },
-        { SkillLevel, new List<int>() },
-        { SkillCollectionLevel, new List<int>() },
-        { SkillSlotIdx_0, new List<int>() { 0, -1, -1, -1, -1 } },
-        { SkillSlotIdx_1, new List<int>() { -1, -1, -1, -1, -1 } },
-        { SkillSlotIdx_2, new List<int>() { -1, -1, -1, -1, -1 } }
-    };
+        var tableData = TableManager.Instance.skillTable.dataArray[idx];
+        
+        int currentLevel = tableDatas[tableData.Stringid].level.Value;
 
-    private Dictionary<string, List<ReactiveProperty<int>>> tableDatas = new Dictionary<string, List<ReactiveProperty<int>>>();
-    public Dictionary<string, List<ReactiveProperty<int>>> TableDatas => tableDatas;
+        float originDamage = tableData.Damageper + (tableData.Damageaddvalue * currentLevel);
 
-    public ReactiveCommand<List<ReactiveProperty<int>>> whenSelectedSkillIdxChanged = new ReactiveCommand<List<ReactiveProperty<int>>>();
-
-    public List<ReactiveProperty<int>> GetSelectedSkillIdx(int skillGroup)
-    {
-        return tableDatas[GetSkillGroupKey(skillGroup)];
+        float ret = originDamage;
+      
+        return ret;
     }
 
-    public void UpdateSelectedSkillIdx(List<int> selectedSkillIdx, int groupId)
+    public bool HasSkill(int idx)
     {
-        List<ReactiveProperty<int>> skillData = new List<ReactiveProperty<int>>();
+        var tableData = TableManager.Instance.skillTable.dataArray[idx];
 
-        for (int i = 0; i < selectedSkillIdx.Count; i++)
-        {
-            skillData.Add(new ReactiveProperty<int>(selectedSkillIdx[i]));
-        }
-
-        tableDatas[GetSkillGroupKey(groupId)] = skillData;
-
-        SyncSkillSlotIdxToServer(groupId);
-
-
-        int currentSelectedGroupId = (int)ServerData.userInfoTable.TableDatas[UserInfoTable.selectedSkillGroupId].Value;
-        if (currentSelectedGroupId == groupId)
-        {
-            whenSelectedSkillIdxChanged.Execute(tableDatas[GetSkillGroupKey(groupId)]);
-        }
+        return TableDatas[tableData.Stringid].hasItem.Value == 1;
     }
 
-    public static string GetSkillGroupKey(int groupId)
+    public float GetSkillEffectValue(string id, float baseValue, float addValue, int level = -1)
     {
-        if (groupId == 0)
+        if (level == -1)
         {
-            return SkillSlotIdx_0;
-        }
-        else if (groupId == 1)
-        {
-            return SkillSlotIdx_1;
+            return baseValue + addValue * tableDatas[id].level.Value;
         }
         else
         {
-            return SkillSlotIdx_2;
+            return baseValue + addValue * level;
         }
     }
 
-    public void RemoveSkillInEquipList(int idx, int groupId)
+    public ItemServerData GetSkillData(string idx)
     {
-        for (int i = 0; i < tableDatas[GetSkillGroupKey(groupId)].Count; i++)
+        if (tableDatas.TryGetValue(idx, out var data))
         {
-            if (tableDatas[GetSkillGroupKey(groupId)][i].Value == idx)
-            {
-                tableDatas[GetSkillGroupKey(groupId)][i].Value = -1;
-            }
+            return data;
         }
-
-        int currentSelectedGroupId = (int)ServerData.userInfoTable.TableDatas[UserInfoTable.selectedSkillGroupId].Value;
-        if (currentSelectedGroupId == groupId)
+        else
         {
-            whenSelectedSkillIdxChanged.Execute(tableDatas[GetSkillGroupKey(groupId)]);
+            return null;
         }
-
-        SyncSkillSlotIdxToServer(groupId);
     }
 
-    public bool AlreadyEquipedSkill(int idx)
+    public int GetCount(string idx)
     {
-        for (int i = 0; i < GameBalance.skillSlotGroupNum; i++)
-        {
-            string key = GetSkillGroupKey(i);
-
-            for (int j = 0; j < tableDatas[key].Count; j++)
-            {
-                if (tableDatas[key][j].Value == idx)
-                {
-                    return true;
-                }
-            }
-        }
-
-        return false;
+        return tableDatas[idx].amount.Value;
     }
 
-
+    
     public void Initialize()
     {
         tableDatas.Clear();
@@ -127,7 +76,7 @@ public class SkillServerTable
             // 이후 처리
             if (callback.IsSuccess() == false)
             {
-                Debug.LogError("LoadStatusFailed");
+                Debug.LogError("LoadWeaponFail");
                 PopupManager.Instance.ShowConfirmPopup(CommonString.Notice, CommonString.DataLoadFailedRetry, Initialize);
                 return;
             }
@@ -139,49 +88,37 @@ public class SkillServerTable
             {
                 Param defultValues = new Param();
 
-                var e = tableSchema.GetEnumerator();
+                var table = TableManager.Instance.skillTable.dataArray;
 
-                while (e.MoveNext())
+                for (int i = 0; i < table.Length; i++)
                 {
-                    List<ReactiveProperty<int>> firstData = new List<ReactiveProperty<int>>();
-
-                    if (e.Current.Key != SkillSlotIdx_0 && e.Current.Key != SkillSlotIdx_1 && e.Current.Key != SkillSlotIdx_2)
+                    //기본기술
+                    if (i == 0)
                     {
-                        var tableData = TableManager.Instance.SkillData.GetEnumerator();
+                        var weaponData = new ItemServerData();
+                        weaponData.idx = table[i].Id;
+                        weaponData.hasItem = new ReactiveProperty<int>(1);
+                        weaponData.level = new ReactiveProperty<int>(0);
+                        weaponData.amount = new ReactiveProperty<int>(1);
+                        weaponData.getReward0 = new ReactiveProperty<int>(0);
+                        weaponData.getReward1 = new ReactiveProperty<int>(0);
 
-                        if (e.Current.Key != SkillAwakeNum)
-                        {
-                            while (tableData.MoveNext())
-                            {
-                                firstData.Add(new ReactiveProperty<int>(0));
-                            }
-                        }
-                        else
-                        {
-                            bool isFirst = true;
-                            while (tableData.MoveNext())
-                            {
-                                int initValue = isFirst ? 1 : 0;
-                                firstData.Add(new ReactiveProperty<int>(initValue));
-                                isFirst = false;
-                            }
-                        }
-
-                        defultValues.Add(e.Current.Key, firstData.Select(reactiveValue => reactiveValue.Value).ToList());
+                        tableDatas.Add(table[i].Stringid, weaponData);
+                        defultValues.Add(table[i].Stringid, weaponData.ConvertToString());
                     }
-                    //스킬 슬롯 인덱스
                     else
                     {
-                        defultValues.Add(e.Current.Key, e.Current.Value);
+                        var weaponData = new ItemServerData();
+                        weaponData.idx = table[i].Id;
+                        weaponData.hasItem = new ReactiveProperty<int>(0);
+                        weaponData.level = new ReactiveProperty<int>(0);
+                        weaponData.amount = new ReactiveProperty<int>(0);
+                        weaponData.getReward0 = new ReactiveProperty<int>(0);
+                        weaponData.getReward1 = new ReactiveProperty<int>(0);
 
-                        for (int i = 0; i < e.Current.Value.Count; i++)
-                        {
-                            var datavalue = new ReactiveProperty<int>(e.Current.Value[i]);
-                            firstData.Add(datavalue);
-                        }
+                        tableDatas.Add(table[i].Stringid, weaponData);
+                        defultValues.Add(table[i].Stringid, weaponData.ConvertToString());
                     }
-
-                    tableDatas.Add(e.Current.Key, firstData);
                 }
 
                 var bro = Backend.GameData.Insert(tableName, defultValues);
@@ -216,70 +153,44 @@ public class SkillServerTable
                     Indate = data[ServerData.inDate_str][ServerData.format_string].ToString();
                 }
 
-                var e = tableSchema.GetEnumerator();
+                var table = TableManager.Instance.skillTable.dataArray;
 
-                for (int i = 0; i < data.Keys.Count; i++)
+                for (int i = 0; i < table.Length; i++)
                 {
-                    while (e.MoveNext())
+                    if (data.Keys.Contains(table[i].Stringid))
                     {
-                        if (data.Keys.Contains(e.Current.Key))
-                        {
-                            //값로드
-                            var value = data[e.Current.Key][ServerData.format_list];
-                            if (value.IsArray)
-                            {
-                                List<ReactiveProperty<int>> loadedData = new List<ReactiveProperty<int>>();
-                                for (int j = 0; j < value.Count; j++)
-                                {
-                                    var intData = Int32.Parse(value[j][ServerData.format_Number].ToString());
-                                    loadedData.Add(new ReactiveProperty<int>(intData));
-                                }
+                        //값로드
+                        var value = data[table[i].Stringid][ServerData.format_string].ToString();
 
-                                tableDatas.Add(e.Current.Key, loadedData);
-                            }
-                        }
-                        else
-                        {
-                            List<ReactiveProperty<int>> inputData = new List<ReactiveProperty<int>>();
-                            for (int j = 0; j < e.Current.Value.Count; j++)
-                            {
-                                inputData.Add(new ReactiveProperty<int>(e.Current.Value[j]));
-                            }
+                        var weapondata = new ItemServerData();
 
-                            tableDatas.Add(e.Current.Key, inputData);
-                        }
+                        var splitData = value.Split(',');
+
+                        weapondata.idx = int.Parse(splitData[0]);
+                        weapondata.hasItem = new ReactiveProperty<int>(int.Parse(splitData[1]));
+                        weapondata.level = new ReactiveProperty<int>(int.Parse(splitData[2]));
+                        weapondata.amount = new ReactiveProperty<int>(int.Parse(splitData[3]));
+                        weapondata.getReward0 = new ReactiveProperty<int>(0);
+                        weapondata.getReward1 = new ReactiveProperty<int>(0);
+
+                        defultValues.Add(table[i].Stringid, weapondata.ConvertToString());
+                        tableDatas.Add(table[i].Stringid, weapondata);
+                    }
+                    else
+                    {
+                        var weaponData = new ItemServerData();
+                        weaponData.idx = table[i].Id;
+                        weaponData.hasItem = new ReactiveProperty<int>(0);
+                        weaponData.level = new ReactiveProperty<int>(0);
+                        weaponData.amount = new ReactiveProperty<int>(0);
+                        weaponData.getReward0 = new ReactiveProperty<int>(0);
+                        weaponData.getReward1 = new ReactiveProperty<int>(0);
+
+                        tableDatas.Add(table[i].Stringid, weaponData);
+                        defultValues.Add(table[i].Stringid, weaponData.ConvertToString());
+                        paramCount++;
                     }
                 }
-
-
-                //스킬테이블 값 추가됐을때 처리
-                e = tableSchema.GetEnumerator();
-                while (e.MoveNext())
-                {
-                    if (e.Current.Key == SkillHasAmount || e.Current.Key == SkillAlreadyHas || e.Current.Key == SkillAwakeNum || e.Current.Key == SkillLevel || e.Current.Key == SkillCollectionLevel)
-                    {
-                        //신규스킬
-                        List<ReactiveProperty<int>> firstData = new List<ReactiveProperty<int>>();
-
-                        int needAddCount = TableManager.Instance.SkillData.Count - tableDatas[e.Current.Key].Count;
-
-                        for (int i = 0; i < tableDatas[e.Current.Key].Count; i++)
-                        {
-                            firstData.Add(new ReactiveProperty<int>(tableDatas[e.Current.Key][i].Value));
-                        }
-
-                        for (int j = 0; j < needAddCount; j++)
-                        {
-                            firstData.Add(new ReactiveProperty<int>(0));
-                            tableDatas[e.Current.Key].Add(new ReactiveProperty<int>(0));
-                            paramCount++;
-                        }
-
-                        defultValues.Add(e.Current.Key, firstData.Select(reactiveValue => reactiveValue.Value).ToList());
-                    }
-                }
-                //
-
 
                 if (paramCount != 0)
                 {
@@ -295,110 +206,54 @@ public class SkillServerTable
         });
     }
 
-    private List<int> skillSlotSyncData = new List<int>();
-    private List<int> skillAmountSyncData = new List<int>();
-
-    public void SyncSkillSlotIdxToServer(int groupId)
+    public void UpData(SkillTableData skillData, int addNum)
     {
-        skillSlotSyncData.Clear();
-
-        Param param = new Param();
-
-        for (int i = 0; i < tableDatas[GetSkillGroupKey(groupId)].Count; i++)
+        if (tableDatas[skillData.Stringid].hasItem.Value == 0)
         {
-            skillSlotSyncData.Add(tableDatas[GetSkillGroupKey(groupId)][i].Value);
+            tableDatas[skillData.Stringid].hasItem.Value = 1;
         }
 
-        param.Add(GetSkillGroupKey(groupId), skillSlotSyncData);
+        tableDatas[skillData.Stringid].amount.Value += addNum;
+    }
 
-        SendQueue.Enqueue(Backend.GameData.UpdateV2, tableName, Indate, Backend.UserInDate, param, e =>
+    public void SyncToServerEach(string key)
+    {
+        Param defultValues = new Param();
+
+        defultValues.Add(key, tableDatas[key].ConvertToString());
+
+        SendQueue.Enqueue(Backend.GameData.UpdateV2, tableName, Indate, Backend.UserInDate, defultValues, bro =>
         {
-            if (e.IsSuccess() == false)
+            if (bro.IsSuccess() == false)
             {
-                Debug.LogError($"Skill slot update failed");
+                ServerData.ShowCommonErrorPopup(bro, () => { SyncToServerEach(key); });
                 return;
             }
         });
     }
 
-    public bool HasSkill(int skillIdx)
+    public void SyncToServerAll(List<int> updateList = null)
     {
-        return true;
-    }
+        Param defultValues = new Param();
 
-    public int GetSkillAwakeNum(int idx)
-    {
-        return (tableDatas[SkillAwakeNum][idx].Value);
-    }
+        var table = TableManager.Instance.skillTable.dataArray;
 
-    public int GetSkillMaxLevel(int idx)
-    {
-        return (tableDatas[SkillAwakeNum][idx].Value) * GameBalance.SkillAwakePlusNum;
-    }
-
-    public int GetSkillCurrentLevel(int idx)
-    {
-        var tableData = TableManager.Instance.SkillData[idx];
-
-        int originLevel = tableDatas[SkillLevel][idx].Value;
-
-        return originLevel;
-    }
-
-    //UI팝업에서도 쓰는부분이라 함부로 건들면 안됨
-    public float GetSkillDamagePer(int idx, int addLevel = 0)
-    {
-        int currentLevel = GetSkillCurrentLevel(idx);
-        
-        var tableData = TableManager.Instance.SkillData[idx];
-
-        currentLevel += addLevel;
-
-        float originDamage = (TableManager.Instance.SkillData[idx].Damageper + TableManager.Instance.SkillData[idx].Damageaddvalue * (currentLevel));
-
-        float addDamageValue = 0f;
-
-        float ret = originDamage + originDamage * addDamageValue;
-      
-        return ret;
-    }
-
-    public void UpdateSkillAmountLocal(SkillTableData skillData, int addAmount)
-    {
-        tableDatas[SkillHasAmount][skillData.Id].Value += addAmount;
-        tableDatas[SkillAlreadyHas][skillData.Id].Value = 1;
-    }
-
-    public void UpdateSKillAmount()
-    {
-        skillAmountSyncData.Clear();
-
-        Param param = new Param();
-
-        for (int i = 0; i < tableDatas[SkillHasAmount].Count; i++)
+        for (int i = 0; i < table.Length; i++)
         {
-            skillAmountSyncData.Add(tableDatas[SkillHasAmount][i].Value);
+            if (updateList != null && updateList.Contains(table[i].Id) == false) continue;
+
+            string key = table[i].Stringid;
+
+            defultValues.Add(key, tableDatas[key].ConvertToString());
         }
 
-        param.Add(SkillHasAmount, skillAmountSyncData);
-
-        SendQueue.Enqueue(Backend.GameData.UpdateV2, tableName, Indate, Backend.UserInDate, param, e =>
+        SendQueue.Enqueue(Backend.GameData.UpdateV2, tableName, Indate, Backend.UserInDate, defultValues, bro =>
         {
-            if (e.IsSuccess() == false)
+            if (bro.IsSuccess() == false)
             {
-                Debug.LogError($"Skill slot update failed");
+                ServerData.ShowCommonErrorPopup(bro, () => { SyncToServerAll(updateList); });
                 return;
             }
         });
-    }
-
-    public bool IsFistSlotSkill(int skillId)
-    {
-        int currentSelectedGroupId = (int)ServerData.userInfoTable.TableDatas[UserInfoTable.selectedSkillGroupId].Value;
-        var selectedSkills = ServerData.skillServerTable.TableDatas[SkillServerTable.GetSkillGroupKey(currentSelectedGroupId)];
-
-        if (selectedSkills.Count > 0 && selectedSkills[0].Value == skillId) return true;
-
-        return false;
     }
 }

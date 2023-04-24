@@ -16,11 +16,12 @@ MonoBehaviour:
   WorksheetName: SkillTable
   dataArray:
   - id: 0
+    stringid: s0
     skillclassname: Slash0
     skillname: "\uC804\uBC29\uBCA0\uAE30 1\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
-    cooltime: 0.2
+    cooltime: 0.5
     damageper: 1
     damageaddvalue: 0.2
     targetcount: 5
@@ -29,10 +30,516 @@ MonoBehaviour:
     skillgrade: 0
     activeeffectname1: slash
     hiteffectname: 1-1_hit
-    skilltype: 0
     soundname: 1-1
     haseffecttype: 11
     haseffectvalue: 50
     activeoffset: 0
     skillcasttype: 0
     iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0.396
+    gachalv2: 0.3174
+    gachalv3: 0.26286
+    gachalv4: 0.22632
+    gachalv5: 0.1989
+    gachalv6: 0.1764
+    gachalv7: 0.1452
+    gachalv8: 0.114
+    gachalv9: 0.0828
+    gachalv10: 0
+    grade: 0
+  - id: 1
+    stringid: s1
+    skillclassname: Slash1
+    skillname: "\uC804\uBC29\uBCA0\uAE30 2\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0.204
+    gachalv2: 0.28188
+    gachalv3: 0.33576
+    gachalv4: 0.37164
+    gachalv5: 0.3984
+    gachalv6: 0.42
+    gachalv7: 0.45
+    gachalv8: 0.48
+    gachalv9: 0.51
+    gachalv10: 0.5916
+    grade: 0
+  - id: 2
+    stringid: s2
+    skillclassname: Slash2
+    skillname: "\uC804\uBC29\uBCA0\uAE30 3\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0.0006
+    gachalv3: 0.0012
+    gachalv4: 0.0018
+    gachalv5: 0.0024
+    gachalv6: 0.003
+    gachalv7: 0.0036
+    gachalv8: 0.0042
+    gachalv9: 0.0048
+    gachalv10: 0.0054
+    grade: 0
+  - id: 3
+    stringid: s3
+    skillclassname: Slash3
+    skillname: "\uC804\uBC29\uBCA0\uAE30 4\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0.00018
+    gachalv3: 0.00024
+    gachalv4: 0.0003
+    gachalv5: 0.00036
+    gachalv6: 0.0005
+    gachalv7: 0.001
+    gachalv8: 0.0015
+    gachalv9: 0.002
+    gachalv10: 0.0025
+    grade: 0
+  - id: 4
+    stringid: s4
+    skillclassname: Straight0
+    skillname: "\uC9C1\uC120\uBCA0\uAE30 1\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0.231
+    gachalv2: 0.18515
+    gachalv3: 0.153335
+    gachalv4: 0.13202
+    gachalv5: 0.116025
+    gachalv6: 0.1029
+    gachalv7: 0.0847
+    gachalv8: 0.0665
+    gachalv9: 0.0483
+    gachalv10: 0
+    grade: 0
+  - id: 5
+    stringid: s5
+    skillclassname: Straight1
+    skillname: "\uC9C1\uC120\uBCA0\uAE30 2\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0.119
+    gachalv2: 0.16443
+    gachalv3: 0.19586
+    gachalv4: 0.21679
+    gachalv5: 0.2324
+    gachalv6: 0.245
+    gachalv7: 0.2625
+    gachalv8: 0.28
+    gachalv9: 0.2975
+    gachalv10: 0.3451
+    grade: 0
+  - id: 6
+    stringid: s6
+    skillclassname: Straight2
+    skillname: "\uC9C1\uC120\uBCA0\uAE30 3\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0.00035
+    gachalv3: 0.0007
+    gachalv4: 0.00105
+    gachalv5: 0.0014
+    gachalv6: 0.00175
+    gachalv7: 0.0021
+    gachalv8: 0.00245
+    gachalv9: 0.0028
+    gachalv10: 0.00315
+    grade: 0
+  - id: 7
+    stringid: s7
+    skillclassname: Straight3
+    skillname: "\uC9C1\uC120\uBCA0\uAE30 4\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0.00013
+    gachalv3: 0.00019
+    gachalv4: 0.00025
+    gachalv5: 0.00031
+    gachalv6: 0.00037
+    gachalv7: 0.0005
+    gachalv8: 0.001
+    gachalv9: 0.0014
+    gachalv10: 0.002
+    grade: 0
+  - id: 8
+    stringid: s8
+    skillclassname: Around0
+    skillname: "\uD68C\uC804\uBCA0\uAE30 1\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0.033
+    gachalv2: 0.02645
+    gachalv3: 0.021905
+    gachalv4: 0.01886
+    gachalv5: 0.016575
+    gachalv6: 0.0147
+    gachalv7: 0.0121
+    gachalv8: 0.0095
+    gachalv9: 0.0069
+    gachalv10: 0
+    grade: 0
+  - id: 9
+    stringid: s9
+    skillclassname: Around1
+    skillname: "\uD68C\uC804\uBCA0\uAE30 2\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0.017
+    gachalv2: 0.02349
+    gachalv3: 0.02798
+    gachalv4: 0.03097
+    gachalv5: 0.0332
+    gachalv6: 0.035
+    gachalv7: 0.0375
+    gachalv8: 0.04
+    gachalv9: 0.0425
+    gachalv10: 0.0493
+    grade: 0
+  - id: 10
+    stringid: s10
+    skillclassname: Around2
+    skillname: "\uD68C\uC804\uBCA0\uAE30 3\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0.00005
+    gachalv3: 0.0001
+    gachalv4: 0.00015
+    gachalv5: 0.0002
+    gachalv6: 0.00025
+    gachalv7: 0.0003
+    gachalv8: 0.00035
+    gachalv9: 0.0004
+    gachalv10: 0.00045
+    grade: 0
+  - id: 11
+    stringid: s11
+    skillclassname: Around3
+    skillname: "\uD68C\uC804\uBCA0\uAE30 4\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0.00002
+    gachalv3: 0.00003
+    gachalv4: 0.00004
+    gachalv5: 0.00005
+    gachalv6: 0.0001
+    gachalv7: 0.0002
+    gachalv8: 0.0003
+    gachalv9: 0.0004
+    gachalv10: 0.0005
+    grade: 0
+  - id: 12
+    stringid: s12
+    skillclassname: Special0
+    skillname: "\uBBF8\uC815 1\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0
+    gachalv3: 0
+    gachalv4: 0
+    gachalv5: 0
+    gachalv6: 0
+    gachalv7: 0
+    gachalv8: 0
+    gachalv9: 0
+    gachalv10: 0
+    grade: 0
+  - id: 13
+    stringid: s13
+    skillclassname: Special1
+    skillname: "\uBBF8\uC815 2\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0
+    gachalv3: 0
+    gachalv4: 0
+    gachalv5: 0
+    gachalv6: 0
+    gachalv7: 0
+    gachalv8: 0
+    gachalv9: 0
+    gachalv10: 0
+    grade: 0
+  - id: 14
+    stringid: s14
+    skillclassname: Special2
+    skillname: "\uBBF8\uC815 3\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0
+    gachalv3: 0
+    gachalv4: 0
+    gachalv5: 0
+    gachalv6: 0
+    gachalv7: 0
+    gachalv8: 0
+    gachalv9: 0
+    gachalv10: 0
+    grade: 0
+  - id: 15
+    stringid: s15
+    skillclassname: Special3
+    skillname: "\uBBF8\uC815 4\uD615"
+    skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
+    awakemaxnum: 100
+    cooltime: 0.5
+    damageper: 1
+    damageaddvalue: 0.2
+    targetcount: 5
+    hitcount: 1
+    targetrange: 0.1
+    skillgrade: 0
+    activeeffectname1: slash
+    hiteffectname: 1-1_hit
+    soundname: 1-1
+    haseffecttype: 11
+    haseffectvalue: 50
+    activeoffset: 0
+    skillcasttype: 0
+    iseffectrootplayer: 1
+    requireupgrade: 4
+    gachalv1: 0
+    gachalv2: 0
+    gachalv3: 0
+    gachalv4: 0
+    gachalv5: 0
+    gachalv6: 0
+    gachalv7: 0
+    gachalv8: 0
+    gachalv9: 0
+    gachalv10: 0
+    grade: 0

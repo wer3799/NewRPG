@@ -17,9 +17,9 @@ public class SubWeaponServerTable
     public static string tableName = "SubWeapon";
 
 
-    private ReactiveDictionary<string, EquipmentServerData> tableDatas = new ReactiveDictionary<string, EquipmentServerData>();
+    private ReactiveDictionary<string, ItemServerData> tableDatas = new ReactiveDictionary<string, ItemServerData>();
 
-    public ReactiveDictionary<string, EquipmentServerData> TableDatas => tableDatas;
+    public ReactiveDictionary<string, ItemServerData> TableDatas => tableDatas;
 
     public float GetWeaponEffectValue(string id, float baseValue, float addValue, int level = -1)
     {
@@ -33,7 +33,7 @@ public class SubWeaponServerTable
         }
     }
 
-    public EquipmentServerData GetWeaponData(string idx)
+    public ItemServerData GetWeaponData(string idx)
     {
         if (tableDatas.TryGetValue(idx, out var data))
         {
@@ -106,7 +106,7 @@ public class SubWeaponServerTable
                     //기본무기
                     if (i == 0)
                     {
-                        var weaponData = new EquipmentServerData();
+                        var weaponData = new ItemServerData();
                         weaponData.idx = table[i].Id;
                         weaponData.hasItem = new ReactiveProperty<int>(1);
                         weaponData.level = new ReactiveProperty<int>(0);
@@ -119,7 +119,7 @@ public class SubWeaponServerTable
                     }
                     else
                     {
-                        var weaponData = new EquipmentServerData();
+                        var weaponData = new ItemServerData();
                         weaponData.idx = table[i].Id;
                         weaponData.hasItem = new ReactiveProperty<int>(0);
                         weaponData.level = new ReactiveProperty<int>(0);
@@ -173,7 +173,7 @@ public class SubWeaponServerTable
                         //값로드
                         var value = data[table[i].Stringid][ServerData.format_string].ToString();
 
-                        var weapondata = new EquipmentServerData();
+                        var weapondata = new ItemServerData();
 
                         var splitData = value.Split(',');
 
@@ -189,7 +189,7 @@ public class SubWeaponServerTable
                     }
                     else
                     {
-                        var weaponData = new EquipmentServerData();
+                        var weaponData = new ItemServerData();
                         weaponData.idx = table[i].Id;
                         weaponData.hasItem = new ReactiveProperty<int>(0);
                         weaponData.level = new ReactiveProperty<int>(0);

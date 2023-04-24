@@ -7,7 +7,7 @@ using System;
 using UniRx;
 
 [System.Serializable]
-public class EquipmentServerData
+public class ItemServerData
 {
     public int idx;
     public ReactiveProperty<int> hasItem;
@@ -28,9 +28,9 @@ public class MainWeaponServerTable
     public static string tableName = "MainWeapon";
 
 
-    private ReactiveDictionary<string, EquipmentServerData> tableDatas = new ReactiveDictionary<string, EquipmentServerData>();
+    private ReactiveDictionary<string, ItemServerData> tableDatas = new ReactiveDictionary<string, ItemServerData>();
 
-    public ReactiveDictionary<string, EquipmentServerData> TableDatas => tableDatas;
+    public ReactiveDictionary<string, ItemServerData> TableDatas => tableDatas;
 
     public float GetWeaponEffectValue(string id, float baseValue, float addValue, int level = -1)
     {
@@ -44,7 +44,7 @@ public class MainWeaponServerTable
         }
     }
 
-    public EquipmentServerData GetWeaponData(string idx)
+    public ItemServerData GetWeaponData(string idx)
     {
         if (tableDatas.TryGetValue(idx, out var data))
         {
@@ -114,7 +114,7 @@ public class MainWeaponServerTable
 
                 for (int i = 0; i < table.Length; i++)
                 {
-                    var weaponData = new EquipmentServerData();
+                    var weaponData = new ItemServerData();
                     weaponData.idx = table[i].Id;
                     weaponData.hasItem = new ReactiveProperty<int>(0);
                     weaponData.level = new ReactiveProperty<int>(0);
@@ -167,7 +167,7 @@ public class MainWeaponServerTable
                         //값로드
                         var value = data[table[i].Stringid][ServerData.format_string].ToString();
 
-                        var weapondata = new EquipmentServerData();
+                        var weapondata = new ItemServerData();
 
                         var splitData = value.Split(',');
 
@@ -183,7 +183,7 @@ public class MainWeaponServerTable
                     }
                     else
                     {
-                        var weaponData = new EquipmentServerData();
+                        var weaponData = new ItemServerData();
                         weaponData.idx = table[i].Id;
                         weaponData.hasItem = new ReactiveProperty<int>(0);
                         weaponData.level = new ReactiveProperty<int>(0);

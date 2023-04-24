@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_DontDestroy: 1
-  editorLoginId: jjjyyjy
+  editorLoginId: clone1
   testId: a_8846847867697156085
   nickNameInputBoard: {fileID: 911817243}
   loginId: 

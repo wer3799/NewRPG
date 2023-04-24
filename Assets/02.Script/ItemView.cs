@@ -78,6 +78,11 @@ public class ItemView : MonoBehaviour
                 return CommonResourceContainer.GetNorigaeSprite(itemData.idx);
             }
                 break;
+            case ItemType.Skill:
+            {
+                return CommonResourceContainer.GetSkillSprite(itemData.idx);
+            }
+                break;
         }
 
         return null;
@@ -141,6 +146,15 @@ public class ItemView : MonoBehaviour
                 ServerData.norigaeServerTable.TableDatas[stringId].level.AsObservable().Subscribe(WhenLevelChanged).AddTo(disposable);
             }
                 break;
+            case ItemType.Skill:
+            {
+                string stringId = TableManager.Instance.skillTable.dataArray[itemData.idx].Stringid;
+
+                ServerData.skillServerTable.TableDatas[stringId].amount.AsObservable().Subscribe(WhenCountChanged).AddTo(disposable);
+
+                ServerData.skillServerTable.TableDatas[stringId].level.AsObservable().Subscribe(WhenLevelChanged).AddTo(disposable);
+            }
+                break;
         }
     }
 
@@ -177,6 +191,13 @@ public class ItemView : MonoBehaviour
                 var tableData = TableManager.Instance.norigae.dataArray[itemData.idx];
 
                 amountText.SetText($"({ServerData.norigaeServerTable.GetCount(tableData.Stringid)}/{tableData.Requireupgrade})");
+            }
+                break;
+            case ItemType.Skill:
+            {
+                var tableData = TableManager.Instance.skillTable.dataArray[itemData.idx];
+
+                amountText.SetText($"({ServerData.skillServerTable.GetCount(tableData.Stringid)}/{tableData.Requireupgrade})");
             }
                 break;
         }

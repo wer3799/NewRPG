@@ -124,4 +124,37 @@ public static class CommonResourceContainer
             return null;
         }
     }
+    
+    
+    
+    public static List<Sprite> skillSprites;
+    
+    public static Sprite GetSkillSprite(int idx)
+    {
+        if (skillSprites == null)
+        {
+            var icons = Resources.LoadAll<Sprite>("Skill/");
+            skillSprites = icons.ToList();
+
+
+            skillSprites.Sort((a, b) =>
+            {
+                if (int.Parse(a.name) < int.Parse(b.name)) return -1;
+
+                return 1;
+
+            });
+        }
+
+        if (idx < skillSprites.Count)
+        {
+            return skillSprites[idx];
+        }
+        else
+        {
+            Debug.LogError($"skill icon {idx} is not exist");
+            return null;
+        }
+    }
+    
 }

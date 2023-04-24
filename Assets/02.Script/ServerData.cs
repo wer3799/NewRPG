@@ -17,6 +17,7 @@ public static class ServerData
     public static SubWeaponServerTable subWeaponServerTable { get; private set; } = new SubWeaponServerTable();
     public static CharmServerTable charmServerTable { get; private set; } = new CharmServerTable();
     public static NorigaeServerTable norigaeServerTable { get; private set; } = new NorigaeServerTable();
+    public static PresetServerTable presetServerTable { get; private set; } = new PresetServerTable();
 
     #region string
 
@@ -47,6 +48,7 @@ public static class ServerData
         subWeaponServerTable.Initialize();
         charmServerTable.Initialize();
         norigaeServerTable.Initialize();
+        presetServerTable.Initialize();
     }
 
     public static void ShowCommonErrorPopup(BackendReturnObject bro, Action retryCallBack)

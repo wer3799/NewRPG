@@ -18,9 +18,12 @@ MonoBehaviour:
   - id: 0
     stringid: Gold
     namekey: Gold
+    syncalways: 1
   - id: 1
     stringid: GrowthStone
     namekey: GrowthStone
+    syncalways: 1
   - id: 2
     stringid: Diamond
     namekey: Diamond
+    syncalways: 0

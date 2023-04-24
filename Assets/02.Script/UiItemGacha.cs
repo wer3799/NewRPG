@@ -171,6 +171,12 @@ public class UiItemGacha : MonoBehaviour
                     ServerData.norigaeServerTable.UpData(tableData, cellInfo.amount);
                 }
                     break;
+                case ItemType.Skill:
+                {
+                    var tableData = TableManager.Instance.skillTable.dataArray[itemDatas[randomIdx].idx];
+                    ServerData.skillServerTable.UpData(tableData, cellInfo.amount);
+                }
+                    break;
             }
  
             serverUpdateList.Add(itemDatas[randomIdx].idx);
@@ -349,6 +355,57 @@ public class UiItemGacha : MonoBehaviour
                 }
 
             } break;
+            case ItemType.Skill:
+            {
+                var tableData = TableManager.Instance.skillTable.dataArray;
+                
+                for (int i = 0; i < tableData.Length; i++)
+                {
+                    itemDatas.Add(new ItemData(itemType,tableData[i].Id,tableData[i].Grade));
+                    
+                    if (gachaLevel == 0)
+                    {
+                        probs.Add(tableData[i].Gachalv1);
+                    }
+                    else if (gachaLevel == 1)
+                    {
+                        probs.Add(tableData[i].Gachalv2);
+                    }
+                    else if (gachaLevel == 2)
+                    {
+                        probs.Add(tableData[i].Gachalv3);
+                    }
+                    else if (gachaLevel == 3)
+                    {
+                        probs.Add(tableData[i].Gachalv4);
+                    }
+                    else if (gachaLevel == 4)
+                    {
+                        probs.Add(tableData[i].Gachalv5);
+                    }
+                    else if (gachaLevel == 5)
+                    {
+                        probs.Add(tableData[i].Gachalv6);
+                    }
+                    else if (gachaLevel == 6)
+                    {
+                        probs.Add(tableData[i].Gachalv7);
+                    }
+                    else if (gachaLevel == 7)
+                    {
+                        probs.Add(tableData[i].Gachalv8);
+                    }
+                    else if (gachaLevel == 8)
+                    {
+                        probs.Add(tableData[i].Gachalv9);
+                    }
+                    else if (gachaLevel == 9)
+                    {
+                        probs.Add(tableData[i].Gachalv10);
+                    }
+                }
+
+            } break;
         }
 
         return probs;
@@ -433,6 +490,29 @@ public class UiItemGacha : MonoBehaviour
                 
                 //무기
                 transactionList.Add(TransactionValue.SetUpdateV2(NorigaeServerTable.tableName, NorigaeServerTable.Indate,Backend.UserInDate,norigaeParam));
+
+            } 
+                break;
+            
+            case ItemType.Skill:
+            {
+                Param skillParam = new Param();
+        
+                var table = TableManager.Instance.skillTable.dataArray;
+        
+                var tableDatas = ServerData.skillServerTable.TableDatas;
+        
+                for (int i = 0; i < table.Length; i++)
+                {
+                    if (serverUpdateList != null && serverUpdateList.Contains(table[i].Id) == false) continue;
+
+                    string key = table[i].Stringid;
+                    //hasitem 1
+                    skillParam.Add(key, tableDatas[key].ConvertToString());
+                }
+                
+                //무기
+                transactionList.Add(TransactionValue.SetUpdateV2(SkillServerTable.tableName, SkillServerTable.Indate,Backend.UserInDate,skillParam));
 
             } 
                 break;

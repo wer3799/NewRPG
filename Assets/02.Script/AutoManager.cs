@@ -44,12 +44,11 @@ public class AutoManager : Singleton<AutoManager>
 
         int currentSelectedGroupId = (int)ServerData.userInfoTable.TableDatas[UserInfoTable.selectedSkillGroupId].Value;
 
-        var selectedSkill =
-            ServerData.skillServerTable.TableDatas[SkillServerTable.GetSkillGroupKey(currentSelectedGroupId)];
+        var selectedSkill = ServerData.presetServerTable.GetSkillPreset(currentSelectedGroupId);
 
         for (int i = 0; i < selectedSkill.Count; i++)
         {
-            int skillIdx = selectedSkill[i].Value;
+            int skillIdx = selectedSkill[i];
 
             if (skillIdx != -1 &&
                 SkillCoolTimeManager.HasSkillCooltime(skillIdx) == false &&
@@ -262,13 +261,11 @@ public class AutoManager : Singleton<AutoManager>
                     int currentSelectedGroupId =
                         (int)ServerData.userInfoTable.TableDatas[UserInfoTable.selectedSkillGroupId].Value;
 
-                    var selectedSkill =
-                        ServerData.skillServerTable.TableDatas[
-                            SkillServerTable.GetSkillGroupKey(currentSelectedGroupId)];
+                    var selectedSkill = ServerData.presetServerTable.GetSkillPreset(currentSelectedGroupId);
 
                     for (int i = 0; i < selectedSkill.Count; i++)
                     {
-                        int skillIdx = selectedSkill[i].Value;
+                        int skillIdx = selectedSkill[i];
 
                         if (skillIdx == -1) continue;
 
@@ -307,31 +304,30 @@ public class AutoManager : Singleton<AutoManager>
         }
     }
 
-    private const int skillType2 = 2;
     List<int> fronSkillContainer = new List<int>();
 
     //이동광역기 우선으로 앞으로 빼주도록
     private void SetFrontType2Skill()
     {
-        if (skillQueue.Count == 0) return;
-
-        fronSkillContainer.Clear();
-
-        for (int i = 0; i < skillQueue.Count; i++)
-        {
-            var skillTableData = TableManager.Instance.SkillData[skillQueue[i]];
-
-            if (skillTableData.Skilltype == skillType2)
-            {
-                fronSkillContainer.Add(skillQueue[i]);
-            }
-        }
-
-        for (int i = 0; i < fronSkillContainer.Count; i++)
-        {
-            skillQueue.Remove(fronSkillContainer[i]);
-            skillQueue.Insert(0, fronSkillContainer[i]);
-        }
+        // if (skillQueue.Count == 0) return;
+        //
+        // fronSkillContainer.Clear();
+        //
+        // for (int i = 0; i < skillQueue.Count; i++)
+        // {
+        //     var skillTableData = TableManager.Instance.SkillData[skillQueue[i]];
+        //
+        //     if (skillTableData.Skilltype == skillType2)
+        //     {
+        //         fronSkillContainer.Add(skillQueue[i]);
+        //     }
+        // }
+        //
+        // for (int i = 0; i < fronSkillContainer.Count; i++)
+        // {
+        //     skillQueue.Remove(fronSkillContainer[i]);
+        //     skillQueue.Insert(0, fronSkillContainer[i]);
+        // }
     }
 
     private void SortEnemy(List<Enemy> spawnedEnemyList)

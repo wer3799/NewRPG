@@ -24,6 +24,7 @@ public class UserInfoTable
     public const string gachaNum_SubWeapon  = "gachaNum0";
     public const string gachaNum_Charm  = "gachaNum1";
     public const string gachaNum_Norigae  = "gachaNum2";
+    public const string gachaNum_Skill  = "gachaNum3";
 
     private Dictionary<string, double> tableSchema = new Dictionary<string, double>()
     {
@@ -35,6 +36,7 @@ public class UserInfoTable
         { gachaNum_SubWeapon, 0f },
         { gachaNum_Charm, 0f },
         { gachaNum_Norigae, 0f },
+        { gachaNum_Skill, 0f },
     };
 
     private Dictionary<string, ReactiveProperty<double>>

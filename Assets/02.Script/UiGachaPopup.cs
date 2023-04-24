@@ -11,6 +11,7 @@ public enum ItemType
     SubWeapon,
     Charm,
     Norigae,
+    Skill,
     Max
 }
 

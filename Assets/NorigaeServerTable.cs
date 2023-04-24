@@ -12,9 +12,9 @@ public class NorigaeServerTable : MonoBehaviour
     public static string tableName = "Norigae";
 
 
-    private ReactiveDictionary<string, EquipmentServerData> tableDatas = new ReactiveDictionary<string, EquipmentServerData>();
+    private ReactiveDictionary<string, ItemServerData> tableDatas = new ReactiveDictionary<string, ItemServerData>();
 
-    public ReactiveDictionary<string, EquipmentServerData> TableDatas => tableDatas;
+    public ReactiveDictionary<string, ItemServerData> TableDatas => tableDatas;
 
     public float GetWeaponEffectValue(string id, float baseValue, float addValue, int level = -1)
     {
@@ -28,7 +28,7 @@ public class NorigaeServerTable : MonoBehaviour
         }
     }
 
-    public EquipmentServerData GetWeaponData(string idx)
+    public ItemServerData GetWeaponData(string idx)
     {
         if (tableDatas.TryGetValue(idx, out var data))
         {
@@ -98,7 +98,7 @@ public class NorigaeServerTable : MonoBehaviour
 
                 for (int i = 0; i < table.Length; i++)
                 {
-                    var equipData = new EquipmentServerData();
+                    var equipData = new ItemServerData();
                     equipData.idx = table[i].Id;
                     equipData.hasItem = new ReactiveProperty<int>(0);
                     equipData.level = new ReactiveProperty<int>(0);
@@ -151,7 +151,7 @@ public class NorigaeServerTable : MonoBehaviour
                         //값로드
                         var value = data[table[i].Stringid][ServerData.format_string].ToString();
 
-                        var equipData = new EquipmentServerData();
+                        var equipData = new ItemServerData();
 
                         var splitData = value.Split(',');
 
@@ -167,7 +167,7 @@ public class NorigaeServerTable : MonoBehaviour
                     }
                     else
                     {
-                        var equipData = new EquipmentServerData();
+                        var equipData = new ItemServerData();
                         equipData.idx = table[i].Id;
                         equipData.hasItem = new ReactiveProperty<int>(0);
                         equipData.level = new ReactiveProperty<int>(0);
