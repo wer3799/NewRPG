@@ -557,26 +557,26 @@ MonoBehaviour:
   viewMin:
     migratedVersion: 
     currentCryptoKey: 2111449619
-    hiddenValue: 1026165267
+    hiddenValue: 1026189843
     hiddenValueOldByte4:
       b1: 0
       b2: 0
       b3: 0
       b4: 0
     inited: 1
-    fakeValue: 6.5
+    fakeValue: 5.5
     fakeValueActive: 1
   viewMax:
     migratedVersion: 
     currentCryptoKey: 1316428332
-    hiddenValue: 253388588
+    hiddenValue: 236635948
     hiddenValueOldByte4:
       b1: 0
       b2: 0
       b3: 0
       b4: 0
     inited: 1
-    fakeValue: 9
+    fakeValue: 5.5
     fakeValueActive: 1
 --- !u!114 &1309827814
 MonoBehaviour:
