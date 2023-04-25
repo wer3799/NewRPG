@@ -17,9 +17,17 @@ MonoBehaviour:
   dataArray:
   - id: 0
     contentstype: NormalField
+    type: 0
+    contentswhere: 0
   - id: 1
     contentstype: Test0
+    type: 0
+    contentswhere: 1
   - id: 2
     contentstype: Test1
+    type: 0
+    contentswhere: 1
   - id: 3
     contentstype: Test2
+    type: 0
+    contentswhere: 1

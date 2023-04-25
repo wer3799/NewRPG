@@ -953,6 +953,7 @@ MonoBehaviour:
   subWeapon: {fileID: 11400000, guid: cc100f267ee0a4b91afa044f4630219f, type: 2}
   charm: {fileID: 11400000, guid: 20f3546f2ff9742178e20ef62fe3b9ec, type: 2}
   norigae: {fileID: 11400000, guid: 6cf48d97c9bf343a6a7d333b39afcd7c, type: 2}
+  mainContents: {fileID: 11400000, guid: 9ea3cfa21141efc479b83c390c44e33f, type: 2}
 --- !u!4 &916661093
 Transform:
   m_ObjectHideFlags: 0

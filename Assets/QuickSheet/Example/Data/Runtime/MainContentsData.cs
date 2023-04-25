@@ -20,4 +20,8 @@ public class MainContentsData
   int type;
   public int Type { get {return type; } set { this.type = value;} }
   
+  [SerializeField]
+  ContentsWhere contentswhere;
+  public ContentsWhere CONTENTSWHERE { get {return contentswhere; } set { this.contentswhere = value;} }
+  
 }

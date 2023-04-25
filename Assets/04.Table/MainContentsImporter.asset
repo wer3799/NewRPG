@@ -30,6 +30,10 @@ MonoBehaviour:
     name: Type
     isEnable: 0
     isArray: 0
+  - type: 7
+    name: ContentsWhere
+    isEnable: 0
+    isArray: 0
   excelFilePath: Assets/04.Table/MainContents.xls
   SheetNames:
   - MainContents

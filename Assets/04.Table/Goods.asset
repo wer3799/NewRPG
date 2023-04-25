@@ -17,17 +17,13 @@ MonoBehaviour:
   dataArray:
   - id: 0
     stringid: Gold
-    namekey: 
-    syncalways: 0
+    syncalways: 1
   - id: 1
     stringid: GrowthStone
-    namekey: 
-    syncalways: 0
+    syncalways: 1
   - id: 2
     stringid: Diamond
-    namekey: 
     syncalways: 0
   - id: 3
     stringid: Test
-    namekey: 
     syncalways: 0
