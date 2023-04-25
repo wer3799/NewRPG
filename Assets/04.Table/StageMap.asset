@@ -22,7 +22,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -36,7 +36,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -50,7 +50,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -64,7 +64,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -78,7 +78,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -92,7 +92,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -106,7 +106,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -120,7 +120,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -134,7 +134,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -148,7 +148,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -162,7 +162,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -176,7 +176,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -190,7 +190,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -204,7 +204,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -218,7 +218,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -232,7 +232,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -246,7 +246,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -260,7 +260,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -274,7 +274,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -288,7 +288,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -302,7 +302,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -316,7 +316,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -330,7 +330,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -344,7 +344,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -358,7 +358,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -372,7 +372,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -386,7 +386,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -400,7 +400,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -414,7 +414,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -428,7 +428,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -442,7 +442,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -456,7 +456,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -470,7 +470,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -484,7 +484,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -498,7 +498,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -512,7 +512,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -526,7 +526,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -540,7 +540,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -554,7 +554,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -568,7 +568,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -582,7 +582,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -596,7 +596,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -610,7 +610,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -624,7 +624,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -638,7 +638,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -652,7 +652,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -666,7 +666,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -680,7 +680,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -694,7 +694,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -708,7 +708,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 11
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -722,7 +722,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -736,7 +736,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -750,7 +750,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -764,7 +764,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -778,7 +778,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -792,7 +792,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -806,7 +806,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -820,7 +820,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -834,7 +834,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -848,7 +848,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -862,7 +862,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -876,7 +876,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -890,7 +890,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -904,7 +904,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -918,7 +918,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -932,7 +932,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -946,7 +946,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -960,7 +960,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -974,7 +974,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -988,7 +988,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1002,7 +1002,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1016,7 +1016,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1030,7 +1030,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1044,7 +1044,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1058,7 +1058,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1072,7 +1072,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1086,7 +1086,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1100,7 +1100,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1114,7 +1114,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1128,7 +1128,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1142,7 +1142,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1156,7 +1156,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1170,7 +1170,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1184,7 +1184,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1198,7 +1198,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1212,7 +1212,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1226,7 +1226,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1240,7 +1240,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1254,7 +1254,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1268,7 +1268,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1282,7 +1282,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1296,7 +1296,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1310,7 +1310,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1324,7 +1324,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1338,7 +1338,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1352,7 +1352,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1366,7 +1366,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1380,7 +1380,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1394,7 +1394,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1408,7 +1408,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 12
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1422,7 +1422,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1436,7 +1436,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1450,7 +1450,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1464,7 +1464,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1478,7 +1478,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1506,7 +1506,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1520,7 +1520,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1534,7 +1534,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1548,7 +1548,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1562,7 +1562,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1576,7 +1576,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1590,7 +1590,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1604,7 +1604,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1618,7 +1618,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1632,7 +1632,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1646,7 +1646,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1660,7 +1660,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1674,7 +1674,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1688,7 +1688,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 12
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1702,7 +1702,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1716,7 +1716,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1730,7 +1730,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1744,7 +1744,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1758,7 +1758,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1772,7 +1772,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1786,7 +1786,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1800,7 +1800,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1814,7 +1814,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1828,7 +1828,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1842,7 +1842,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1856,7 +1856,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1870,7 +1870,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1884,7 +1884,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1898,7 +1898,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 13
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1912,7 +1912,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1926,7 +1926,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1940,7 +1940,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1954,7 +1954,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1968,7 +1968,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1982,7 +1982,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -1996,7 +1996,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2010,7 +2010,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2024,7 +2024,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2038,7 +2038,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2052,7 +2052,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2066,7 +2066,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2080,7 +2080,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2094,7 +2094,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2108,7 +2108,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2122,7 +2122,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2136,7 +2136,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2150,7 +2150,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2164,7 +2164,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2178,7 +2178,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2192,7 +2192,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2206,7 +2206,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2220,7 +2220,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2234,7 +2234,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2248,7 +2248,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2262,7 +2262,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2276,7 +2276,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2290,7 +2290,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2304,7 +2304,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2318,7 +2318,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2332,7 +2332,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2346,7 +2346,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2360,7 +2360,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2374,7 +2374,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2388,7 +2388,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2402,7 +2402,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2416,7 +2416,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2430,7 +2430,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2444,7 +2444,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2458,7 +2458,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2472,7 +2472,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2486,7 +2486,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2500,7 +2500,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2514,7 +2514,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2528,7 +2528,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 14
-    spawndelay: 11
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2542,7 +2542,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2556,7 +2556,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2570,7 +2570,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2584,7 +2584,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2598,7 +2598,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2612,7 +2612,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2626,7 +2626,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2640,7 +2640,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2654,7 +2654,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2668,7 +2668,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2682,7 +2682,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2696,7 +2696,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2710,7 +2710,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2724,7 +2724,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2738,7 +2738,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 15
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2752,7 +2752,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2766,7 +2766,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2780,7 +2780,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2794,7 +2794,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2808,7 +2808,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2822,7 +2822,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2836,7 +2836,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2850,7 +2850,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2864,7 +2864,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2878,7 +2878,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2892,7 +2892,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2906,7 +2906,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2920,7 +2920,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2934,7 +2934,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2948,7 +2948,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2962,7 +2962,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2976,7 +2976,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -2990,7 +2990,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3004,7 +3004,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3018,7 +3018,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3032,7 +3032,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3046,7 +3046,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3060,7 +3060,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3074,7 +3074,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3088,7 +3088,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3102,7 +3102,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3116,7 +3116,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3130,7 +3130,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3144,7 +3144,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3158,7 +3158,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3172,7 +3172,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3186,7 +3186,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3200,7 +3200,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3214,7 +3214,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3228,7 +3228,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3242,7 +3242,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3256,7 +3256,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3270,7 +3270,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3284,7 +3284,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3298,7 +3298,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3312,7 +3312,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3326,7 +3326,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3340,7 +3340,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3354,7 +3354,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3368,7 +3368,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3382,7 +3382,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3396,7 +3396,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3410,7 +3410,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3424,7 +3424,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3438,7 +3438,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3452,7 +3452,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3466,7 +3466,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3480,7 +3480,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3494,7 +3494,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3508,7 +3508,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3522,7 +3522,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3536,7 +3536,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3550,7 +3550,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3564,7 +3564,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3578,7 +3578,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3592,7 +3592,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3606,7 +3606,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3620,7 +3620,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3634,7 +3634,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3648,7 +3648,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3662,7 +3662,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3676,7 +3676,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3690,7 +3690,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3704,7 +3704,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3718,7 +3718,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3732,7 +3732,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3746,7 +3746,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3760,7 +3760,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3774,7 +3774,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3788,7 +3788,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 10
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3802,7 +3802,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3816,7 +3816,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3830,7 +3830,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3844,7 +3844,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3858,7 +3858,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3872,7 +3872,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3886,7 +3886,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3900,7 +3900,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3914,7 +3914,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3928,7 +3928,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3942,7 +3942,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3956,7 +3956,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3970,7 +3970,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3984,7 +3984,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -3998,7 +3998,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4012,7 +4012,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4026,7 +4026,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4040,7 +4040,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4054,7 +4054,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4068,7 +4068,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4082,7 +4082,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4096,7 +4096,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4110,7 +4110,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4124,7 +4124,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4138,7 +4138,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4152,7 +4152,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4166,7 +4166,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4180,7 +4180,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4194,7 +4194,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4208,7 +4208,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4222,7 +4222,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4236,7 +4236,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4250,7 +4250,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4264,7 +4264,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4278,7 +4278,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4292,7 +4292,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4306,7 +4306,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4320,7 +4320,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4334,7 +4334,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4348,7 +4348,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4362,7 +4362,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4376,7 +4376,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4390,7 +4390,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4404,7 +4404,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4418,7 +4418,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4432,7 +4432,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4446,7 +4446,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4460,7 +4460,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4474,7 +4474,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4488,7 +4488,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4502,7 +4502,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4516,7 +4516,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4530,7 +4530,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4544,7 +4544,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4558,7 +4558,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4572,7 +4572,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4586,7 +4586,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4600,7 +4600,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4614,7 +4614,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4628,7 +4628,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4642,7 +4642,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4656,7 +4656,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4670,7 +4670,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4684,7 +4684,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4698,7 +4698,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4712,7 +4712,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4726,7 +4726,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4740,7 +4740,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4754,7 +4754,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4768,7 +4768,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4782,7 +4782,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4796,7 +4796,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4810,7 +4810,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4824,7 +4824,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4838,7 +4838,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4852,7 +4852,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4866,7 +4866,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4880,7 +4880,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4894,7 +4894,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4908,7 +4908,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 16
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4922,7 +4922,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4936,7 +4936,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4950,7 +4950,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4964,7 +4964,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4978,7 +4978,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -4992,7 +4992,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5006,7 +5006,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5020,7 +5020,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5034,7 +5034,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5048,7 +5048,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5062,7 +5062,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5076,7 +5076,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5090,7 +5090,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5104,7 +5104,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5118,7 +5118,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5132,7 +5132,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5146,7 +5146,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5160,7 +5160,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5174,7 +5174,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5188,7 +5188,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5202,7 +5202,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5216,7 +5216,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5230,7 +5230,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5244,7 +5244,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5258,7 +5258,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5272,7 +5272,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5286,7 +5286,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5300,7 +5300,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5314,7 +5314,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5328,7 +5328,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5342,7 +5342,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5356,7 +5356,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5370,7 +5370,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5384,7 +5384,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5398,7 +5398,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5412,7 +5412,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5426,7 +5426,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5440,7 +5440,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5454,7 +5454,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5468,7 +5468,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5482,7 +5482,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5496,7 +5496,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5510,7 +5510,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5524,7 +5524,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5538,7 +5538,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5552,7 +5552,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5566,7 +5566,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5580,7 +5580,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5594,7 +5594,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5608,7 +5608,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5622,7 +5622,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 17
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5636,7 +5636,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5650,7 +5650,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5664,7 +5664,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5678,7 +5678,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5692,7 +5692,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5706,7 +5706,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5720,7 +5720,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5734,7 +5734,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5748,7 +5748,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5762,7 +5762,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5776,7 +5776,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5790,7 +5790,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5804,7 +5804,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5818,7 +5818,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5832,7 +5832,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5846,7 +5846,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5860,7 +5860,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5874,7 +5874,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5888,7 +5888,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5902,7 +5902,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5916,7 +5916,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5930,7 +5930,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5944,7 +5944,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5958,7 +5958,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5972,7 +5972,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -5986,7 +5986,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6000,7 +6000,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6014,7 +6014,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6028,7 +6028,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6042,7 +6042,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6056,7 +6056,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6070,7 +6070,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6084,7 +6084,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6098,7 +6098,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6112,7 +6112,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6126,7 +6126,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6140,7 +6140,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6154,7 +6154,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6168,7 +6168,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6182,7 +6182,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6196,7 +6196,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6210,7 +6210,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6224,7 +6224,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6238,7 +6238,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6252,7 +6252,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6266,7 +6266,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6280,7 +6280,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6294,7 +6294,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6308,7 +6308,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6322,7 +6322,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 18
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6336,7 +6336,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6350,7 +6350,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6364,7 +6364,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6378,7 +6378,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6392,7 +6392,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6406,7 +6406,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6420,7 +6420,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6434,7 +6434,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6448,7 +6448,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6462,7 +6462,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6476,7 +6476,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6490,7 +6490,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6504,7 +6504,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6518,7 +6518,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6532,7 +6532,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6546,7 +6546,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6560,7 +6560,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6574,7 +6574,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6588,7 +6588,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6602,7 +6602,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6616,7 +6616,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6630,7 +6630,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6644,7 +6644,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6658,7 +6658,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6672,7 +6672,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6686,7 +6686,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6700,7 +6700,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6714,7 +6714,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6728,7 +6728,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6742,7 +6742,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6756,7 +6756,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6770,7 +6770,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6784,7 +6784,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6798,7 +6798,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6812,7 +6812,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6826,7 +6826,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6840,7 +6840,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6854,7 +6854,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6868,7 +6868,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6882,7 +6882,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6896,7 +6896,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6910,7 +6910,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6924,7 +6924,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6938,7 +6938,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6952,7 +6952,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6966,7 +6966,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6980,7 +6980,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -6994,7 +6994,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7008,7 +7008,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7022,7 +7022,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7036,7 +7036,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7050,7 +7050,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7064,7 +7064,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7078,7 +7078,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7092,7 +7092,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7106,7 +7106,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7120,7 +7120,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7134,7 +7134,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7148,7 +7148,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7162,7 +7162,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7176,7 +7176,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7190,7 +7190,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7204,7 +7204,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7218,7 +7218,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7232,7 +7232,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7246,7 +7246,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7260,7 +7260,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7274,7 +7274,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7288,7 +7288,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7302,7 +7302,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7316,7 +7316,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7330,7 +7330,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7344,7 +7344,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7358,7 +7358,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7372,7 +7372,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7386,7 +7386,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7400,7 +7400,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7414,7 +7414,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7428,7 +7428,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7442,7 +7442,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7456,7 +7456,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7470,7 +7470,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7484,7 +7484,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7498,7 +7498,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7512,7 +7512,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7526,7 +7526,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7540,7 +7540,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7554,7 +7554,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7568,7 +7568,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7582,7 +7582,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7596,7 +7596,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7610,7 +7610,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7624,7 +7624,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7638,7 +7638,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7652,7 +7652,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7666,7 +7666,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7680,7 +7680,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7694,7 +7694,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7708,7 +7708,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7722,7 +7722,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 19
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7736,7 +7736,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7750,7 +7750,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7764,7 +7764,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7778,7 +7778,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7792,7 +7792,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7806,7 +7806,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7820,7 +7820,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7834,7 +7834,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7848,7 +7848,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7862,7 +7862,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7876,7 +7876,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7890,7 +7890,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7904,7 +7904,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7918,7 +7918,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7932,7 +7932,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7946,7 +7946,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7960,7 +7960,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7974,7 +7974,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -7988,7 +7988,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8002,7 +8002,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8016,7 +8016,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8030,7 +8030,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8044,7 +8044,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8058,7 +8058,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8072,7 +8072,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8086,7 +8086,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8100,7 +8100,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8114,7 +8114,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8128,7 +8128,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8142,7 +8142,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8156,7 +8156,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8170,7 +8170,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8184,7 +8184,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8198,7 +8198,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8212,7 +8212,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8226,7 +8226,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8240,7 +8240,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8254,7 +8254,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8268,7 +8268,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8282,7 +8282,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8296,7 +8296,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8310,7 +8310,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8324,7 +8324,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8338,7 +8338,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8352,7 +8352,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8366,7 +8366,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8380,7 +8380,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8394,7 +8394,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8408,7 +8408,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8422,7 +8422,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8436,7 +8436,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8450,7 +8450,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8464,7 +8464,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8478,7 +8478,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8492,7 +8492,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8506,7 +8506,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8520,7 +8520,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8534,7 +8534,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8548,7 +8548,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8562,7 +8562,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8576,7 +8576,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8590,7 +8590,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8604,7 +8604,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8618,7 +8618,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8632,7 +8632,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8646,7 +8646,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8660,7 +8660,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8674,7 +8674,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8688,7 +8688,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8702,7 +8702,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8716,7 +8716,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8730,7 +8730,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8744,7 +8744,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8758,7 +8758,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8772,7 +8772,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8786,7 +8786,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8800,7 +8800,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8814,7 +8814,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8828,7 +8828,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8842,7 +8842,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8856,7 +8856,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8870,7 +8870,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8884,7 +8884,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8898,7 +8898,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8912,7 +8912,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8926,7 +8926,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8940,7 +8940,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8954,7 +8954,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8968,7 +8968,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8982,7 +8982,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -8996,7 +8996,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9010,7 +9010,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9024,7 +9024,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9038,7 +9038,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9052,7 +9052,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9066,7 +9066,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9080,7 +9080,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9094,7 +9094,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9108,7 +9108,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 20
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9122,7 +9122,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9136,7 +9136,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9150,7 +9150,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9164,7 +9164,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9178,7 +9178,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9192,7 +9192,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9206,7 +9206,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9220,7 +9220,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9234,7 +9234,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9248,7 +9248,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9262,7 +9262,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9276,7 +9276,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9290,7 +9290,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9304,7 +9304,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9318,7 +9318,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9332,7 +9332,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9346,7 +9346,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9360,7 +9360,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9374,7 +9374,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9388,7 +9388,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9402,7 +9402,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9416,7 +9416,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9430,7 +9430,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9444,7 +9444,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9458,7 +9458,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9472,7 +9472,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9486,7 +9486,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9500,7 +9500,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9514,7 +9514,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9528,7 +9528,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9542,7 +9542,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9556,7 +9556,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9570,7 +9570,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9584,7 +9584,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9598,7 +9598,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9612,7 +9612,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9626,7 +9626,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9640,7 +9640,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9654,7 +9654,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9668,7 +9668,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9682,7 +9682,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9696,7 +9696,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9710,7 +9710,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9724,7 +9724,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9738,7 +9738,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9752,7 +9752,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9766,7 +9766,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9780,7 +9780,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9794,7 +9794,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9808,7 +9808,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9822,7 +9822,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9836,7 +9836,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9850,7 +9850,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9864,7 +9864,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9878,7 +9878,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9892,7 +9892,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9906,7 +9906,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9920,7 +9920,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9934,7 +9934,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9948,7 +9948,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9962,7 +9962,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9976,7 +9976,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -9990,7 +9990,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10004,7 +10004,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10018,7 +10018,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10032,7 +10032,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10046,7 +10046,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10060,7 +10060,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10074,7 +10074,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10088,7 +10088,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10102,7 +10102,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10116,7 +10116,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10130,7 +10130,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10144,7 +10144,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10158,7 +10158,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10172,7 +10172,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10186,7 +10186,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10200,7 +10200,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10214,7 +10214,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10228,7 +10228,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10242,7 +10242,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10256,7 +10256,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10270,7 +10270,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10284,7 +10284,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10298,7 +10298,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10312,7 +10312,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10326,7 +10326,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10340,7 +10340,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10354,7 +10354,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10368,7 +10368,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10382,7 +10382,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10396,7 +10396,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10410,7 +10410,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10424,7 +10424,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10438,7 +10438,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10452,7 +10452,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10466,7 +10466,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10480,7 +10480,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10494,7 +10494,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100
@@ -10508,7 +10508,7 @@ MonoBehaviour:
     monsterlevel: 1
     multiplebosspower: 2
     spawnamount: 21
-    spawndelay: 9
+    spawndelay: 1
     movespeed: 1
     exp: 100
     gold: 100

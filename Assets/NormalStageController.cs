@@ -27,8 +27,9 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
     private Coroutine normalEnemySpawnRoutine;
 
-    private ReactiveProperty<StageMapData> mapTableData = new ReactiveProperty<StageMapData>();
+    private CompositeDisposable bossTimerDisposable = new CompositeDisposable();
 
+    private ReactiveProperty<StageMapData> mapTableData = new ReactiveProperty<StageMapData>();
     public ReactiveProperty<StageMapData> MapTableData => mapTableData;
 
     private NormalStageMap normalStageMap;
@@ -45,32 +46,48 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
     private void Subscribe()
     {
-        disposable.Clear();
+        bossTimerDisposable.Clear();
 
         stageState.AsObservable().Subscribe(e =>
         {
             if (e == NormalStageState.Normal)
             {
-                disposable.Clear();
+                bossTimerDisposable.Clear();
             }
         }).AddTo(this);
     }
 
 
-    private void MakeStage()
+    public void MakeStage()
     {
         DestroyPrefObjects();
 
         MakeObjectByCurrentStageId();
 
+        StartSpanwRoutine();
+
+        AutoManager.Instance.SetAuto(true);
+    }
+
+    public void DisableStage()
+    {
+        StopSpawnRoutine();
+        DestroyPrefObjects();
+    }
+
+    public void StopSpawnRoutine()
+    {
         if (normalEnemySpawnRoutine != null)
         {
             StopCoroutine(normalEnemySpawnRoutine);
         }
+    }
+
+    public void StartSpanwRoutine()
+    {
+        StopSpawnRoutine();
 
         normalEnemySpawnRoutine = StartCoroutine(NormalEnemySpawnRoutine());
-
-        AutoManager.Instance.SetAuto(true);
     }
 
     public EnemyInfo GetCurrentStageEnemyInfo(bool bossEnemy = false)
@@ -89,45 +106,46 @@ public class NormalStageController : SingletonMono<NormalStageController>
             Hp *= MapTableData.Value.Multiplebosspower;
             Defense *= (float)MapTableData.Value.Multiplebosspower;
         }
-        
+
         return new EnemyInfo(Hp, Exp, Gold, GrowthStone, MoveSpeed, Defense);
     }
 
     private IEnumerator NormalEnemySpawnRoutine()
     {
-        WaitForSeconds spawnDelay = new WaitForSeconds(mapTableData.Value.Spawndelay);
+        WaitForSeconds spawnCheckDelay = new WaitForSeconds(mapTableData.Value.Spawndelay);
 
         while (true)
         {
             EnemyInfo enemyInfo = GetCurrentStageEnemyInfo();
 
-            for (int i = 0; i < mapTableData.Value.Spawnenemies.Length; i++)
+            while (currentSpawnedEnemies.Count < mapTableData.Value.Spawnamount)
             {
-                for (int j = 0; j < mapTableData.Value.Spawnamount; j++)
+                if (stageState.Value == NormalStageState.Boss)
                 {
-                    if (stageState.Value == NormalStageState.Boss) continue;
-
-                    int randIdx = Random.Range(0, spawnedEnemyList.Count);
-
-                    var enemyPrefab = spawnedEnemyList[randIdx].GetItem();
-
-                    enemyPrefab.Initialize(enemyInfo);
-
-                    enemyPrefab.transform.localScale = Vector3.one;
-
-                    enemyPrefab.SetReturnCallBack(EnemyRemoveCallBack);
-
-                    enemyPrefab.transform.position = normalStageMap.GetRandomSpawnPos();
-
-                    currentSpawnedEnemies.Add(enemyPrefab);
+                    yield return null;
+                    continue;
                 }
-            }
 
-            yield return spawnDelay;
+                int randIdx = Random.Range(0, spawnedEnemyList.Count);
+
+                var enemyPrefab = spawnedEnemyList[randIdx].GetItem();
+
+                enemyPrefab.Initialize(enemyInfo);
+
+                enemyPrefab.transform.localScale = Vector3.one;
+
+                enemyPrefab.SetReturnCallBack(EnemyRemoveCallBack);
+
+                enemyPrefab.transform.position = normalStageMap.GetRandomSpawnPos();
+
+                currentSpawnedEnemies.Add(enemyPrefab);
+            }
+            
+            yield return spawnCheckDelay;
         }
     }
 
-    private void DestroyPrefObjects()
+    public void DestroyPrefObjects()
     {
         //맵제거
         if (currentMapObject != null)
@@ -173,7 +191,6 @@ public class NormalStageController : SingletonMono<NormalStageController>
         currentSpawnedEnemies.Remove(enemy);
     }
 
-    private CompositeDisposable disposable = new CompositeDisposable();
 
     public void StartStageBoss()
     {
@@ -187,9 +204,9 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
         UiBossTimer.Instance.StartBossTimer(GameBalance.stageBossClearTime);
 
-        disposable.Clear();
+        bossTimerDisposable.Clear();
 
-        UiBossTimer.Instance.whenFieldBossTimerEnd.AsObservable().Subscribe(e => { StageBossTimeOut(); }).AddTo(disposable);
+        UiBossTimer.Instance.whenFieldBossTimerEnd.AsObservable().Subscribe(e => { StageBossTimeOut(); }).AddTo(bossTimerDisposable);
     }
 
     private void SpawnBossEnemy()
@@ -220,8 +237,6 @@ public class NormalStageController : SingletonMono<NormalStageController>
     public void MoveNextStage()
     {
         PopupManager.Instance.ShowStageChangeEffect();
-
-        DestroyPrefObjects();
 
         MakeStage();
     }
@@ -272,6 +287,6 @@ public class NormalStageController : SingletonMono<NormalStageController>
     private void OnDestroy()
     {
         base.OnDestroy();
-        disposable.Dispose();
+        bossTimerDisposable.Dispose();
     }
 }

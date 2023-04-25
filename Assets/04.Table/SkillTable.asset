@@ -50,7 +50,7 @@ MonoBehaviour:
     grade: 0
   - id: 1
     stringid: s1
-    skillclassname: Slash1
+    skillclassname: Slash0
     skillname: "\uC804\uBC29\uBCA0\uAE30 2\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -83,7 +83,7 @@ MonoBehaviour:
     grade: 0
   - id: 2
     stringid: s2
-    skillclassname: Slash2
+    skillclassname: Slash0
     skillname: "\uC804\uBC29\uBCA0\uAE30 3\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -116,7 +116,7 @@ MonoBehaviour:
     grade: 0
   - id: 3
     stringid: s3
-    skillclassname: Slash3
+    skillclassname: Slash0
     skillname: "\uC804\uBC29\uBCA0\uAE30 4\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -149,7 +149,7 @@ MonoBehaviour:
     grade: 0
   - id: 4
     stringid: s4
-    skillclassname: Straight0
+    skillclassname: Slash0
     skillname: "\uC9C1\uC120\uBCA0\uAE30 1\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -182,7 +182,7 @@ MonoBehaviour:
     grade: 0
   - id: 5
     stringid: s5
-    skillclassname: Straight1
+    skillclassname: Slash0
     skillname: "\uC9C1\uC120\uBCA0\uAE30 2\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -215,7 +215,7 @@ MonoBehaviour:
     grade: 0
   - id: 6
     stringid: s6
-    skillclassname: Straight2
+    skillclassname: Slash0
     skillname: "\uC9C1\uC120\uBCA0\uAE30 3\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -248,7 +248,7 @@ MonoBehaviour:
     grade: 0
   - id: 7
     stringid: s7
-    skillclassname: Straight3
+    skillclassname: Slash0
     skillname: "\uC9C1\uC120\uBCA0\uAE30 4\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -281,7 +281,7 @@ MonoBehaviour:
     grade: 0
   - id: 8
     stringid: s8
-    skillclassname: Around0
+    skillclassname: Slash0
     skillname: "\uD68C\uC804\uBCA0\uAE30 1\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -314,7 +314,7 @@ MonoBehaviour:
     grade: 0
   - id: 9
     stringid: s9
-    skillclassname: Around1
+    skillclassname: Slash0
     skillname: "\uD68C\uC804\uBCA0\uAE30 2\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -347,7 +347,7 @@ MonoBehaviour:
     grade: 0
   - id: 10
     stringid: s10
-    skillclassname: Around2
+    skillclassname: Slash0
     skillname: "\uD68C\uC804\uBCA0\uAE30 3\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -380,7 +380,7 @@ MonoBehaviour:
     grade: 0
   - id: 11
     stringid: s11
-    skillclassname: Around3
+    skillclassname: Slash0
     skillname: "\uD68C\uC804\uBCA0\uAE30 4\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -413,7 +413,7 @@ MonoBehaviour:
     grade: 0
   - id: 12
     stringid: s12
-    skillclassname: Special0
+    skillclassname: Slash0
     skillname: "\uBBF8\uC815 1\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -446,7 +446,7 @@ MonoBehaviour:
     grade: 0
   - id: 13
     stringid: s13
-    skillclassname: Special1
+    skillclassname: Slash0
     skillname: "\uBBF8\uC815 2\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -479,7 +479,7 @@ MonoBehaviour:
     grade: 0
   - id: 14
     stringid: s14
-    skillclassname: Special2
+    skillclassname: Slash0
     skillname: "\uBBF8\uC815 3\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
@@ -512,7 +512,7 @@ MonoBehaviour:
     grade: 0
   - id: 15
     stringid: s15
-    skillclassname: Special3
+    skillclassname: Slash0
     skillname: "\uBBF8\uC815 4\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100

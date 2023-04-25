@@ -10,11 +10,9 @@ public class GoodsEnumMaker : MonoBehaviour
     private Goods goodsTableData;
 
     [SerializeField]
-    private int generate;
-
-#if UNITY_EDITOR
-
-    private void OnValidate()
+    private MainContents mainContentsTableData;
+    
+    public void MakeGoodsEnum()
     {
         string str = string.Empty;
 
@@ -22,7 +20,7 @@ public class GoodsEnumMaker : MonoBehaviour
 
         for (int i = 0; i < tableData.Length; i++)
         {
-            str += tableData[i].Namekey;
+            str += tableData[i].Stringid+$"={tableData[i].Id}";
 
             if (i != tableData.Length - 1)
             {
@@ -34,6 +32,26 @@ public class GoodsEnumMaker : MonoBehaviour
 
         Debug.LogError(str);
     }
+    
+    public void MakeMainContentsEnum()
+    {
+        string str = string.Empty;
 
-#endif
+        var tableData = mainContentsTableData.dataArray;
+
+        for (int i = 0; i < tableData.Length; i++)
+        {
+            str += tableData[i].Contentstype+$"={tableData[i].Id}";;
+
+            if (i != tableData.Length - 1)
+            {
+                str += ",";
+            }
+        }
+
+        EnumCodeGenerator.GenerateEnumFromTextFile(str.Split(','), "ContentsType", Application.dataPath +"/ContentsType.cs");
+
+        Debug.LogError(str);
+    }
+
 }

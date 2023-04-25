@@ -6,18 +6,18 @@ using System.Collections;
 /// !!! DO NOT CHANGE Tabs to Spaces !!!
 /// 
 [System.Serializable]
-public class GoodsData
+public class MainContentsData
 {
   [SerializeField]
   int id;
   public int Id { get {return id; } set { this.id = value;} }
   
   [SerializeField]
-  string stringid;
-  public string Stringid { get {return stringid; } set { this.stringid = value;} }
+  string contentstype;
+  public string Contentstype { get {return contentstype; } set { this.contentstype = value;} }
   
   [SerializeField]
-  bool syncalways;
-  public bool Syncalways { get {return syncalways; } set { this.syncalways = value;} }
+  int type;
+  public int Type { get {return type; } set { this.type = value;} }
   
 }

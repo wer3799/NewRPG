@@ -45,7 +45,7 @@ public class GoodsTable
         {
             if (tableData[i].Syncalways == false)
             {
-                ignoreSyncGoodsList.Add(tableData[i].Namekey);
+                ignoreSyncGoodsList.Add(tableData[i].Stringid);
             }
         }
     }
@@ -58,7 +58,7 @@ public class GoodsTable
 
         for (int i = 0; i < tableData.Length; i++)
         {
-            GoodsKey.Add(Enum.Parse<GoodsEnum>(tableData[i].Namekey), tableData[i].Namekey);
+            GoodsKey.Add(Enum.Parse<GoodsEnum>(tableData[i].Stringid), tableData[i].Stringid);
         }
     }
 

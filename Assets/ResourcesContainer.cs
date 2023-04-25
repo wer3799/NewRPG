@@ -13,7 +13,7 @@ public static class ResourcesContainer
 
         for (int i = 0; i < goodsTableData.Length; i++)
         {
-            goodsContainter.Add(Enum.Parse<GoodsEnum>(goodsTableData[i].Namekey),Resources.Load<Sprite>(goodsTableData[i].Namekey));
+            goodsContainter.Add(Enum.Parse<GoodsEnum>(goodsTableData[i].Stringid),Resources.Load<Sprite>(goodsTableData[i].Stringid));
         }
     }
 

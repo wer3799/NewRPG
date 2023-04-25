@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a00c5ffb9524448a936d4c88d05b07, type: 3}
+  m_Name: MainContents
+  m_EditorClassIdentifier: 
+  SheetName: Assets/04.Table/MainContents.xls
+  WorksheetName: MainContents
+  dataArray:
+  - id: 0
+    contentstype: NormalField
+  - id: 1
+    contentstype: Test0
+  - id: 2
+    contentstype: Test1
+  - id: 3
+    contentstype: Test2

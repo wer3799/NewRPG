@@ -11,7 +11,6 @@ public class Slash0 : SkillBase
     {
     }
 
-    //매직클로
     public override void UseSkill()
     {
         base.UseSkill();

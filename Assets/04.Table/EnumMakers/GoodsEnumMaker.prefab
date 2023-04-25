@@ -45,4 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goodsTableData: {fileID: 11400000, guid: 7e746dce628d75a4eae31d36f2ff1147, type: 2}
-  generate: 2
+  mainContentsTableData: {fileID: 11400000, guid: 9ea3cfa21141efc479b83c390c44e33f, type: 2}

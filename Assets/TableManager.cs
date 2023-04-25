@@ -67,7 +67,6 @@ public class TableManager : SingletonMono<TableManager>
         }
     }
 
-
     public GoldAbilTable goldAbilTable;
 
     public Goods goodsTable;
@@ -79,4 +78,6 @@ public class TableManager : SingletonMono<TableManager>
     public Charm charm;
 
     public Norigae norigae;
+
+    public MainContents mainContents;
 }

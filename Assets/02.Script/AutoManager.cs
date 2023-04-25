@@ -119,9 +119,10 @@ public class AutoManager : Singleton<AutoManager>
             //타겟 없을때 대기
             if (currentTarget == null && UiMoveStick.Instance.nowTouching == false)
             {
-                if (GameManager.contentsType == GameManager.ContentsType.NormalField)
+                if (GameManager.contentsType == ContentsType.NormalField)
                 {
                     UiMoveStick.Instance.SetHorizontalAxsis(0);
+                    UiMoveStick.Instance.SetVerticalAxsis(0);
                 }
                 //허공에 스킬
                 else if (UiMoveStick.Instance.nowTouching == false)
@@ -359,7 +360,7 @@ public class AutoManager : Singleton<AutoManager>
             }
         }
 
-        if (GameManager.contentsType == GameManager.ContentsType.NormalField)
+        if (GameManager.contentsType == ContentsType.NormalField)
         {
             var spawnedEnemy = NormalStageController.Instance.currentSpawnedEnemies;
 

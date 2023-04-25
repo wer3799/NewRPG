@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using BackEnd.Tcp;
 using UnityEngine;
 using Spine.Unity;
 using static PlayerViewController;
@@ -32,6 +33,12 @@ public class PlayerMoveController : SingletonMono<PlayerMoveController>
         Initialize();
         
         AutoManager.Instance.SetPlayerTr();
+    }
+
+    public void SetPlayerToOriginPos()
+    {
+        this.transform.position = Vector2.zero;
+        rb.velocity = Vector3.zero;
     }
 
 
