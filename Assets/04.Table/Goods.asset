@@ -24,6 +24,3 @@ MonoBehaviour:
   - id: 2
     stringid: Diamond
     syncalways: 0
-  - id: 3
-    stringid: Test
-    syncalways: 0

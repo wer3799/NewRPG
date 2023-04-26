@@ -17,6 +17,13 @@ public class GameManager : SingletonMono<GameManager>
 {
     private void Start()
     {
+        Initialize();
+    }
+
+    private void Initialize()
+    {
         ResourcesContainer.Initialize();
+
+        Application.runInBackground = true;
     }
 }

@@ -4,10 +4,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UniRx;
+using UnityEditor;
 
 public class PlayerData : SingletonMono<PlayerData>
 {
-      public string NickName { get; private set; }
+    public ReactiveProperty<string> NickName = new ReactiveProperty<string>();
     public string Indate { get; private set; }
 
     public ReactiveCommand<string> whenNickNameChanged = new ReactiveCommand<string>();
@@ -23,9 +24,9 @@ public class PlayerData : SingletonMono<PlayerData>
 
     public void NickNameChanged(string nickName)
     {
-        LogManager.Instance.SendLogType("NickChange", "pref", NickName);
+        LogManager.Instance.SendLogType("NickChange", "pref", NickName.Value);
 
-        NickName = nickName;
+        NickName.Value = nickName;
         whenNickNameChanged.Execute(nickName);
     }
 
@@ -51,10 +52,10 @@ public class PlayerData : SingletonMono<PlayerData>
                 if (row["nickname"] != null)
                 {
 #if UNITY_ANDROID
-                    NickName = row["nickname"].ToString();
+                    NickName.Value = row["nickname"].ToString();
 #endif
 #if UNITY_IOS
-                    NickName = row["nickname"].ToString().Replace(CommonString.IOS_nick, "");
+                    NickName.Value = row["nickname"].ToString().Replace(CommonString.IOS_nick, "");
 #endif
                     WhenUserInfoLoadComplete();
                 }
