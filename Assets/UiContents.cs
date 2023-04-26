@@ -11,6 +11,9 @@ public class UiContents : MonoBehaviour
 
    [SerializeField]
    private GameObject timerObject;
+
+   [SerializeField]
+   private List<GameObject> normalStageObjects;
    
    private void Start()
    {
@@ -33,6 +36,7 @@ public class UiContents : MonoBehaviour
    {
       ContentsMakeController.Instance.currentContentsType.AsObservable().Subscribe(e =>
       {
+         normalStageObjects.ForEach(obj=>obj.SetActive(e == ContentsType.NormalField));
          
          exitButton.SetActive(ShowExitButton(e));
          

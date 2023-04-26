@@ -7,7 +7,10 @@ using UnityEngine;
 public class ContentsMakeController : SingletonMono<ContentsMakeController>
 {
     public ReactiveProperty<ContentsType> currentContentsType = new ReactiveProperty<ContentsType>(ContentsType.NormalField);
-
+    
+    private GameObject contentsObject;
+    
+    
     public bool StartContents(ContentsType type)
     {
         if (currentContentsType.Value == type)
@@ -36,9 +39,18 @@ public class ContentsMakeController : SingletonMono<ContentsMakeController>
         //프리팹 생성
         currentContentsType.Value = type;
 
+        SpawnContentsObject(currentContentsType.Value);
+
         Debug.LogError($"{type} Loaded");
 
         return true;
+    }
+
+    private void SpawnContentsObject(ContentsType contentsType)
+    {
+        var prefab = Resources.Load<GameObject>($"Contents/{contentsType.ToString()}" );
+        
+        contentsObject = Instantiate(prefab);
     }
 
     public void ExitCurrentContents()
@@ -52,20 +64,10 @@ public class ContentsMakeController : SingletonMono<ContentsMakeController>
         PlayerMoveController.Instance.SetPlayerToOriginPos();
 
         NormalStageController.Instance.MakeStage();
+        
+        Destroy(contentsObject);
+        
+        contentsObject = null;
     }
 
-#if UNITY_EDITOR
-    private void Update()
-    {
-        // if (Input.GetKeyDown(KeyCode.Alpha1))
-        // {
-        //     StartContents(ContentsType.Test0);
-        // }
-
-        // if (Input.GetKeyDown(KeyCode.Escape))
-        // {
-        //     ExitCurrentContents();
-        // }
-    }
-#endif
 }

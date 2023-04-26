@@ -7,7 +7,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UiDoubleClickExitButton : MonoBehaviour
+public class UiDoubleClickButton : MonoBehaviour
 {
     [Serializable]
     public class PointerDownEvent : UnityEvent { }
@@ -19,10 +19,10 @@ public class UiDoubleClickExitButton : MonoBehaviour
 
     private Coroutine clickDelayRoutine;
 
-    private WaitForSeconds doubleClickDelay = new WaitForSeconds(1f);
+    private WaitForSeconds doubleClickDelay = new WaitForSeconds(2f);
 
+    [SerializeField]
     private string doubleClickDescription;
-    
 
     private void OnDisable()
     {
@@ -34,7 +34,7 @@ public class UiDoubleClickExitButton : MonoBehaviour
         clickCount = 0;
     }
 
-    public void OnClickExitButton()
+    public void OnClickButton()
     {
         if (clickCount > 2)
         {
