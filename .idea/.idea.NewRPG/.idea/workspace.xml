@@ -3,20 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Scene/00.PreScene_YO.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/Goods.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/Goods.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/01.MiddleScene_YO.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/01.MiddleScene_YO.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/MainContents.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/MainContents.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/MainContents.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/MainContents.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/04.Table/MainContentsImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/MainContentsImporter.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Ui/GachaBOard.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Ui/GachaBOard.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BossSpawnButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BossSpawnButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ContentsMakeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ContentsMakeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ContentsType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ContentsType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/MainContentsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/MainContentsData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/07.Localize&amp;Font/Font/NormalFont.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/07.Localize&amp;Font/Font/NormalFont.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +79,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/SkillCoolTimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkillServerTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TableManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TimeOutContentsBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UiBossDamageIndicator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UiExpGauge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UiGoldAbilBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UiGoodsView.cs" root0="FORCE_HIGHLIGHTING" />
@@ -177,7 +185,7 @@
       <workItem from="1681581156287" duration="2420000" />
       <workItem from="1681835328287" duration="4164000" />
       <workItem from="1682106555674" duration="11668000" />
-      <workItem from="1682275734952" duration="4193000" />
+      <workItem from="1682275734952" duration="6495000" />
     </task>
     <servers />
   </component>
