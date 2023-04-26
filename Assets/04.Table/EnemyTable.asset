@@ -19,7 +19,7 @@ MonoBehaviour:
     prefabname: 0
     minlevel: 1
     maxlevel: 100
-    starthp: 100
+    starthp: 10
     perhp: 0
     startatt: 0
     peratt: 0
@@ -31,7 +31,7 @@ MonoBehaviour:
     prefabname: 0
     minlevel: 101
     maxlevel: 500
-    starthp: 200
+    starthp: 10
     perhp: 0
     startatt: 0
     peratt: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
     prefabname: 0
     minlevel: 501
     maxlevel: 1000
-    starthp: 300
+    starthp: 10
     perhp: 0
     startatt: 0
     peratt: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
     prefabname: 0
     minlevel: 1001
     maxlevel: 3000
-    starthp: 400
+    starthp: 10
     perhp: 0
     startatt: 0
     peratt: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
     prefabname: 0
     minlevel: 3001
     maxlevel: 5000
-    starthp: 500
+    starthp: 10
     perhp: 0
     startatt: 0
     peratt: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
     prefabname: 0
     minlevel: 5001
     maxlevel: 7000
-    starthp: 600
+    starthp: 10
     perhp: 0
     startatt: 0
     peratt: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
     prefabname: 0
     minlevel: 7001
     maxlevel: 10000
-    starthp: 700
+    starthp: 10
     perhp: 0
     startatt: 0
     peratt: 0

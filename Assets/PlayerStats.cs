@@ -24,6 +24,6 @@ public static class PlayerStats
 
     public static double GetCalculatedAttackPower()
     {
-        return 10;
+        return 1;
     }
 }

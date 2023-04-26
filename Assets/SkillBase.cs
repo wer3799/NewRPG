@@ -60,10 +60,13 @@ public abstract class SkillBase
         MoveDirection moveDirection = PlayerMoveController.Instance.MoveDirection;
 
         Vector3 activeEffectSpawnPos = targetTr.position;
+        //+ new Vector3(Random.Range(-0.2f,0.2f),Random.Range(-0.2f,0.2f),0);
 
         Transform parent = skillInfo.Iseffectrootplayer ? targetTr : null;
 
         var effect = EffectManager.SpawnEffectAllTime(skillInfo.Activeeffectname1, activeEffectSpawnPos, parent);
+
+        effect.transform.rotation = Quaternion.Euler(Random.Range(-90f, 90f), 0f, 0f);
 
         if (effect != null)
         {

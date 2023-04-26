@@ -21,7 +21,7 @@ MonoBehaviour:
     skillname: "\uC804\uBC29\uBCA0\uAE30 1\uD615"
     skilldesc: "\uC804\uBC29\uC758 \uC801\uB4E4\uC744 \uBCA4\uB2E4"
     awakemaxnum: 100
-    cooltime: 0.5
+    cooltime: 0.2
     damageper: 1
     damageaddvalue: 0.2
     targetcount: 5

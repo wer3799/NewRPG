@@ -94,7 +94,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
     {
         EnemyTableData enemyTableData = TableManager.Instance.GetTableDataByLevel(MapTableData.Value.Monsterlevel);
 
-        double Hp = enemyTableData.Starthp * enemyTableData.Perhp * MapTableData.Value.Monsterlevel;
+        double Hp = enemyTableData.Starthp + enemyTableData.Perhp * MapTableData.Value.Monsterlevel;
         float Exp = MapTableData.Value.Exp;
         float Gold = MapTableData.Value.Gold;
         float GrowthStone = MapTableData.Value.Growthstoneamount;
