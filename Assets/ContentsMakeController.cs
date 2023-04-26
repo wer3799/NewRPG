@@ -42,6 +42,8 @@ public class ContentsMakeController : SingletonMono<ContentsMakeController>
         SpawnContentsObject(currentContentsType.Value);
 
         Debug.LogError($"{type} Loaded");
+        
+        AutoManager.Instance.ResetTarget();
 
         return true;
     }

@@ -38,6 +38,11 @@ public class AutoManager : Singleton<AutoManager>
         skillQueue.Clear();
     }
 
+    public void ResetTarget()
+    {
+        currentTarget = null;
+    }
+
     public void SetSkillQueue()
     {
         if (skillQueue.Count != 0) return;

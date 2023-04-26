@@ -80,4 +80,29 @@ public class TableManager : SingletonMono<TableManager>
     public Norigae norigae;
 
     public MainContents mainContents;
+
+    public Dictionary<string, MainContentsData> mainContentsContainer;
+
+    public Dictionary<string, MainContentsData> MainContentsContainer
+    {
+        get
+        {
+            if (mainContentsContainer == null)
+            {
+                mainContentsContainer = new Dictionary<string, MainContentsData>();
+                
+                var tableData = mainContents.dataArray;
+                
+                for (int i = 0; i < tableData.Length; i++)
+                {
+                    mainContentsContainer.Add(tableData[i].Contentstype,tableData[i]);
+                }
+
+            }
+
+            return mainContentsContainer;
+        }
+        
+    }
+
 }
