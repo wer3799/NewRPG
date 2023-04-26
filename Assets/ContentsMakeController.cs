@@ -1,21 +1,22 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UniRx;
 using UnityEngine;
 
 public class ContentsMakeController : SingletonMono<ContentsMakeController>
 {
-    public ContentsType currentContentsType = ContentsType.NormalField;
+    public ReactiveProperty<ContentsType> currentContentsType = new ReactiveProperty<ContentsType>(ContentsType.NormalField);
 
     public bool StartContents(ContentsType type)
     {
-        if (currentContentsType == type)
+        if (currentContentsType.Value == type)
         {
             PopupManager.Instance.ShowAlarmMessage("컨텐츠 로드 불가");            
             return false;
         }
         
-        if (currentContentsType == ContentsType.NormalField)
+        if (currentContentsType.Value == ContentsType.NormalField)
         {
             //TODO : 보스 끄고 컨텐츠로 넘어가게
             if (NormalStageController.Instance.IsBossState == true)
@@ -33,7 +34,7 @@ public class ContentsMakeController : SingletonMono<ContentsMakeController>
         PopupManager.Instance.ShowStageChangeEffect();
         
         //프리팹 생성
-        currentContentsType = type;
+        currentContentsType.Value = type;
 
         Debug.LogError($"{type} Loaded");
 
@@ -42,7 +43,9 @@ public class ContentsMakeController : SingletonMono<ContentsMakeController>
 
     public void ExitCurrentContents()
     {
-        currentContentsType = ContentsType.NormalField;
+        if (currentContentsType.Value == ContentsType.NormalField) return;
+        
+        currentContentsType.Value = ContentsType.NormalField;
      
         PopupManager.Instance.ShowStageChangeEffect();
         

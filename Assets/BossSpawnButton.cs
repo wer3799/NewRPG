@@ -62,7 +62,7 @@ public class BossSpawnButton : MonoBehaviour
 
         if (currentStage < nextStageId)
         {
-            if (ContentsMakeController.Instance.currentContentsType != ContentsType.NormalField)
+            if (ContentsMakeController.Instance.currentContentsType.Value != ContentsType.NormalField)
             {
                 //필드보스를 소환할 수 없는 곳 입니다.
                 PopupManager.Instance.ShowAlarmMessage(GameString.GetString("CantSummonFieldBoss"));

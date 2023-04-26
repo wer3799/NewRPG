@@ -45,7 +45,7 @@ public static class EnumCodeGenerator
         // File.WriteAllText(outputFilePath, codeBuilder.ToString());
         //
         // // Compile the generated code
-        // CompileGeneratedCode(outputFilePath);
+        //CompileGeneratedCode(outputFilePath);
     }
 
     private static void CompileGeneratedCode(string codeFilePath)
