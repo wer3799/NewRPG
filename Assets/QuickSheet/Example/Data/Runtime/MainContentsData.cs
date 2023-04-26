@@ -24,4 +24,8 @@ public class MainContentsData
   ContentsWhere contentswhere;
   public ContentsWhere CONTENTSWHERE { get {return contentswhere; } set { this.contentswhere = value;} }
   
+  [SerializeField]
+  int timer;
+  public int Timer { get {return timer; } set { this.timer = value;} }
+  
 }

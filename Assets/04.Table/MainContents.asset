@@ -19,14 +19,11 @@ MonoBehaviour:
     contentstype: NormalField
     type: 0
     contentswhere: 0
-    timer: 0
   - id: 1
     contentstype: DamageTest
     type: 0
     contentswhere: 1
-    timer: 10
   - id: 2
     contentstype: Tower0
     type: 0
     contentswhere: 1
-    timer: 10
