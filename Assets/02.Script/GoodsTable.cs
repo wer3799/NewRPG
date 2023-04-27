@@ -20,10 +20,10 @@ public class GoodsTable
 
     public static Dictionary<GoodsEnum, string> GoodsKey = new Dictionary<GoodsEnum, string>();
 
-    public ReactiveProperty<float> GetTableData(string key)
-    {
-        return tableDatas[key];
-    }
+    // public ReactiveProperty<float> GetTableData(string key)
+    // {
+    //     return tableDatas[key];
+    // }
 
     public ReactiveProperty<float> GetTableData(GoodsEnum key)
     {

@@ -916,10 +916,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SubMenues
       objectReference: {fileID: 0}
-    - target: {fileID: 8825253218966584241, guid: f825e2fa0722643808f3604bd935d2be, type: 3}
-      propertyPath: popupPrefab
-      value: 
-      objectReference: {fileID: 2578720169139384225, guid: 412e4e4ca50ab40f1949cab120aaa777, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f825e2fa0722643808f3604bd935d2be, type: 3}
 --- !u!224 &437055664720862411 stripped

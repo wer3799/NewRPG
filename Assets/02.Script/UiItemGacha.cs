@@ -66,7 +66,7 @@ public class UiItemGacha : MonoBehaviour
 
     private bool CanGacha(float price)
     {
-        float currentBlueStoneNum = ServerData.goodsTable.GetTableData(GoodsTable.GoodsKey[GoodsEnum.Diamond]).Value;
+        float currentBlueStoneNum = ServerData.goodsTable.GetTableData(GoodsEnum.Diamond).Value;
         return currentBlueStoneNum >= price;
     }
 
@@ -136,7 +136,7 @@ public class UiItemGacha : MonoBehaviour
         //로컬 데이터 갱신
 
         //재화
-        ServerData.goodsTable.GetTableData(GoodsTable.GoodsKey[GoodsEnum.Diamond]).Value -= price;
+        ServerData.goodsTable.GetTableData(GoodsEnum.Diamond).Value -= price;
 
         //가챠갯수
         ServerData.userInfoTable.GetTableData(UiGachaPopup.Instance.GetGachaNumKey(itemType)).Value += amount;
@@ -418,7 +418,7 @@ public class UiItemGacha : MonoBehaviour
 
         //재화
         Param goodsParam = new Param();
-        goodsParam.Add(GoodsTable.GoodsKey[GoodsEnum.Diamond], ServerData.goodsTable.GetTableData(GoodsTable.GoodsKey[GoodsEnum.Diamond]).Value);
+        goodsParam.Add(GoodsTable.GoodsKey[GoodsEnum.Diamond], ServerData.goodsTable.GetTableData(GoodsEnum.Diamond).Value);
 
         //가챠횟수
         Param gachaNumParam = new Param();

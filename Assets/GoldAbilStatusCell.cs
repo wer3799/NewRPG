@@ -134,7 +134,7 @@ public class GoldAbilStatusCell : MonoBehaviour
             RefreshStatusText();
         }).AddTo(this);
 
-        ServerData.goodsTable.GetTableData(GoodsTable.GoodsKey[GoodsEnum.Gold]).AsObservable().Subscribe(e =>
+        ServerData.goodsTable.GetTableData(GoodsEnum.Gold).AsObservable().Subscribe(e =>
         {
             if (this.gameObject.activeInHierarchy)
             {
@@ -183,7 +183,7 @@ public class GoldAbilStatusCell : MonoBehaviour
             return;
         }
 
-        ServerData.goodsTable.GetTableData(GoodsTable.GoodsKey[GoodsEnum.Gold]).Value -= upgradePrice_gold;
+        ServerData.goodsTable.GetTableData(GoodsEnum.Gold).Value -= upgradePrice_gold;
         
         ServerData.goldAbilServerTable.GetTableData(goldAbilTable.Stringid).Value += 1;
         
@@ -209,7 +209,7 @@ public class GoldAbilStatusCell : MonoBehaviour
             return false;
         }
 
-        bool ret = ServerData.goodsTable.GetTableData(GoodsTable.GoodsKey[GoodsEnum.Gold]).Value >= upgradePrice_gold;
+        bool ret = ServerData.goodsTable.GetTableData(GoodsEnum.Gold).Value >= upgradePrice_gold;
 
         if (showPopup && ret == false)
         {
@@ -297,7 +297,7 @@ public class GoldAbilStatusCell : MonoBehaviour
 
         //스킬포인트
 
-        goodesParam.Add(GoodsTable.GoodsKey[GoodsEnum.Gold], ServerData.goodsTable.GetTableData(GoodsTable.GoodsKey[GoodsEnum.Gold]).Value);
+        goodesParam.Add(GoodsTable.GoodsKey[GoodsEnum.Gold], ServerData.goodsTable.GetTableData(GoodsEnum.Gold).Value);
         transactionList.Add(TransactionValue.SetUpdateV2(GoodsTable.tableName, GoodsTable.Indate, Backend.UserInDate, goodesParam));
 
         transactionList.Add(TransactionValue.SetUpdateV2(GoldAbilServerTable.tableName, GoldAbilServerTable.Indate, Backend.UserInDate, statusParam));
