@@ -13,7 +13,7 @@ public class UiBossDamageIndicator : SingletonMono<UiBossDamageIndicator>
     [SerializeField]
     private GameObject rootObject;
 
-    private ReactiveProperty<double> damageAccum = new ReactiveProperty<double>(0d);
+    private ReactiveProperty<double> currentDamage = new ReactiveProperty<double>(0d);
 
     private void Start()
     {
@@ -27,17 +27,17 @@ public class UiBossDamageIndicator : SingletonMono<UiBossDamageIndicator>
 
     private void Subscribe()
     {
-        damageAccum.AsObservable().Subscribe(e => { UpdateDamageDescription(); }).AddTo(this);
+        currentDamage.AsObservable().Subscribe(e => { UpdateDamageDescription(); }).AddTo(this);
     }
 
     public void SetDefault()
     {
-        damageAccum.Value = 0;
+        currentDamage.Value = 0;
     }
 
     private void UpdateDamageDescription()
     {
-        description.SetText($"{damageAccum}");
+        description.SetText($"{currentDamage}");
     }
 
     
@@ -49,7 +49,7 @@ public class UiBossDamageIndicator : SingletonMono<UiBossDamageIndicator>
             rootObject.gameObject.SetActive(true);
         }
 
-        damageAccum.Value -= damage;
+        currentDamage.Value = damage;
     }
 
     private void OnDisable()

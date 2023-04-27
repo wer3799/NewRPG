@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class TimeOutContentsBase : MonoBehaviour
 {
+    private WaitForSeconds exitDelay = new WaitForSeconds(3);
+    
     public void Start()
     {
         
@@ -30,5 +32,13 @@ public class TimeOutContentsBase : MonoBehaviour
     public virtual void WhenTimerEnd(Unit unit)
     {
         
+    }
+
+
+    public IEnumerator ExitRoutine()
+    {
+        yield return exitDelay;
+      
+        ContentsMakeController.Instance.ExitCurrentContents();
     }
 }

@@ -11,6 +11,10 @@ public class BossEnemy : MonoBehaviour
     [SerializeField]
     private EnemyHpController enemyHpController;
 
+    public EnemyHpController EnemyHpController => enemyHpController;
+
+    public ReactiveProperty<double> damagedAccum = new ReactiveProperty<double>();
+
 #if UNITY_EDITOR
     private void OnValidate()
     {
@@ -24,37 +28,37 @@ public class BossEnemy : MonoBehaviour
         {
             //WhenEnemyDead();
         }).AddTo(this);
-        
+
         UiBossDamageIndicator.Instance.SetDefault();
-        
+
         enemyHpController.whenEnemyDamaged.AsObservable().Subscribe(e =>
         {
-            UiBossDamageIndicator.Instance.UpdateDescription(e);
-            //WhenEnemyDead();
+            
+            //e=> 음수값
+            damagedAccum.Value -= e;
+            
         }).AddTo(this);
     }
-    
+
     public void Initialize(EnemyInfo enemyInfo, EnemyType enemyType)
     {
         // //여기 여러번 타서 구독 여러번 하면 안됨
         // this.enemyInfo = enemyInfo;
         //
         // isFieldBossEnemy = isBossEnemy;
-        
+
         enemyMoveController.Initialize(enemyInfo.MoveSpeed);
 
-        enemyHpController.Initialize(enemyInfo,enemyType);
+        enemyHpController.Initialize(enemyInfo, enemyType);
     }
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
