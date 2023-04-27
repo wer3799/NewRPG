@@ -40,6 +40,8 @@ public class UiBossDamageIndicator : SingletonMono<UiBossDamageIndicator>
         description.SetText($"{damageAccum}");
     }
 
+    
+    //damage -값으로 들어옴
     public void UpdateDescription(double damage)
     {
         if (rootObject.activeInHierarchy == false)
@@ -47,7 +49,7 @@ public class UiBossDamageIndicator : SingletonMono<UiBossDamageIndicator>
             rootObject.gameObject.SetActive(true);
         }
 
-        damageAccum.Value += damage;
+        damageAccum.Value -= damage;
     }
 
     private void OnDisable()

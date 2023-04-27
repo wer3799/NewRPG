@@ -17,6 +17,12 @@ public class AutoManager : Singleton<AutoManager>
 
     private List<int> skillQueue = new List<int>();
 
+    private Transform bossTarget;
+
+    public void SetAutoTarget(Transform bossTarget)
+    {
+        this.bossTarget = bossTarget;
+    }
     public void SetPlayerTr()
     {
         playerTr = PlayerSkillCaster.Instance.PlayerMoveController.transform;
@@ -394,6 +400,10 @@ public class AutoManager : Singleton<AutoManager>
             {
                 currentTarget = spawnedEnemy[0].transform;
             }
+        }
+        else
+        {
+            currentTarget = bossTarget;
         }
         // else if (GameManager.contentsType == GameManager.ContentsType.FireFly ||
         //          GameManager.contentsType == GameManager.ContentsType.Dokebi)

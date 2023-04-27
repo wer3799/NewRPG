@@ -67,6 +67,8 @@ public class ContentsMakeController : SingletonMono<ContentsMakeController>
     {
         if (currentContentsType.Value == ContentsName.NormalField) return;
 
+        UiBossDamageIndicator.Instance.HideIndiactor();
+        
         currentContentsType.Value = ContentsName.NormalField;
 
         PopupManager.Instance.ShowStageChangeEffect();
