@@ -95,7 +95,7 @@ public class TableManager : SingletonMono<TableManager>
                 
                 for (int i = 0; i < tableData.Length; i++)
                 {
-                    mainContentsContainer.Add(tableData[i].Contentstype,tableData[i]);
+                    mainContentsContainer.Add(tableData[i].Contentsname,tableData[i]);
                 }
 
             }

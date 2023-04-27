@@ -1,4 +1,4 @@
-public enum ContentsType
+public enum ContentsName
 {
     NormalField=0,
     DamageTest=1,

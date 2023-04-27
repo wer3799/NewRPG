@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">814858628636</string>
+  <string name="google_storage_bucket" translatable="false">newrpg-58f0d.appspot.com</string>
+  <string name="project_id" translatable="false">newrpg-58f0d</string>
+  <string name="google_api_key" translatable="false">AIzaSyA1l9qzMiuY6hQY3cdWKV8cqpKqPm4gHZs</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA1l9qzMiuY6hQY3cdWKV8cqpKqPm4gHZs</string>
+  <string name="google_app_id" translatable="false">1:814858628636:android:b69a4a907ccf5b78b9b9d9</string>
+  <string name="default_web_client_id" translatable="false">814858628636-rih8g2j8kia8l098aqu864dcua128oao.apps.googleusercontent.com</string>
+</resources>

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 
-public class Utils 
+public static class Utils
 {
     public static DateTime ConvertFromUnixTimestamp(double timestamp)
     {
@@ -23,7 +23,7 @@ public class Utils
     {
         return false;
     }
-    
+
     public static int GetWeekNumber(DateTime currentDate)
     {
         DateTime startDate = new DateTime(2021, 1, 1); //기준일
@@ -33,7 +33,7 @@ public class Utils
         return calenderCalc.GetWeekOfYear(currentDate, CalendarWeekRule.FirstDay, DayOfWeek.Monday) -
                calenderCalc.GetWeekOfYear(startDate, CalendarWeekRule.FirstDay, DayOfWeek.Monday);
     }
-    
+
     public static void RestartApplication()
     {
 #if UNITY_IOS
@@ -69,7 +69,7 @@ public class Utils
             process.CallStatic("killProcess", pid);
         }
     }
-    
+
     private static string[] goldUnitArr = new string[]
     {
         "", "만", "억", "조", "경", "해", "자", "양", "구", "간", "정", "재", "극", "항", "아", "나", "불", "무", "대", "겁", "업", "긍",
@@ -146,8 +146,8 @@ public class Utils
             return retStr;
         }
     }
-    
-    
+
+
     public static int GetRandomIdx(List<float> inputDatas)
     {
         float total = 0;
@@ -173,5 +173,15 @@ public class Utils
 
         return 0;
     }
-    
+
+    public static bool IsStageBoss(this EnemyType type)
+    {
+        return type == EnemyType.StageBoss;
+    }
+
+    public static bool EnemyCanDead(this EnemyType type)
+    {
+        return type == EnemyType.Normal ||
+               type == EnemyType.StageBoss;
+    }
 }

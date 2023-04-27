@@ -13,6 +13,9 @@ public class UiContents : MonoBehaviour
    private GameObject timerObject;
 
    [SerializeField]
+   private GameObject bossDamageIndicator;
+   
+   [SerializeField]
    private List<GameObject> normalStageObjects;
    
    private void Start()
@@ -20,23 +23,23 @@ public class UiContents : MonoBehaviour
       Subscribe();
    }
 
-   private bool ShowExitButton(ContentsType type)
+   private bool ShowExitButton(ContentsName name)
    {
-      return type == ContentsType.DamageTest ||
-             type == ContentsType.Tower0;
+      return name == ContentsName.DamageTest ||
+             name == ContentsName.Tower0;
    }
    
-   private bool ShowContentsTimer(ContentsType type)
+   private bool ShowContentsTimer(ContentsName name)
    {
-      return type == ContentsType.DamageTest ||
-             type == ContentsType.Tower0;
+      return name == ContentsName.DamageTest ||
+             name == ContentsName.Tower0;
    }
 
    private void Subscribe()
    {
       ContentsMakeController.Instance.currentContentsType.AsObservable().Subscribe(e =>
       {
-         normalStageObjects.ForEach(obj=>obj.SetActive(e == ContentsType.NormalField));
+         normalStageObjects.ForEach(obj=>obj.SetActive(e == ContentsName.NormalField));
          
          exitButton.SetActive(ShowExitButton(e));
          

@@ -15,13 +15,13 @@ public class UiMainContentsView : MonoBehaviour
     {
         this.mainContentsData = mainContentsData;
 
-        ContentsType type = Enum.Parse<ContentsType>(this.mainContentsData.Contentstype);
+        ContentsName name = Enum.Parse<ContentsName>(this.mainContentsData.Contentsname);
 
-        contentsName.SetText(type.ToString());
+        contentsName.SetText(name.ToString());
     }
 
     public void OnClickEnterButton()
     {
-        UiMainContentsBoard.Instance.LoadContents(Enum.Parse<ContentsType>(this.mainContentsData.Contentstype));
+        UiMainContentsBoard.Instance.LoadContents(Enum.Parse<ContentsName>(this.mainContentsData.Contentsname));
     }
 }

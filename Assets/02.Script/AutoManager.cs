@@ -124,7 +124,7 @@ public class AutoManager : Singleton<AutoManager>
             //타겟 없을때 대기
             if (currentTarget == null && UiMoveStick.Instance.nowTouching == false)
             {
-                if (ContentsMakeController.Instance.currentContentsType.Value == ContentsType.NormalField)
+                if (ContentsMakeController.Instance.currentContentsType.Value == ContentsName.NormalField)
                 {
                     UiMoveStick.Instance.SetHorizontalAxsis(0);
                     UiMoveStick.Instance.SetVerticalAxsis(0);
@@ -365,7 +365,7 @@ public class AutoManager : Singleton<AutoManager>
             }
         }
 
-        if (ContentsMakeController.Instance.currentContentsType.Value == ContentsType.NormalField)
+        if (ContentsMakeController.Instance.currentContentsType.Value == ContentsName.NormalField)
         {
             var spawnedEnemy = NormalStageController.Instance.currentSpawnedEnemies;
 
@@ -438,7 +438,7 @@ public class AutoManager : Singleton<AutoManager>
     {
         for (int i = 0; i < spawnedEnemy.Count; i++)
         {
-            if (spawnedEnemy[i].isFieldBossEnemy == true)
+            if (spawnedEnemy[i].enemyType == EnemyType.StageBoss)
             {
                 return spawnedEnemy[i].transform;
             }

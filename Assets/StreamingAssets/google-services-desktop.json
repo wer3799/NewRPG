@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814858628636",
+    "project_id": "newrpg-58f0d",
+    "storage_bucket": "newrpg-58f0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814858628636:android:b69a4a907ccf5b78b9b9d9",
+        "android_client_info": {
+          "package_name": "com.RyongGame.NewRPG"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814858628636-rih8g2j8kia8l098aqu864dcua128oao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1l9qzMiuY6hQY3cdWKV8cqpKqPm4gHZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814858628636-rih8g2j8kia8l098aqu864dcua128oao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

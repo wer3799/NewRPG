@@ -13,12 +13,12 @@ public class MainContentsData
   public int Id { get {return id; } set { this.id = value;} }
   
   [SerializeField]
-  string contentstype;
-  public string Contentstype { get {return contentstype; } set { this.contentstype = value;} }
+  string contentsname;
+  public string Contentsname { get {return contentsname; } set { this.contentsname = value;} }
   
   [SerializeField]
-  int type;
-  public int Type { get {return type; } set { this.type = value;} }
+  ContentsType contentstype;
+  public ContentsType CONTENTSTYPE { get {return contentstype; } set { this.contentstype = value;} }
   
   [SerializeField]
   ContentsWhere contentswhere;

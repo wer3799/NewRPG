@@ -130,7 +130,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
                 var enemyPrefab = spawnedEnemyList[randIdx].GetItem();
 
-                enemyPrefab.Initialize(enemyInfo);
+                enemyPrefab.Initialize(enemyInfo,EnemyType.Normal);
 
                 enemyPrefab.transform.localScale = Vector3.one;
 
@@ -215,7 +215,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
         var enemyPrefab = spawnedEnemyList[0].GetItem();
 
-        enemyPrefab.Initialize(enemyInfo, isBossEnemy: true);
+        enemyPrefab.Initialize(enemyInfo, EnemyType.StageBoss);
 
         enemyPrefab.SetReturnCallBack(EnemyRemoveCallBack);
 

@@ -41,7 +41,7 @@ public class GoodsEnumMaker : MonoBehaviour
 
         for (int i = 0; i < tableData.Length; i++)
         {
-            str += tableData[i].Contentstype+$"={tableData[i].Id}";;
+            str += tableData[i].Contentsname+$"={tableData[i].Id}";;
 
             if (i != tableData.Length - 1)
             {
@@ -49,7 +49,7 @@ public class GoodsEnumMaker : MonoBehaviour
             }
         }
 
-        EnumCodeGenerator.GenerateEnumFromTextFile(str.Split(','), "ContentsType", Application.dataPath +"/ContentsType.cs");
+        EnumCodeGenerator.GenerateEnumFromTextFile(str.Split(','), "ContentsName", Application.dataPath +"/ContentsName.cs");
 
         Debug.LogError(str);
     }

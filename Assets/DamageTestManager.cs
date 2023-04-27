@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class DamageTestManager : TimeOutContentsBase
 {
+    [SerializeField]
+    private Enemy bossPrefab;
+    
     private void Start()
     {
         base.Start();

@@ -3,13 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UniRx;
 
+public enum EnemyType
+{
+    Normal,
+    StageBoss,
+    UndeadBoss, //체력무한 보스
+    Boss,
+}
+
 public class EnemyHpController : MonoBehaviour
 {
- private ReactiveProperty<double> currentHp = new ReactiveProperty<double>();
+    private ReactiveProperty<double> currentHp = new ReactiveProperty<double>();
     public double CurrentHp => currentHp.Value;
     public ReactiveCommand whenEnemyDead { get; private set; } = new ReactiveCommand();
     public ReactiveCommand<double> whenEnemyDamaged { get; private set; } = new ReactiveCommand<double>();
     public double maxHp { get; private set; }
+
+    private EnemyType enemyType;
 
     private EnemyInfo enemyInfo;
 
@@ -28,17 +38,14 @@ public class EnemyHpController : MonoBehaviour
 
     private bool initialized = false;
 
-    private bool isBossEnemy = false;
- 
-
     private void BaseInit()
     {
         if (initialized == false)
         {
             playerPos = PlayerMoveController.Instance.transform;
-            
+
             Subscribe();
-            
+
             initialized = true;
         }
     }
@@ -47,15 +54,14 @@ public class EnemyHpController : MonoBehaviour
     {
         currentHp.AsObservable().Subscribe(e =>
         {
-            if (isBossEnemy==false)
-            {
-                enemyHpBar.UpdateGauge(e, maxHp);
-            }
-            else
+            if (enemyType == EnemyType.StageBoss)
             {
                 UiSubHpBar.Instance.UpdateGauge(e, maxHp);
             }
-
+            else
+            {
+                enemyHpBar.UpdateGauge(e, maxHp);
+            }
         }).AddTo(this);
     }
 
@@ -70,18 +76,24 @@ public class EnemyHpController : MonoBehaviour
         this.defense = defense;
     }
 
-    public void Initialize(EnemyInfo enemyInfo,bool isBossEnemy=false)
+    public void Initialize(EnemyInfo enemyInfo, EnemyType enemyType)
     {
         this.enemyInfo = enemyInfo;
 
-        this.isBossEnemy = isBossEnemy;
-        
+        this.enemyType = enemyType;
+
         BaseInit();
 
         SetDefense(enemyInfo.Defense);
-        
+
         SetHp(enemyInfo.Hp);
 
+        UpdateEnemyUi();
+    }
+
+    private void UpdateEnemyUi()
+    {
+        enemyHpBar.gameObject.SetActive(enemyType == EnemyType.Normal);
     }
 
     public void SetHp(double hp)
@@ -89,19 +101,18 @@ public class EnemyHpController : MonoBehaviour
         this.maxHp = hp;
         currentHp.Value = maxHp;
     }
-   
+
     private static string hitSfxName = "EnemyHitted";
     private static string deadSfxName = "EnemyDead";
-    
+
     public void ApplyPlusDamage(ref double value, bool isCritical, bool isSuperCritical)
     {
-        
     }
 
 
     private Vector3 damTextspawnPos;
-   
-    
+
+
     public void SpawnDamText(bool isCritical, bool isSuperCritical, double value)
     {
         Vector3 spawnPos = Vector3.zero;
@@ -116,10 +127,8 @@ public class EnemyHpController : MonoBehaviour
         }
 
 
+        damTextspawnPos = this.transform.position + Vector3.up * 3;
 
-        damTextspawnPos = this.transform.position + Vector3.up*3;
-
-      
 
         if (Vector3.Distance(playerPos.position, this.transform.position) < GameBalance.effectActiveDistance)
         {
@@ -147,20 +156,21 @@ public class EnemyHpController : MonoBehaviour
         {
             currentHp.Value += value;
         }
-        
+
         whenEnemyDamaged.Execute(value);
 
-        if (currentHp.Value <= 0)
+        if (currentHp.Value <= 0 && enemyType.EnemyCanDead())
         {
             EnemyDead();
             return;
         }
     }
+
     private float ignoreDefenseValue;
 
     public void ApplyDefense(ref double value)
     {
-        ignoreDefenseValue =0;
+        ignoreDefenseValue = 0;
 
         float enemyDefense = Mathf.Max(0f, defense - ignoreDefenseValue);
 
@@ -180,14 +190,12 @@ public class EnemyHpController : MonoBehaviour
     {
         ResetEnemy();
     }
-    
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             UpdateHp(-30f);
-
         }
-        
     }
 }

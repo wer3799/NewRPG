@@ -3,26 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf32136-07b4-4b45-82c7-fef7e7e917ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/01.MiddleScene_YO.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Scene/01.MiddleScene_YO.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/AutoManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Script/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Script/Utils.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/04.Table/MainContents.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/MainContents.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/MainContents.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/MainContents.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/04.Table/MainContentsImporter.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/04.Table/MainContentsImporter.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/InGameCanvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/07.Localize&amp;Font/Font/NormalFont.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/07.Localize&amp;Font/Font/NormalFont.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Contents/DamageTest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Resources/Contents/DamageTest.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/05.Prefab/Ui/ContentsUi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/05.Prefab/Ui/ContentsUi.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BossSpawnButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BossSpawnButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ContentsMakeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ContentsMakeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ContentsType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ContentsName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ContentsType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ContentsName.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DamageTestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DamageTestManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyHpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyHpController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoodsEnumMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoodsEnumMaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NormalStageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NormalStageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/MainContentsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickSheet/Example/Data/Runtime/MainContentsData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TableManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiBossDamageIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiBossDamageIndicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiContents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiContents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiMainContentsBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiMainContentsBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UiMainContentsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UiMainContentsView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,10 +144,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="48672">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="43448">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="48672" />
+      <option name="pid" value="43448" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -185,7 +188,9 @@
       <workItem from="1681581156287" duration="2420000" />
       <workItem from="1681835328287" duration="4164000" />
       <workItem from="1682106555674" duration="11668000" />
-      <workItem from="1682275734952" duration="6495000" />
+      <workItem from="1682275734952" duration="9369000" />
+      <workItem from="1682576559439" duration="191000" />
+      <workItem from="1682576762359" duration="2009000" />
     </task>
     <servers />
   </component>

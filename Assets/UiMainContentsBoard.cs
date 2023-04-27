@@ -29,9 +29,9 @@ public class UiMainContentsBoard : SingletonMono<UiMainContentsBoard>
         }
     }
 
-    public void LoadContents(ContentsType contentsType)
+    public void LoadContents(ContentsName contentsName)
     {
-        bool loadSuccess = ContentsMakeController.Instance.StartContents(contentsType);
+        bool loadSuccess = ContentsMakeController.Instance.StartContents(contentsName);
 
         if (loadSuccess)
         {

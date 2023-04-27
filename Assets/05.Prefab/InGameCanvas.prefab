@@ -1073,6 +1073,10 @@ PrefabInstance:
       propertyPath: normalStageObjects.Array.data[1]
       value: 
       objectReference: {fileID: 7760547627788328289}
+    - target: {fileID: 3207389304823067464, guid: 9de4b606834704fb192d4f138743ad92, type: 3}
+      propertyPath: m_fontSize
+      value: 45.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6192654688750118673, guid: 9de4b606834704fb192d4f138743ad92, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
