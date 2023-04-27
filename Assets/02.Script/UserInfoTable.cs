@@ -13,7 +13,6 @@ public class UserInfoTable
     public const string tableName = "UserInfoTable";
 
     public const string LastLogin = "LastLogin";
-    public const string CurrentStage = "CurrentStage";
 
     public double currentServerDate;
     public DateTime currentServerTime { get; private set; }
@@ -29,7 +28,6 @@ public class UserInfoTable
     private Dictionary<string, double> tableSchema = new Dictionary<string, double>()
     {
         { LastLogin, 0f },
-        { CurrentStage, 0f },
         { sleepRewardSavedTime, 0f },
         { selectedSkillGroupId, 0f },
         
@@ -234,7 +232,7 @@ public class UserInfoTable
 
                     //최소조건 안됨 (시간,첫 접속)
                     if (elapsedTime < GameBalance.sleepRewardMinValue ||
-                        ServerData.userInfoTable.GetTableData(UserInfoTable.CurrentStage).Value == -1)
+                        ServerData.clearInfoServerTable.TableDatas[ContentsName.NormalField.ToString()].Value == 0d)
                     {
                         return;
                     }

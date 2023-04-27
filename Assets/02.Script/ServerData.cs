@@ -18,6 +18,7 @@ public static class ServerData
     public static CharmServerTable charmServerTable { get; private set; } = new CharmServerTable();
     public static NorigaeServerTable norigaeServerTable { get; private set; } = new NorigaeServerTable();
     public static PresetServerTable presetServerTable { get; private set; } = new PresetServerTable();
+    public static ClearInfoServerTable clearInfoServerTable { get; private set; } = new ClearInfoServerTable();
 
     #region string
 
@@ -49,6 +50,7 @@ public static class ServerData
         charmServerTable.Initialize();
         norigaeServerTable.Initialize();
         presetServerTable.Initialize();
+        clearInfoServerTable.Initialize();
     }
 
     public static void ShowCommonErrorPopup(BackendReturnObject bro, Action retryCallBack)

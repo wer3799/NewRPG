@@ -168,7 +168,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
     private void MakeObjectByCurrentStageId()
     {
-        int currentStageId = (int)ServerData.userInfoTable.TableDatas[UserInfoTable.CurrentStage].Value;
+        int currentStageId = (int)ServerData.clearInfoServerTable.TableDatas[ContentsName.NormalField.ToString()].Value;
 
         mapTableData.Value = TableManager.Instance.stageMap.dataArray[currentStageId];
 
@@ -264,7 +264,7 @@ public class NormalStageController : SingletonMono<NormalStageController>
 
         UiBossTimer.Instance.StopBossTimer();
 
-        ServerData.userInfoTable.TableDatas[UserInfoTable.CurrentStage].Value++;
+        ServerData.clearInfoServerTable.TableDatas[ContentsName.NormalField.ToString()].Value++;
 
         if (stageSyncRoutine != null)
         {
@@ -280,8 +280,8 @@ public class NormalStageController : SingletonMono<NormalStageController>
     private IEnumerator StageSyncRoutine()
     {
         yield return delay;
-
-        ServerData.userInfoTable.UpData(UserInfoTable.CurrentStage, false);
+        
+        ServerData.clearInfoServerTable.UpData(ContentsName.NormalField.ToString(), ServerData.clearInfoServerTable.TableDatas[ContentsName.NormalField.ToString()].Value);
     }
 
     private void OnDestroy()

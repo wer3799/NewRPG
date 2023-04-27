@@ -19,7 +19,8 @@ public class BossSpawnButton : MonoBehaviour
 
     private void Subscribe()
     {
-        ServerData.userInfoTable.GetTableData(UserInfoTable.CurrentStage).AsObservable().Subscribe(e =>
+                
+        ServerData.clearInfoServerTable.TableDatas[ContentsName.NormalField.ToString()].AsObservable().Subscribe(e =>
         {
             int nextStageId = (int)e + 1;
 
@@ -46,7 +47,7 @@ public class BossSpawnButton : MonoBehaviour
 
     public void OnClickSpawnButton()
     {
-        int currentStage = (int)ServerData.userInfoTable.GetTableData(UserInfoTable.CurrentStage).Value;
+        int currentStage = (int)ServerData.clearInfoServerTable.TableDatas[ContentsName.NormalField.ToString()].Value;
 
         if (currentStage == TableManager.Instance.GetLastStageIdx())
         {
