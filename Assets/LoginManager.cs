@@ -13,9 +13,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Text;
+using UniRx;
 
 public class LoginManager : SingletonMono<LoginManager>
 {
+    public enum LoginState
+    {
+        Offline = 0,
+        IsGuestLogin = 1,
+        IsFederationGoogleLogin = 2,
+        IsFederationIOSLogin = 3,
+    }
+
+    private readonly string SAVE_KEY_LOGIN_STATE = "IS_LOGIN";
+
     [SerializeField]
     private string editorLoginId;
 
@@ -44,6 +55,11 @@ public class LoginManager : SingletonMono<LoginManager>
 #if UNITY_IOS
 #endif
     private AppleAuthManager appleAuthManager;
+
+
+    bool IsFederationLogin(LoginState loginState) =>
+        loginState == LoginState.IsFederationGoogleLogin ||
+        loginState == LoginState.IsFederationIOSLogin;
 
     private new void Awake()
     {
@@ -83,7 +99,7 @@ public class LoginManager : SingletonMono<LoginManager>
             //온라인
             if (state == "0")
             {
-                int clientVersion = int.Parse(Application.version);
+                float clientVersion = float.Parse(Application.version);
 
                 var bro = Backend.Utils.GetLatestVersion();
 
@@ -93,7 +109,7 @@ public class LoginManager : SingletonMono<LoginManager>
                     string serverVersion = jsonData["version"].ToString();
 
                     //버전이 높거나 같음
-                    if (clientVersion >= int.Parse(serverVersion))
+                    if (clientVersion >= float.Parse(serverVersion))
                     {
                         Debug.LogError($"클라이언트 버전 {clientVersion} 서버 버전 {serverVersion} 같음");
 
@@ -136,7 +152,11 @@ public class LoginManager : SingletonMono<LoginManager>
     {
         //작업- 로그인 상태인지 체크 후 로그인상태 아니면 로그인 버튼 팝업띄움
         Debug.Log(Backend.BMember.GetGuestID());
-        Debug.Log("로그인시도");/*
+        Debug.Log("버전체크 완료");
+        Debug.Log(Backend.Utils.GetGoogleHash());
+
+        /*
+                              * 
         var bro = Backend.BMember.GetUserInfo();
         if(bro.IsSuccess())
         {
@@ -148,109 +168,120 @@ public class LoginManager : SingletonMono<LoginManager>
         }
         Debug.Log("로그인시도끝");*/
 
-#if UNITY_ANDROID
+        /*#if UNITY_ANDROID
+                
+
+                iOS_LoginType = PlayerPrefs.GetString(CommonString.IOS_loginType, string.Empty);
+
+                //GPGS 시작.
+                PlayGamesPlatform.Activate();
+        #endif*/
+
         PlayGamesClientConfiguration config = new PlayGamesClientConfiguration
-            .Builder()
-            .RequestServerAuthCode(false)
-            .RequestEmail()                 // 이메일 요청
-            .RequestIdToken()               // 토큰 요청
-            .Build();
+                    .Builder()
+                    .RequestServerAuthCode(false)
+                    .RequestEmail()                 // 이메일 요청
+                    .RequestIdToken()               // 토큰 요청
+                    .Build();
 
         //커스텀된 정보로 GPGS 초기화
         PlayGamesPlatform.InitializeInstance(config);
         PlayGamesPlatform.DebugLogEnabled = true;
 
-        iOS_LoginType = PlayerPrefs.GetString(CommonString.IOS_loginType, string.Empty);
-
-        //GPGS 시작.
-        PlayGamesPlatform.Activate();
-#endif
-
-#if UNITY_EDITOR
         // LoginByCustumId();
 
         //게스트 로그인 여부
-        if (IsLogin() == true)
-        {
-            if (Backend.BMember.GetGuestID().Equals(string.Empty) == false)
-            {
-                LoginGuest();
-            }
-            else
-            {
-                OnLoginSuccess();
-            }
-        }
-        else
-        {
-            loginButtonBoard.gameObject.SetActive(true);
-        }
 
-#elif UNITY_ANDROID
-#elif UNITY_IOS
-#endif
-    }
 
-#if UNITY_ANDROID || UNITY_IOS
-    public void LoginGoogle()
-    {
-        // 이미 로그인 된 경우
-        if (Social.localUser.authenticated == true)
+        BackendFederation.Android.OnGoogleLogin += (bool isSuccess, string errorMessage, string token) =>
         {
-            TryFederationLogin();
-        }
-        else
-        {
-            Social.localUser.Authenticate((bool success) =>
+            if (isSuccess == false)
             {
-                if (success)
+                Debug.LogError(errorMessage);
+
+                PopupManager.Instance.ShowYesNoPopup("알림", "구글 로그인 실패 재시도 합니다", LoginGoogle, () =>
                 {
-                    // 로그인 성공 -> 뒤끝 서버에 획득한 구글 토큰으로 가입 요청
+                    Application.Quit();
+                });
 
+                return;
+            }
 
-                    TryFederationLogin();
-                }
-                else
-                {
-                    // 로그인 실패
-                    Debug.Log("Login failed for some reason");
+            // 로그인이 성공되었습니다.
 
-                    FailAct();
-                }
-            });
-        }
-    #region LOCAL_METHOD
-        void TryFederationLogin()
-        {
-            BackendReturnObject BRO = Backend.BMember.AuthorizeFederation(GetGoogleTokens(), FederationType.Google);
+            /*
+            loginId = Social.localUser.id;
+            email = ((PlayGamesLocalUser)Social.localUser).Email;
 
-            if (BRO.IsSuccess() == true)
+            Debug.Log($"Hash {Backend.Utils.GetGoogleHash()}");
+            Debug.Log("Email - " + ((PlayGamesLocalUser)Social.localUser).Email);
+            Debug.Log("GoogleId - " + Social.localUser.id);
+            Debug.Log("UserName - " + Social.localUser.userName);*/
+
+            var loginBro = Backend.BMember.AuthorizeFederation(token, FederationType.Google);
+
+            if (loginBro.IsSuccess() == true)
             {
-                Debug.Log($"Hash {Backend.Utils.GetGoogleHash()}");
-                // 로그인이 성공되었습니다.
-                loginId = Social.localUser.id;
-                email = ((PlayGamesLocalUser)Social.localUser).Email;
-                Debug.Log("Email - " + ((PlayGamesLocalUser)Social.localUser).Email);
-                Debug.Log("GoogleId - " + Social.localUser.id);
-                Debug.Log("UserName - " + Social.localUser.userName);
+                PlayerPrefs.SetInt(SAVE_KEY_LOGIN_STATE, (int)LoginState.IsFederationGoogleLogin);
 
                 //LoginByCustumId();
                 OnLoginSuccess();
             }
             else
             {
-                FailAct();
+                OnLoginFail();
             }
+        };
+
+        //최초실행하여 키가 없을때
+        if(PlayerPrefs.HasKey(SAVE_KEY_LOGIN_STATE) == false)
+        {
+            PlayerPrefs.SetInt(SAVE_KEY_LOGIN_STATE, (int)LoginState.Offline);
         }
 
-        void FailAct()
+        switch ((LoginState)PlayerPrefs.GetInt(SAVE_KEY_LOGIN_STATE))
         {
-            PopupManager.Instance.ShowYesNoPopup("알림", "구글 로그인 실패 재시도 합니다", LoginGoogle, () =>
-            {
-                Application.Quit();
-            });
+            case LoginState.Offline:
+                {
+                    loginButtonBoard.gameObject.SetActive(true);
+                }
+                break;
+
+
+            case LoginState.IsGuestLogin:
+                {
+                    LoginGuest();
+                }
+                break;
+
+
+            case LoginState.IsFederationGoogleLogin:
+                {
+                    LoginGoogle();
+                }
+                break;
+
+#if UNITY_IOS
+            case LoginState.IsFederationIOSLogin:
+                {
+                    LoginApple();
+                }
+                break;
+#endif
         }
-    #endregion
+    }
+
+#if UNITY_ANDROID || UNITY_IOS
+    public void LoginGoogle()
+    {
+        string message;
+
+        var result = BackendFederation.Android.GoogleLogin("814858628636-gsml4865jqd0i08bsgf30o28rmkh9h38.apps.googleusercontent.com", out message);
+
+        if (result == false)
+        {
+            Debug.LogError(message);
+        }
     }
 #endif
 
@@ -262,11 +293,15 @@ public class LoginManager : SingletonMono<LoginManager>
         {
             Debug.Log("게스트 로그인 + 회원가입 성공");
 
+            PlayerPrefs.SetInt(SAVE_KEY_LOGIN_STATE, (int)LoginState.IsGuestLogin);
+
             OnLoginSuccess();
         }
         else
         {
             Debug.Log("게스트 로그인 실패" + BRO.GetMessage());
+
+            OnLoginFail();
             //작업- 에러분기에 따른 처리 필요
         }
     }
@@ -299,6 +334,9 @@ public class LoginManager : SingletonMono<LoginManager>
                         PlayerPrefs.SetString(CommonString.SavedLoginTypeKey, loginId);
 
                         PlayerPrefs.SetString(CommonString.IOS_loginType, IOS_LoginType.GameCenter.ToString());
+
+                        
+                        PlayerPrefs.SetInt(SAVE_KEY_LOGIN_STATE, (int)LoginState.IsFederationLogin);
                         
                         OnLoginSuccess();
 
@@ -310,6 +348,8 @@ public class LoginManager : SingletonMono<LoginManager>
                         Debug.LogError("Bro Apple 로그인 실패");
 
                         UiIosLoginBoard.Instance.loginProcess = false;
+                        
+                        OnLoginFail();
                         //실패 처리
                     }
                 }
@@ -334,6 +374,8 @@ public class LoginManager : SingletonMono<LoginManager>
                 if (bro.IsSuccess())
                 {
                     Debug.Log("로그인 타입 전환에 성공했습니다");
+
+                    PlayerPrefs.SetInt(SAVE_KEY_LOGIN_STATE, (int)LoginState.IsFederationGoogleLogin);
                 }
                 else
                 {
@@ -408,9 +450,28 @@ public class LoginManager : SingletonMono<LoginManager>
                     if (bro.IsSuccess())
                     {
                         Debug.Log("로그인 타입 전환에 성공했습니다");
+
+                        PlayerPrefs.SetInt(SAVE_KEY_LOGIN_STATE, (int)LoginState.IsFederationIOSLogin);
                     }
                     else
                     {
+                        Debug.Log(bro.GetMessage());
+
+                        switch (bro.GetStatusCode())
+                        {
+                            case "400":
+                                {
+
+                                }
+                                break;
+
+                            case "409":
+                                {
+
+                                }
+                                break;
+                        }
+
                     }
                 }
             },
@@ -424,47 +485,52 @@ public class LoginManager : SingletonMono<LoginManager>
 
     private IEnumerator SceneChangeRoutine()
     {
-        Debug.Log("SceneChangeRoutine 11111111111");
-        ServerData.LoadTables();
-        Debug.Log("SceneChangeRoutine 22222222222");
 
 #if UNITY_IOS
     SendQueue.ResumeSendQueue();
 #endif
+        ServerData.LoadTables();
+        PlayerData.Instance.LoadUserNickName();
 
         while (SendQueue.UnprocessedFuncCount != 0)
-    {
-        yield return null;
-    }
-    if (isSignIn == false)
-    {
-        PlayerData.Instance.LoadUserNickName();
-    }
-    else
-    {
-        while (true)
         {
             yield return null;
+        }
 
-            if (SendQueue.UnprocessedFuncCount <= 0 && isSignIn)
+        //닉네임 입력이 된 상태라면 (테스트 필요)
+        if (PlayerData.Instance.NickName.HasValue == true)
+        {
+            loginButtonBoard.gameObject.SetActive(false);
+        }
+        else
+        {
+            while (true)
             {
-                loginButtonBoard.gameObject.SetActive(false);
-                nickNameInputBoard.gameObject.SetActive(true);
+                yield return null;
 
-                break;
+                if (SendQueue.UnprocessedFuncCount <= 0 && isSignIn)
+                {
+                    loginButtonBoard.gameObject.SetActive(false);
+                    nickNameInputBoard.gameObject.SetActive(true);
+
+                    break;
+                }
             }
         }
     }
-}
 
-private void OnLoginSuccess()
-{
-    isSignIn = true;
+    private void OnLoginSuccess()
+    {
+        isSignIn = true;
 
-    StartCoroutine(SceneChangeRoutine());
-}
+        StartCoroutine(SceneChangeRoutine());
+    }
 
-private string GetGoogleTokens()
+    private void OnLoginFail()
+    {
+    }
+
+    private string GetGoogleTokens()
 {
     if (PlayGamesPlatform.Instance.localUser.authenticated)
     {
@@ -480,23 +546,16 @@ private string GetGoogleTokens()
     }
 }
 
-private string GetSocialLoginKey()
-{
-    //테스트용 a_8846847867697156085
-    //로꼬 a_3961873472804492579
+    private string GetSocialLoginKey()
+    {
+        //테스트용 a_8846847867697156085
+        //로꼬 a_3961873472804492579
 #if UNITY_EDITOR
-    return editorLoginId;
+        return editorLoginId;
 #endif
 
-    Debug.LogError($"GetGoogleLoginKey {loginId}");
-    return loginId;
-}
-    //초기화 끝나고 수행해야함
-    private bool IsLogin()
-    {
-        Debug.Log(Social.localUser.authenticated + " + " + Backend.BMember.GetGuestID().Equals(string.Empty));
-        Debug.Log((Social.localUser.authenticated == true) + " + " + (Backend.BMember.GetGuestID().Equals(string.Empty) == false));
-        return Social.localUser.authenticated == true || Backend.BMember.GetGuestID().Equals(string.Empty) == false;
+        Debug.LogError($"GetGoogleLoginKey {loginId}");
+        return loginId;
     }
 
 private void LoginByCustumId(string id = null, string password = null)

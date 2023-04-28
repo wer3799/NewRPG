@@ -29,18 +29,17 @@ public class UiLoginButtonBoard : MonoBehaviour
 
     public void OnClickGoogleLoginButton()
     {
-
+        LoginManager.Instance.LoginGoogle();
     }
 
 
     public void OnClickGuestLoginButton()
     {
-
+        LoginManager.Instance.LoginGuest();
     }
 
 
     public void OnClickIOSLoginButton()
     {
-
     }
 }
